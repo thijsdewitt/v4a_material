@@ -1,3 +1,3 @@
-## Material Design for Viper4Android 2.5.x.x
+## Material Design for Viper4Android 2.5.0.x
 
-An attempt to make Viper4Android 2.5.x.x in Material Design
+An attempt to make Viper4Android 2.5.0.x in Material Design
