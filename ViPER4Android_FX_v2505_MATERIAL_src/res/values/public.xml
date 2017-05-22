@@ -329,7 +329,9 @@
     <public type="drawable" name="select_btn_center" id="0x7f020055" />
     <public type="drawable" name="select_btn_left" id="0x7f020056" />
     <public type="drawable" name="select_btn_right" id="0x7f020057" />
+    <public type="drawable" name="select_enable" id="0x7f02005a" />
     <public type="drawable" name="notification_template_icon_bg" id="0x7f02005c" />
+    <public type="drawable" name="start_bg" id="0x7f02005d" />
     <public type="drawable" name="abc_action_bar_item_background_material" id="0x7f020001" />
     <public type="drawable" name="abc_control_background_material" id="0x7f020012" />
     <public type="drawable" name="abc_ab_share_pack_mtrl_alpha" id="0x7f020000" />
@@ -384,14 +386,15 @@
     <public type="drawable" name="eq_thumb" id="0x7f020053" />
     <public type="drawable" name="shadow_left" id="0x7f020058" />
     <public type="drawable" name="shadow_right" id="0x7f020059" />
+    <public type="drawable" name="shadow_bottom" id="0x7f02005b" />
     <public type="mipmap" name="smalllogo" id="0x7f030034" />
     <public type="mipmap" name="add" id="0x7f030000" />
     <public type="mipmap" name="add1" id="0x7f030001" />
     <public type="mipmap" name="analogx" id="0x7f030002" />
     <public type="mipmap" name="anzhaungqudong" id="0x7f030003" />
     <public type="mipmap" name="baocunyinxiaopeizhi" id="0x7f030004" />
-    <public type="mipmap" name="yuandian" id="0x7f030005" />
-    <public type="mipmap" name="zongshuchumen" id="0x7f030006" />
+    <public type="mipmap" name="bgbig" id="0x7f030005" />
+    <public type="mipmap" name="bglight" id="0x7f030006" />
     <public type="mipmap" name="chafenhuanrao" id="0x7f030007" />
     <public type="mipmap" name="changhuanrao" id="0x7f030008" />
     <public type="mipmap" name="dianziguanmoniqi" id="0x7f030009" />
@@ -439,10 +442,14 @@
     <public type="mipmap" name="side_nav_bar" id="0x7f030033" />
     <public type="mipmap" name="start" id="0x7f030035" />
     <public type="mipmap" name="tingjuebaohu" id="0x7f030036" />
-    <public type="mipmap" name="yangshengqiyouhua" id="0x7f030037" />
-    <public type="mipmap" name="yaxianqi" id="0x7f030038" />
+    <public type="mipmap" name="toggle_3d_close" id="0x7f030037" />
+    <public type="mipmap" name="toggle_3d_open" id="0x7f030038" />
     <public type="mipmap" name="viperddc" id="0x7f030039" />
     <public type="mipmap" name="xiaoguozongkaiguan" id="0x7f03003a" />
+    <public type="mipmap" name="yangshengqiyouhua" id="0x7f03003b" />
+    <public type="mipmap" name="yaxianqi" id="0x7f03003c" />
+    <public type="mipmap" name="yuandian" id="0x7f03003d" />
+    <public type="mipmap" name="zongshuchumen" id="0x7f03003e" />
     <public type="layout" name="abc_action_bar_title_item" id="0x7f040000" />
     <public type="layout" name="abc_action_bar_up_container" id="0x7f040001" />
     <public type="layout" name="abc_action_bar_view_list_nav_layout" id="0x7f040002" />
