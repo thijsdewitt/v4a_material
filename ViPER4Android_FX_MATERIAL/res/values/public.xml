@@ -396,8 +396,8 @@
     <public type="mipmap" name="analogx" id="0x7f030002" />
     <public type="mipmap" name="anzhaungqudong" id="0x7f030003" />
     <public type="mipmap" name="baocunyinxiaopeizhi" id="0x7f030004" />
-    <public type="mipmap" name="bgbig" id="0x7f030005" />
-    <public type="mipmap" name="bglight" id="0x7f030006" />
+    <public type="mipmap" name="yuandian" id="0x7f030005" />
+    <public type="mipmap" name="zongshuchumen" id="0x7f030006" />
     <public type="mipmap" name="chafenhuanrao" id="0x7f030007" />
     <public type="mipmap" name="changhuanrao" id="0x7f030008" />
     <public type="mipmap" name="dianziguanmoniqi" id="0x7f030009" />
@@ -450,8 +450,6 @@
     <public type="mipmap" name="xiaoguozongkaiguan" id="0x7f03003a" />
     <public type="mipmap" name="yangshengqiyouhua" id="0x7f03003b" />
     <public type="mipmap" name="yaxianqi" id="0x7f03003c" />
-    <public type="mipmap" name="yuandian" id="0x7f03003d" />
-    <public type="mipmap" name="zongshuchumen" id="0x7f03003e" />
     <public type="layout" name="abc_action_bar_title_item" id="0x7f040000" />
     <public type="layout" name="abc_action_bar_up_container" id="0x7f040001" />
     <public type="layout" name="abc_action_bar_view_list_nav_layout" id="0x7f040002" />
