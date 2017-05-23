@@ -995,7 +995,7 @@
         <item name="tabPaddingEnd">12.0dip</item>
     </style>
     <style name="BaseAppTheme" parent="@style/Theme.AppCompat.NoActionBar">
-        <item name="android:windowBackground">@mipmap/bgbig</item>
+        <item name="android:windowBackground">@color/background_main</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">@color/white</item>
