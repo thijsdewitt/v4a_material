@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@mipmap/jiazaiyinxiaopeizhi" android:id="@id/loadprofile" android:title="@string/text_loadfxprofile" />
+    <item android:icon="@mipmap/baocunyinxiaopeizhi" android:id="@id/saveprofile" android:title="@string/text_savefxprofile" />
+    <item android:icon="@mipmap/anzhaungqudong" android:id="@id/drvinst" android:title="@string/text_drv_blank" />
+    <item android:icon="@mipmap/qudongchengxuzhaungtai" android:id="@id/drvstatus" android:title="@string/text_drv_status" />
+    <item android:icon="@mipmap/set" android:id="@id/setting" android:title="@string/text_setting" />
+</menu>

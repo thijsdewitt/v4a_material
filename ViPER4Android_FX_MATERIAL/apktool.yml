@@ -1,0 +1,25 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: ViPER4Android_FX_MATERIAL.apk
+compressionType: false
+doNotCompress:
+- arsc
+- txt
+- webp
+- PNG
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '15'
+  targetSdkVersion: '23'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.2-Black
+versionInfo:
+  versionCode: '2505'
+  versionName: 2.5.0.5

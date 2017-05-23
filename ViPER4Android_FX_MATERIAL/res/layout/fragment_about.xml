@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/v4a_about_icon" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginTop="65.0dip" android:src="@mipmap/icon" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:text="@string/app_name" android:layout_below="@id/v4a_about_icon" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/v4a_about_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65.0dip" android:text="@string/app_name" android:layout_below="@id/v4a_about_icon" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/grey" android:gravity="center" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginBottom="45.0dip" android:text="@string/about_company" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/about_forum" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>
