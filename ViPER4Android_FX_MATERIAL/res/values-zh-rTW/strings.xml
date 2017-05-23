@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">瀏覽首頁</string>
+    <string name="abc_action_bar_home_description_format">%1$s：%2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s - %2$s：%3$s</string>
+    <string name="abc_action_bar_up_description">向上瀏覽</string>
+    <string name="abc_action_menu_overflow_description">更多選項</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">選擇應用程式</string>
+    <string name="abc_capital_off">關閉</string>
+    <string name="abc_capital_on">開啟</string>
+    <string name="abc_search_hint">搜尋…</string>
+    <string name="abc_searchview_description_clear">清除查詢</string>
+    <string name="abc_searchview_description_query">搜尋查詢</string>
+    <string name="abc_searchview_description_search">搜尋</string>
+    <string name="abc_searchview_description_submit">提交查詢</string>
+    <string name="abc_searchview_description_voice">語音搜尋</string>
+    <string name="abc_shareactionprovider_share_with">選擇分享對象</string>
+    <string name="abc_shareactionprovider_share_with_application">與「%s」分享</string>
+    <string name="abc_toolbar_collapse_description">收合</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="about_company">"
+版權所有c 2006-2016，蝰蛇聲學(R)。保留所有權利。 
+未經官方許可，不可用於商業用途(包括有或(和)包含關係的廣告營收等)。"</string>
+    <string name="about_exit">離開</string>
+    <string name="about_forum">"官方論壇：forum.vipersaudio.com 
+繁體中文化來自：ㄚ龍@阿榮中文化俱樂部"</string>
+    <string name="about_version">版本：%1$s (FX)，代號：Beautiful</string>
+    <string name="app_name">ViPERFX</string>
+    <string name="bluetooth_title">藍牙裝置</string>
+    <string name="dsp_settings_bluetooth">音效設定 - 藍牙裝置</string>
+    <string name="dsp_settings_headset">音效設定 - 耳機</string>
+    <string name="dsp_settings_speaker">音效設定 - 內建喇叭</string>
+    <string name="dsp_settings_usb">音效設定 - USB 和揚聲器底座</string>
+    <string name="eq_preset_acoustic">原音音樂</string>
+    <string name="eq_preset_bass_booster">低音強化</string>
+    <string name="eq_preset_bass_reducer">低音弱化</string>
+    <string name="eq_preset_classical">古典音樂</string>
+    <string name="eq_preset_custom">自訂</string>
+    <string name="eq_preset_deep">深沉</string>
+    <string name="eq_preset_flat">平淡</string>
+    <string name="eq_preset_r_and_b">R&amp;B</string>
+    <string name="eq_preset_rock">搖滾音樂</string>
+    <string name="eq_preset_small_speakers">小型喇叭</string>
+    <string name="eq_preset_treble_booster">高音強化</string>
+    <string name="eq_preset_treble_reducer">高音弱化</string>
+    <string name="eq_preset_vocal_booster">人聲強化</string>
+    <string name="headset_title">耳機</string>
+    <string name="navigation_drawer_close">關閉抽屜</string>
+    <string name="navigation_drawer_open">打開抽屜</string>
+    <string name="pref_analogx_strength_title">選擇強度</string>
+    <string name="pref_analogx_title">耳機放大器的暖底音質模擬(AnalogX)</string>
+    <string name="pref_colorfulmusic_title">臨場感模擬</string>
+    <string name="pref_convolver_crosschannel_title">選擇通道交叉</string>
+    <string name="pref_convolver_knl">脈衝回饋樣本</string>
+    <string name="pref_convolver_knl_title">選擇脈衝回饋樣本</string>
+    <string name="pref_convolver_title">脈衝回饋處理</string>
+    <string name="pref_curesystem_title">聽覺保護</string>
+    <string name="pref_diffsurr_title">差分環繞</string>
+    <string name="pref_dynamicsystem_bass">選擇動態低音</string>
+    <string name="pref_dynamicsystem_output">收聽裝置</string>
+    <string name="pref_dynamicsystem_output_title">選擇收聽裝置</string>
+    <string name="pref_dynamicsystem_title">動態系統</string>
+    <string name="pref_dynamicsystem_tube_title">電子管模擬器(6N1J)</string>
+    <string name="pref_effect_title">選擇效果強度</string>
+    <string name="pref_equalizer_preset_title">選擇預設</string>
+    <string name="pref_equalizer_title">EQ等化器</string>
+    <string name="pref_fetcompressor_adapt">Adapt</string>
+    <string name="pref_fetcompressor_attack">Attack</string>
+    <string name="pref_fetcompressor_autoattack">自動 Attack</string>
+    <string name="pref_fetcompressor_autogain">自動增益</string>
+    <string name="pref_fetcompressor_autoknee">自動拐點</string>
+    <string name="pref_fetcompressor_autorelease">自動 Release</string>
+    <string name="pref_fetcompressor_crest">Crest</string>
+    <string name="pref_fetcompressor_gain">增益</string>
+    <string name="pref_fetcompressor_knee">拐點</string>
+    <string name="pref_fetcompressor_kneemulti">拐點增益</string>
+    <string name="pref_fetcompressor_maxattack">最大 Attack</string>
+    <string name="pref_fetcompressor_maxrelease">最大 Release</string>
+    <string name="pref_fetcompressor_noclipenable">防止削波</string>
+    <string name="pref_fetcompressor_ratio">壓縮比率</string>
+    <string name="pref_fetcompressor_release">Release</string>
+    <string name="pref_fetcompressor_threshold">工作門限</string>
+    <string name="pref_fetcompressor_title">FET場效電晶體壓縮器</string>
+    <string name="pref_fidelity_vb_bassfreq_title">選擇低音頻點</string>
+    <string name="pref_fidelity_vb_bassgain_title">選擇低音增益</string>
+    <string name="pref_fidelity_vb_mode_title">低音處理模式</string>
+    <string name="pref_fidelity_vb_title">ViPER低音</string>
+    <string name="pref_fidelity_vc_bassgain_title">選擇清晰度</string>
+    <string name="pref_fidelity_vc_mode_title">選擇清晰度處理模式</string>
+    <string name="pref_fidelity_vc_title">ViPER清晰度</string>
+    <string name="pref_fx_limiter_threshold">限制級別</string>
+    <string name="pref_fx_limiter_title">總輸出門檻限制</string>
+    <string name="pref_fx_master_title">效果總開關</string>
+    <string name="pref_output_gain">輸出增益</string>
+    <string name="pref_output_pan">聲道平衡</string>
+    <string name="pref_playback_maxgain">最大增益倍數</string>
+    <string name="pref_playback_output_threshold">最大音量</string>
+    <string name="pref_playback_title">回放增益控制</string>
+    <string name="pref_reverb_damp">水氣含量</string>
+    <string name="pref_reverb_dry">原始訊號比例</string>
+    <string name="pref_reverb_roomsize">房間大小</string>
+    <string name="pref_reverb_title">數字混響</string>
+    <string name="pref_reverb_wet">混響訊號比例</string>
+    <string name="pref_reverb_width">音場大小</string>
+    <string name="pref_select_colorfulmusic_mi_title">選擇中央強度</string>
+    <string name="pref_select_colorfulmusic_title">選擇臨場感環繞強度</string>
+    <string name="pref_select_cure_cf_title">選擇交叉回饋強度</string>
+    <string name="pref_select_diffsurr_ms_title">選擇延遲時間</string>
+    <string name="pref_select_vhs_qual_title">選擇效果級別</string>
+    <string name="pref_spk_opt_title">內建喇叭優化</string>
+    <string name="pref_spkfx_limiter_threshold">限制級別</string>
+    <string name="pref_spkfx_limiter_title">總輸出門總輸出門檻限制</string>
+    <string name="pref_spkfx_master_title">效果總開關</string>
+    <string name="pref_vhs_title">耳機環繞引擎+</string>
+    <string name="pref_viperddc_device">收聽裝置</string>
+    <string name="pref_viperddc_device_manufacturer">選擇耳機廠商</string>
+    <string name="pref_viperddc_device_model">選擇耳機型號</string>
+    <string name="pref_viperddc_tips">"注意： 
+ViPER-數位/數位轉換器(DDC) 是一個用於耳機校準的 Hi-Fi 音效。 
+目前 ViPER-數位/數位轉換器(DDC) 已經支援將近 500 款耳機的校正，而且也將繼續支援更多的耳機。 
+我們強烈建議您在列表中選擇精確對應您耳機型號的選項，帶給您最佳的音樂饗宴。"</string>
+    <string name="pref_viperddc_title">ViPER-數位/數位轉換器(DDC)</string>
+    <string name="pref_vse_strength_title">選擇強度</string>
+    <string name="pref_vse_tips">"注意： 
+頻譜延伸是一個用於延伸有損壓縮頻譜的 Hi-Fi 音效。 
+如果您經常播放有損壓縮的音樂(如 mp3、aac 和 ogg 等)，本功能可以給您一個接近無損的聲音效果體驗。 
+但如果您播放的是無損音樂，我們則建議您關閉本功能。"</string>
+    <string name="pref_vse_title">頻譜延伸</string>
+    <string name="pref_xloud_output_amplifer">音量放大級別</string>
+    <string name="pref_xloud_spk_highfreq">內建喇叭高頻</string>
+    <string name="pref_xloud_spk_lowfreq">內建喇叭低頻</string>
+    <string name="pref_xloud_title">音量放大</string>
+    <string name="speaker_title">內建喇叭</string>
+    <string name="text_abnormal">錯誤</string>
+    <string name="text_about_title">關於</string>
+    <string name="text_bluetooth">藍牙裝置</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_changelog">更新日誌</string>
+    <string name="text_checkupdate">檢查更新</string>
+    <string name="text_close">關閉</string>
+    <string name="text_close_developer">關閉開發者模式</string>
+    <string name="text_close_selinux">關閉 SELinux</string>
+    <string name="text_close_selinux_msg">目前系統屬於臨時關閉 SELinux，手機在重新開機後失效。關閉後可能對系統有影響。請謹慎關閉.</string>
+    <string name="text_commode">音效相容模式</string>
+    <string name="text_db">分貝</string>
+    <string name="text_default_storage">設定預設儲存</string>
+    <string name="text_disabled">已停用</string>
+    <string name="text_down_ready">準備下載</string>
+    <string name="text_down_state">正在下載：%s</string>
+    <string name="text_drv_blank" />
+    <string name="text_drv_status">驅動程式狀態</string>
+    <string name="text_drv_status_view">"
+ 
+驅動程式版本：%1$s 
+NEON 啟用：%2$s 
+V4a 控制臺啟用：%3$s 
+驅動程式狀態：%4$s 
+音訊規格：%5$s 
+處理中：%6$s 
+本機聲音採樣率：%7$d 
+"</string>
+    <string name="text_drvinst_acquireroot">驅動程式安裝失敗，未能獲得正確的 ROOT 權限。請確定您已經完整 ROOT。</string>
+    <string name="text_drvinst_busybox_not_installed">驅動程式安裝失敗，無法在您的手機上找到正確的 Busybox。</string>
+    <string name="text_drvinst_cfg_unsup">驅動程式安裝失敗，ViPERFX 暫時不支援您的系統或 ROM(您是否使用音效的更新？)。</string>
+    <string name="text_drvinst_dataioerr">驅動程式安裝失敗，系統 I/O 錯誤，您可以重啟開機後再試。</string>
+    <string name="text_drvinst_failed">"驅動程式安裝失敗，在您的裝置上找到的 Busybox 呈現罷工的狀態。 
+這通常意味著您安裝了錯誤的或損壞的 Busybox，ViPERFX需要 stericson.busybox 來安裝驅動程式。 
+如果您確定您已經安裝了正確的 Busybox，那麼請確認您的裝置已經完整 ROOT(建議您使用 Root Explorer 手動在 /system 內建立檔案以驗證是否完整 ROOT，一般的 ROOT 檢測軟體是無法正確檢測到 假ROOT)。"</string>
+    <string name="text_drvinst_ok">驅動程式程式安裝完成，請重新開機以生效。</string>
+    <string name="text_drvinst_sdnotmounted">驅動程式安裝失敗，未找到可讀寫的外部或內部儲存空間。</string>
+    <string name="text_drvuninst_confim">您確定要卸載 ViPERFX 驅動程式程式嗎？</string>
+    <string name="text_drvuninst_ok">驅動程式程式已卸載完成，請重新開機以生效。</string>
+    <string name="text_drvvernotmatch">"為了讓您正常使用 ViPERFX 音效，您需要安裝或更新 ViPERFX 的驅動程式程式。 
+安裝或更新過程將會自動完成，卸載時可以使用選單中的卸載驅動程式。 
+現在安裝或更新嗎？"</string>
+    <string name="text_enter_developer">進入開發者模式</string>
+    <string name="text_enter_developer_msg">警告！此模式將允許可能導致系統損毀的操作. 您需要確認自己操作的安全性。</string>
+    <string name="text_headset">耳機</string>
+    <string name="text_help_content">"***一般性幫助*** 
+ 
+'安裝驅動程式' - 安裝或更新 V4A 驅動程式程式。 
+'卸載驅動程式' - 卸載 V4A 驅動程式程式。 
+'音效相容模式' - 設定音效的相容模式。 
+ '正常模式' - 將 V4A 用作整體音效。 
+ '相容模式' - 將 V4A 用作部分音效。 
+ 
+"<b>您是否遇到過在大多數播放器上 V4A 無效的問題？</b>"
+ 您可以將音效模式切換到相容模式，然後再試。 
+ 
+"<b>當 V4A 運行在正常模式下，如何省電？</b>"
+ 當 V4A 運行在正常模式下時，最好關閉系統的觸控等提示音，可以有效延長 1~4 倍電池續航時間。 
+ 
+"<b>論壇：http://forum.vipersaudio.com</b></string>
+    <string name="text_help_title">說明</string>
+    <string name="text_install">安裝驅動程式</string>
+    <string name="text_ir_dir_isempty">ViPERFX：脈衝回饋樣本的資料夾%1$s 是空的。</string>
+    <string name="text_loadfxprofile">載入音效配置</string>
+    <string name="text_lockeffect">鎖定效果模式</string>
+    <string name="text_modifybuildprop">"注意： 
+您機器上的 LPA 功能已經開啟，這可能會造成 V4A 沒有效果。 
+LPA是指「低功率音訊」，安裝程式可以透過自動修改 build.prop 來停用它。 
+當 build.prop 檔案被修改後，您將無法再使用系統的 OTA 功能。 
+我們強烈建議您在繼續之前先做一個 NANDROID 備份或資料備份。 
+您希望繼續停用 LPA 功能嗎？"</string>
+    <string name="text_ms">毫秒</string>
+    <string name="text_newfxprofile">新增音效配置…</string>
+    <string name="text_no">否</string>
+    <string name="text_no_busybox">您還未安裝正確的 Busybox，這可能會影響驅動程式程式的安裝。您是否需要安裝？</string>
+    <string name="text_normal">正常</string>
+    <string name="text_ok">確定</string>
+    <string name="text_open">打開</string>
+    <string name="text_profileload_tip">套用音效配置到</string>
+    <string name="text_profilesaved_overwrite">配置檔案名稱已經存在，請問您是否需要覆蓋？</string>
+    <string name="text_rated">給個評分吧</string>
+    <string name="text_savefxprofile">儲存音效配置</string>
+    <string name="text_service_error">無法和 ViPERFX 背景服務建立連線，可能是無法載入驅動程式或背景服務程式已被停止。</string>
+    <string name="text_setting">設定</string>
+    <string name="text_showtrayicon">顯示通知欄圖示</string>
+    <string name="text_speaker">內建喇叭</string>
+    <string name="text_supported">支援</string>
+    <string name="text_token_lost">ViPERFX：有某個程式已經請求系統停用整體的音效，因此 ViPERFX 將會被暫時停用。</string>
+    <string name="text_uninstall">卸載驅動程式</string>
+    <string name="text_unsupported">不支援</string>
+    <string name="text_update_download">下載</string>
+    <string name="text_update_error">網路異常，無法獲得新版本訊息</string>
+    <string name="text_update_get_version">正在獲得新版本的訊息...</string>
+    <string name="text_update_ignore">忽略</string>
+    <string name="text_update_is_new">已經是新版本了</string>
+    <string name="text_update_new_title">發現新版本</string>
+    <string name="text_update_no_wifi">目前不是在 Wi-Fi 的使用下,是否繼續?</string>
+    <string name="text_update_no_wifi_title">沒有 Wi-Fi</string>
+    <string name="text_usb">USB 和揚聲器底座</string>
+    <string name="text_yes">是</string>
+    <string name="usb_title">USB 和揚聲器底座</string>
+</resources>

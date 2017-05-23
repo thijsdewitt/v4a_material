@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingBottom="45.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip">
+        <TextView android:gravity="center" android:id="@id/v4a_tv_vhs" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_marginTop="35.0dip" android:text="@string/pref_select_vhs_qual_title" />
+        <TextView android:gravity="center" android:id="@id/id_tv_vsh_val" android:background="@mipmap/input" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="100.0dip" android:layout_height="35.0dip" android:layout_marginRight="15.0dip" android:singleLine="true" android:layout_alignTop="@id/v4a_tv_vhs" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/v4a_iv_knob_bg_3point" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="55.0dip" android:src="@mipmap/knob_bg_5point" android:layout_below="@id/v4a_tv_vhs" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/v4a_iv_knob_point" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="55.0dip" android:src="@mipmap/knob_point" android:scaleType="matrix" android:layout_below="@id/v4a_tv_vhs" android:layout_centerHorizontal="true" />
+        <com.audlabs.viperfx.widget.TouchRotateButton android:id="@id/v4a_trb_vhs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="55.0dip" android:layout_below="@id/v4a_tv_vhs" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</ScrollView>

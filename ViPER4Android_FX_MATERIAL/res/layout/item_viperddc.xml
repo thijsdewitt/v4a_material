@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="?actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/v4a_item_ddc_select" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginRight="15.0dip" android:src="@mipmap/radio_noselect" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:gravity="center|left" android:id="@id/v4a_item_ddc_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="30.0dip" android:layout_toLeftOf="@id/v4a_item_ddc_select" />
+</RelativeLayout>

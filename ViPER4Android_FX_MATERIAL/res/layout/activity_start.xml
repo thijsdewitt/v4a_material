@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/v4a_entry" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@mipmap/start" android:scaleType="fitXY" />
+    <TextView android:textSize="23.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="100.0dip" android:text="@string/app_name" android:layout_alignParentBottom="true" />
+</RelativeLayout>

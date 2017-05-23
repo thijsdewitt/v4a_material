@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="30.0dip" android:text="@string/pref_dynamicsystem_output" />
+        <android.support.v7.widget.AppCompatEditText android:id="@id/v4a_et_ddc_search" android:background="@mipmap/input" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:singleLine="true" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/v4a_ddc_recyclerview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>
