@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@drawable/select_effect" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?actionBarSize"
+<RelativeLayout android:foreground="?selectableItemBackground" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?actionBarSize"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <ImageView android:id="@id/v4a_item_icon" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@mipmap/xiaoguozongkaiguan" android:layout_centerVertical="true" />
-    <CheckBox android:id="@id/v4a_item_enable" android:layout_width="?actionBarSize" android:layout_height="?actionBarSize" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:checked="false" android:layout_alignParentRight="true" />
+    <CheckBox android:id="@id/v4a_item_enable" android:layout_width="wrap_content" android:layout_height="fill_parent" android:checked="false" android:layout_alignParentRight="true" />
     <TextView android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/v4a_item_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:text="@string/app_name" android:singleLine="true" android:layout_toLeftOf="@id/v4a_item_enable" android:layout_toRightOf="@id/v4a_item_icon" />
 </RelativeLayout>
