@@ -329,8 +329,8 @@
     <public type="drawable" name="select_btn_center" id="0x7f020055" />
     <public type="drawable" name="select_btn_left" id="0x7f020056" />
     <public type="drawable" name="select_btn_right" id="0x7f020057" />
-    <public type="drawable" name="select_effect" id="0x7f020058" />
-    <public type="drawable" name="select_effect_light" id="0x7f020059" />
+    <public type="drawable" name="shadow_left" id="0x7f020058" />
+    <public type="drawable" name="shadow_right" id="0x7f020059" />
     <public type="drawable" name="select_enable" id="0x7f02005a" />
     <public type="drawable" name="start_bg" id="0x7f02005e" />
     <public type="drawable" name="notification_template_icon_bg" id="0x7f02005f" />
@@ -387,8 +387,6 @@
     <public type="drawable" name="eq_primary" id="0x7f020051" />
     <public type="drawable" name="eq_thumb" id="0x7f020053" />
     <public type="drawable" name="shadow_bottom" id="0x7f02005b" />
-    <public type="drawable" name="shadow_left" id="0x7f02005c" />
-    <public type="drawable" name="shadow_right" id="0x7f02005d" />
     <public type="mipmap" name="icon" id="0x7f030010" />
     <public type="mipmap" name="smalllogo" id="0x7f030034" />
     <public type="mipmap" name="add" id="0x7f030000" />
