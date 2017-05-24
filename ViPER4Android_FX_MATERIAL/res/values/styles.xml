@@ -997,7 +997,7 @@
     <style name="BaseAppTheme" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@color/background_main</item>
         <item name="android:windowIsTranslucent">true</item>
-        <item name="android:textSize">14.0sp</item>
+        <item name="android:textSize">16.0sp</item>
         <item name="android:textColor">@color/white</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
