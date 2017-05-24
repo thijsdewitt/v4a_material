@@ -1,37 +1,250 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
-        <RelativeLayout android:id="@id/v4a_setting_notify" android:background="?selectableItemBackground" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <TextView android:textSize="16.0sp" android:gravity="center" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="72.0dip" android:text="@string/text_showtrayicon" />
-            <TextView android:textSize="14.0sp" android:textColor="@color/grey" android:gravity="center" android:id="@id/v4a_setting_notify_state" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="72.0dip" android:text="@string/text_open" />
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48.0dp"
+            android:gravity="bottom"
+            android:paddingLeft="16.0dp"
+            android:text="@string/text_setting"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/abc_text_size_small_material"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@id/v4a_setting_notify"
+            android:layout_width="match_parent"
+            android:layout_height="72.0dip"
+            android:background="?selectableItemBackground"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/v4a_setting_notify_state"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/text_showtrayicon" />
+
+            <TextView
+                android:id="@id/v4a_setting_notify_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="17dp"
+                android:text="@string/text_open"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/abc_text_size_small_material" />
         </RelativeLayout>
-        <View android:background="@color/blacktransparent" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
-        <RelativeLayout android:id="@id/v4a_setting_lockeffect" android:background="?selectableItemBackground" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <TextView android:textSize="16.0sp" android:gravity="center" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="72.0dip" android:text="@string/text_lockeffect" />
-            <TextView android:textSize="14.0sp" android:textColor="@color/grey" android:gravity="center" android:id="@id/v4a_setting_lockeffect_state" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="72.0dip" android:text="@string/text_open" />
+
+        <RelativeLayout
+            android:id="@id/v4a_setting_lockeffect"
+            android:layout_width="match_parent"
+            android:layout_height="72.0dip"
+            android:background="?selectableItemBackground"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/v4a_setting_lockeffect_state"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/text_lockeffect" />
+
+            <TextView
+                android:id="@id/v4a_setting_lockeffect_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="17dp"
+                android:text="@string/text_open"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/abc_text_size_small_material" />
         </RelativeLayout>
-        <View android:background="@color/blacktransparent" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
-        <RelativeLayout android:id="@id/v4a_setting_compatible" android:background="?selectableItemBackground" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <TextView android:textSize="16.0sp" android:gravity="center" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="72.0dip" android:text="@string/text_commode" />
-            <TextView android:textSize="14.0sp" android:textColor="@color/grey" android:gravity="center" android:id="@id/v4a_setting_compatible_state" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="72.0dip" android:text="@string/text_open" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.100000024dip"
+            android:background="@color/blacktransparent" />
+
+        <RelativeLayout
+            android:id="@id/v4a_setting_compatible"
+            android:layout_width="match_parent"
+            android:layout_height="72.0dip"
+            android:background="?selectableItemBackground"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/v4a_setting_compatible_state"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/text_commode" />
+
+            <TextView
+                android:id="@id/v4a_setting_compatible_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="17dp"
+                android:text="@string/text_open"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/abc_text_size_small_material" />
         </RelativeLayout>
-        <View android:background="@color/blacktransparent" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
-        <RelativeLayout android:id="@id/v4a_setting_default_storage" android:background="?selectableItemBackground" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <TextView android:textSize="16.0sp" android:gravity="center" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="72.0dip" android:text="@string/text_default_storage" />
-            <TextView android:textSize="14.0sp" android:textColor="@color/grey" android:gravity="center" android:id="@id/v4a_setting_default_storage_state" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="72.0dip" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.100000024dip"
+            android:background="@color/blacktransparent" />
+
+        <RelativeLayout
+            android:id="@id/v4a_setting_default_storage"
+            android:layout_width="match_parent"
+            android:layout_height="72.0dp"
+            android:background="?selectableItemBackground"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/v4a_setting_default_storage_state"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/text_default_storage" />"
+
+            <TextView
+                android:id="@id/v4a_setting_default_storage_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/abc_text_size_small_material" />
         </RelativeLayout>
-        <android.support.v7.widget.AppCompatTextView android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/v4a_setting_developer" android:background="?selectableItemBackground" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_marginTop="20.0dip" android:text="@string/text_enter_developer" />
-        <View android:textSize="16.0sp" android:id="@id/v4a_setting_close_selinux_view" android:background="@color/blacktransparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
-        <android.support.v7.widget.AppCompatTextView android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/v4a_setting_close_selinux" android:background="?selectableItemBackground" android:paddingLeft="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/text_close_selinux" />
-        <View android:background="@color/blacktransparent" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
-        <android.support.v7.widget.AppCompatTextView android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/v4a_setting_help" android:background="?selectableItemBackground" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/text_help_title" />
-        <View android:background="@color/blacktransparent" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
-        <android.support.v7.widget.AppCompatTextView android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/v4a_setting_rated" android:background="?selectableItemBackground" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/text_rated" />
-        <android.support.v7.widget.AppCompatTextView android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/v4a_setting_changelog" android:background="?selectableItemBackground" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/text_changelog" />
-        <View android:background="@color/blacktransparent" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
-        <android.support.v7.widget.AppCompatTextView android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/v4a_setting_checkupdate" android:background="?selectableItemBackground" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/text_checkupdate" />
-        <View android:background="@color/blacktransparent" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
-        <android.support.v7.widget.AppCompatTextView android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/v4a_setting_about" android:background="?selectableItemBackground" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/text_about_title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48.0dp"
+            android:gravity="bottom"
+            android:paddingLeft="16.0dp"
+            android:text="@string/text_help_title"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/abc_text_size_small_material"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/v4a_setting_developer"
+            android:layout_width="match_parent"
+            android:layout_height="72.0dip"
+            android:layout_marginTop="20.0dip"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:paddingLeft="16.0dip"
+            android:text="@string/text_enter_developer" />
+
+        <View
+            android:id="@id/v4a_setting_close_selinux_view"
+            android:layout_width="match_parent"
+            android:layout_height="0.100000024dip"
+            android:background="@color/blacktransparent"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/v4a_setting_close_selinux"
+            android:layout_width="match_parent"
+            android:layout_height="72.0dip"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:paddingLeft="16.0dip"
+            android:text="@string/text_close_selinux"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.100000024dip"
+            android:background="@color/blacktransparent" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/v4a_setting_help"
+            android:layout_width="match_parent"
+            android:layout_height="72.0dip"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:paddingLeft="16.0dip"
+            android:text="@string/text_help_title" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.100000024dip"
+            android:background="@color/blacktransparent" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/v4a_setting_rated"
+            android:layout_width="match_parent"
+            android:layout_height="72.0dip"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:paddingLeft="16.0dip"
+            android:text="@string/text_rated" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/v4a_setting_changelog"
+            android:layout_width="match_parent"
+            android:layout_height="72.0dip"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:paddingLeft="16.0dip"
+            android:text="@string/text_changelog" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.100000024dip"
+            android:background="@color/blacktransparent" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/v4a_setting_checkupdate"
+            android:layout_width="match_parent"
+            android:layout_height="72.0dip"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:paddingLeft="16.0dip"
+            android:text="@string/text_checkupdate" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.100000024dip"
+            android:background="@color/blacktransparent" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/v4a_setting_about"
+            android:layout_width="match_parent"
+            android:layout_height="72.0dip"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:paddingLeft="16.0dip"
+            android:text="@string/text_about_title" />
     </LinearLayout>
 </ScrollView>
