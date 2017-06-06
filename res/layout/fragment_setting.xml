@@ -179,7 +179,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="48.0dp"
-            android:gravity="center_vertical"
+            android:gravity="bottom"
             android:paddingLeft="16.0dp"
             android:text="@string/text_help_title"
             android:textColor="@color/colorAccentDimmed"
