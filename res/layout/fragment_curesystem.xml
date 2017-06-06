@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25.0dip"
+        android:layout_marginRight="25.0dip"
+        android:paddingBottom="45.0dip">
+
+        <TextView
+            android:id="@id/v4a_tv_cure_crossfeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35.0dip"
+            android:text="@string/pref_select_cure_cf_title" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/v4a_tv_cure_crossfeed"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55.0dip"
+            android:src="@mipmap/knob_bg_3point" />
+
+        <ImageView
+            android:id="@id/v4a_iv_knob_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/v4a_tv_cure_crossfeed"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55.0dip"
+            android:scaleType="matrix"
+            android:src="@mipmap/knob_point" />
+
+        <com.audlabs.viperfx.widget.TouchRotateButton
+            android:id="@id/v4a_trb_cure_crossfeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/v4a_tv_cure_crossfeed"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55.0dip" />
+
+        <TextView
+            android:id="@id/v4a_tv_cure_crossfeed_moderate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/v4a_tv_cure_crossfeed"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25.0dip" />
+
+        <TextView
+            android:id="@id/v4a_tv_cure_crossfeed_slight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/v4a_tv_cure_crossfeed"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="47.0dip"
+            android:layout_marginTop="55.0dip"
+            android:layout_toLeftOf="@id/v4a_tv_cure_crossfeed_moderate" />
+
+        <TextView
+            android:id="@id/v4a_tv_cure_crossfeed_extreme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/v4a_tv_cure_crossfeed"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="47.0dip"
+            android:layout_marginTop="55.0dip"
+            android:layout_toRightOf="@id/v4a_tv_cure_crossfeed_moderate" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@id/v4a_layout_convolver_knl_search"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?actionBarSize">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="30.0dip"
+                android:gravity="center"
+                android:text="@string/pref_convolver_knl" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@id/v4a_et_convolver_knl_search"
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:background="@mipmap/input"
+                android:paddingLeft="9.0dip"
+                android:paddingRight="9.0dip"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@id/v4a_convolver_knl_recyclerview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@id/v4a_layout_convolver_knl_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:animateLayoutChanges="true"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25.0dip"
+            android:layout_marginRight="25.0dip"
+            android:paddingBottom="45.0dip">
+
+            <TextView
+                android:id="@id/id_tv_convolver_knl_title"
+                android:layout_width="wrap_content"
+                android:layout_height="45.0dip"
+                android:layout_marginTop="35.0dip"
+                android:gravity="center"
+                android:text="@string/pref_convolver_knl_title" />
+
+            <Button
+                android:id="@id/id_btn_convolver_knl"
+                android:layout_width="150.0dip"
+                android:layout_height="45.0dip"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/id_tv_convolver_knl_title"
+                android:background="@drawable/select_btn"
+                android:gravity="center"
+                android:paddingLeft="5.0dip"
+                android:paddingRight="5.0dip"
+                android:singleLine="true"
+                android:text="@string/pref_convolver_knl" />
+
+            <TextView
+                android:id="@id/id_tv_convolver_crosschannel"
+                android:layout_width="wrap_content"
+                android:layout_height="35.0dip"
+                android:layout_below="@id/id_btn_convolver_knl"
+                android:layout_marginTop="35.0dip"
+                android:gravity="center"
+                android:text="@string/pref_convolver_crosschannel_title" />
+
+            <TextView
+                android:id="@id/id_tv_convolver_crosschannel_val"
+                android:layout_width="100.0dip"
+                android:layout_height="35.0dip"
+                android:layout_alignTop="@id/id_tv_convolver_crosschannel"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/input"
+                android:gravity="center" />
+
+            <com.audlabs.viperfx.widget.TouchRotateButton
+                android:id="@id/id_trb_convolver_crosschannel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/id_tv_convolver_crosschannel"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25.0dip" />
+
+            <com.audlabs.viperfx.widget.ProgressBarView
+                android:id="@id/id_pbv_convolver_crosschannel"
+                android:layout_width="230.0dip"
+                android:layout_height="230.0dip"
+                android:layout_below="@id/id_tv_convolver_crosschannel"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25.0dip" />
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>
