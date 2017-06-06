@@ -15,7 +15,7 @@
             android:gravity="bottom"
             android:paddingLeft="16.0dp"
             android:text="@string/text_setting"
-            android:textColor="#deaa00ff"
+            android:textColor="@color/colorAccentDimmed"
             android:textSize="@dimen/abc_text_size_small_material"
             android:textStyle="bold" />
 
@@ -156,15 +156,14 @@
             android:gravity="bottom"
             android:paddingLeft="16.0dp"
             android:text="@string/text_help_title"
-            android:textColor="#deaa00ff"
+            android:textColor="@color/colorAccentDimmed"
             android:textSize="@dimen/abc_text_size_small_material"
             android:textStyle="bold" />
 
         <android.support.v7.widget.AppCompatTextView
             android:id="@id/v4a_setting_developer"
             android:layout_width="match_parent"
-            android:layout_height="72.0dip"
-            android:layout_marginTop="20.0dip"
+            android:layout_height="48.0dip"
             android:background="?selectableItemBackground"
             android:gravity="center_vertical"
             android:paddingLeft="16.0dip"
@@ -180,7 +179,7 @@
         <android.support.v7.widget.AppCompatTextView
             android:id="@id/v4a_setting_close_selinux"
             android:layout_width="match_parent"
-            android:layout_height="72.0dip"
+            android:layout_height="48.0dip"
             android:background="?selectableItemBackground"
             android:gravity="center_vertical"
             android:paddingLeft="16.0dip"
@@ -195,7 +194,7 @@
         <android.support.v7.widget.AppCompatTextView
             android:id="@id/v4a_setting_help"
             android:layout_width="match_parent"
-            android:layout_height="72.0dip"
+            android:layout_height="48.0dip"
             android:background="?selectableItemBackground"
             android:gravity="center_vertical"
             android:paddingLeft="16.0dip"
@@ -209,7 +208,7 @@
         <android.support.v7.widget.AppCompatTextView
             android:id="@id/v4a_setting_rated"
             android:layout_width="match_parent"
-            android:layout_height="72.0dip"
+            android:layout_height="48.0dip"
             android:background="?selectableItemBackground"
             android:gravity="center_vertical"
             android:paddingLeft="16.0dip"
@@ -223,7 +222,7 @@
         <android.support.v7.widget.AppCompatTextView
             android:id="@id/v4a_setting_changelog"
             android:layout_width="match_parent"
-            android:layout_height="72.0dip"
+            android:layout_height="48.0dip"
             android:background="?selectableItemBackground"
             android:gravity="center_vertical"
             android:paddingLeft="16.0dip"
@@ -237,7 +236,7 @@
         <android.support.v7.widget.AppCompatTextView
             android:id="@id/v4a_setting_checkupdate"
             android:layout_width="match_parent"
-            android:layout_height="72.0dip"
+            android:layout_height="48.0dip"
             android:background="?selectableItemBackground"
             android:gravity="center_vertical"
             android:paddingLeft="16.0dip"
@@ -251,7 +250,7 @@
         <android.support.v7.widget.AppCompatTextView
             android:id="@id/v4a_setting_about"
             android:layout_width="match_parent"
-            android:layout_height="72.0dip"
+            android:layout_height="48.0dip"
             android:background="?selectableItemBackground"
             android:gravity="center_vertical"
             android:paddingLeft="16.0dip"
