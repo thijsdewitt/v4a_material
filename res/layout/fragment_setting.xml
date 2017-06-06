@@ -182,7 +182,7 @@
             android:gravity="bottom"
             android:paddingLeft="16.0dp"
             android:text="@string/text_help_title"
-            android:textColor="@color/colorAccentDimmed"
+            android:textColor="@color/colorSubheaderText"
             android:textSize="@dimen/abc_text_size_small_material"
             android:textStyle="bold" />
 
