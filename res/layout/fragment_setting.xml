@@ -15,11 +15,7 @@
             android:gravity="bottom"
             android:paddingLeft="16.0dp"
             android:text="@string/text_setting"
-<<<<<<< HEAD
-            android:textColor="@color/colorTextSubheader"
-=======
             android:textColor="@color/colorAccentDimmed"
->>>>>>> 0b0fbb3d177ca1c2d32d55039998a929c966317d
             android:textSize="@dimen/abc_text_size_small_material"
             android:textStyle="bold" />
 
@@ -154,19 +150,10 @@
                 android:textSize="@dimen/abc_text_size_small_material" />
         </RelativeLayout>
 
-        <TextView
+        <View
             android:layout_width="match_parent"
-            android:layout_height="48.0dp"
-            android:gravity="bottom"
-            android:paddingLeft="16.0dp"
-            android:text="@string/text_help_title"
-<<<<<<< HEAD
-            android:textColor="@color/colorTextSubheader"
-=======
-            android:textColor="@color/colorAccentDimmed"
->>>>>>> 0b0fbb3d177ca1c2d32d55039998a929c966317d
-            android:textSize="@dimen/abc_text_size_small_material"
-            android:textStyle="bold" />
+            android:layout_height="0.100000024dip"
+            android:background="@color/blacktransparent" />
 
         <android.support.v7.widget.AppCompatTextView
             android:id="@id/v4a_setting_developer"
@@ -194,10 +181,15 @@
             android:text="@string/text_close_selinux"
             android:visibility="gone" />
 
-        <View
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="0.100000024dip"
-            android:background="@color/blacktransparent" />
+            android:layout_height="48.0dp"
+            android:gravity="bottom"
+            android:paddingLeft="16.0dp"
+            android:text="@string/text_help_title"
+            android:textColor="@color/colorAccentDimmed"
+            android:textSize="@dimen/abc_text_size_small_material"
+            android:textStyle="bold" />
 
         <android.support.v7.widget.AppCompatTextView
             android:id="@id/v4a_setting_help"
