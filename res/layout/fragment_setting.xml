@@ -9,16 +9,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="48.0dp"
-            android:gravity="bottom"
-            android:paddingLeft="16.0dp"
-            android:text="@string/text_setting"
-            android:textColor="@color/colorAccentDimmed"
-            android:textSize="@dimen/abc_text_size_small_material"
-            android:textStyle="bold" />
-
         <RelativeLayout
             android:id="@id/v4a_setting_notify"
             android:layout_width="match_parent"
@@ -180,11 +170,16 @@
             android:paddingLeft="16.0dip"
             android:text="@string/text_close_selinux"
             android:visibility="gone" />
+	    
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.100000024dip"
+            android:background="@color/blacktransparent" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="48.0dp"
-            android:gravity="bottom"
+            android:gravity="center_vertical"
             android:paddingLeft="16.0dp"
             android:text="@string/text_help_title"
             android:textColor="@color/colorAccentDimmed"
