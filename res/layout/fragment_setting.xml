@@ -145,7 +145,7 @@
             android:layout_height="0.100000024dip"
             android:background="@color/blacktransparent" />
 
-        <android.support.v7.widget.AppCompatTextView
+        <TextView
             android:id="@id/v4a_setting_developer"
             android:layout_width="match_parent"
             android:layout_height="48.0dip"
@@ -161,7 +161,7 @@
             android:background="@color/blacktransparent"
             android:visibility="gone" />
 
-        <android.support.v7.widget.AppCompatTextView
+        <TextView
             android:id="@id/v4a_setting_close_selinux"
             android:layout_width="match_parent"
             android:layout_height="48.0dip"
@@ -186,7 +186,7 @@
             android:textSize="@dimen/abc_text_size_small_material"
             android:textStyle="bold" />
 
-        <android.support.v7.widget.AppCompatTextView
+        <TextView
             android:id="@id/v4a_setting_help"
             android:layout_width="match_parent"
             android:layout_height="48.0dip"
@@ -200,7 +200,7 @@
             android:layout_height="0.100000024dip"
             android:background="@color/blacktransparent" />
 
-        <android.support.v7.widget.AppCompatTextView
+        <TextView
             android:id="@id/v4a_setting_rated"
             android:layout_width="match_parent"
             android:layout_height="48.0dip"
@@ -214,7 +214,7 @@
             android:layout_height="0.100000024dip"
             android:background="@color/blacktransparent" />
 
-        <android.support.v7.widget.AppCompatTextView
+        <TextView
             android:id="@id/v4a_setting_changelog"
             android:layout_width="match_parent"
             android:layout_height="48.0dip"
@@ -228,7 +228,7 @@
             android:layout_height="0.100000024dip"
             android:background="@color/blacktransparent" />
 
-        <android.support.v7.widget.AppCompatTextView
+        <TextView
             android:id="@id/v4a_setting_checkupdate"
             android:layout_width="match_parent"
             android:layout_height="48.0dip"
@@ -242,7 +242,7 @@
             android:layout_height="0.100000024dip"
             android:background="@color/blacktransparent" />
 
-        <android.support.v7.widget.AppCompatTextView
+        <TextView
             android:id="@id/v4a_setting_about"
             android:layout_width="match_parent"
             android:layout_height="48.0dip"
