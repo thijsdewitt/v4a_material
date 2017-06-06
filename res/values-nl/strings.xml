@@ -45,7 +45,7 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="eq_preset_treble_booster">Hoge tonen versterking</string>
     <string name="eq_preset_treble_reducer">Hoge tonen vermindering</string>
     <string name="eq_preset_vocal_booster">Vocale versterking</string>
-    <string name="headset_title">Jack</string>
+    <string name="headset_title">Hoofdtelefoon</string>
     <string name="navigation_drawer_close">Navigatiemenu sluiten</string>
     <string name="navigation_drawer_open">Navigatiemenu openen</string>
     <string name="pref_analogx_strength_title">Sterkte</string>
