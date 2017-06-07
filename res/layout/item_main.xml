@@ -4,6 +4,7 @@
     android:layout_height="56.0dip"
     android:clickable="true"
     android:foreground="?selectableItemBackground"
+    android:paddingTop="8.0dp"
     android:paddingLeft="16.0dip"
     android:paddingRight="16.0dip">
 
