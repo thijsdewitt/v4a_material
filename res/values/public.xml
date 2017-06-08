@@ -388,7 +388,27 @@
     <public type="drawable" name="eq_thumb" id="0x7f020053" />
     <public type="drawable" name="shadow_bottom" id="0x7f02005b" />
     <public type="drawable" name="shadow_left" id="0x7f02005c" />
-    <public type="drawable" name="shadow_right" id="0x7f02005d" />
+	<public type="drawable" name="shadow_right" id="0x7f02005d" />
+    <public type="drawable" name="analogx" id="0x7f020060" />
+	<public type="drawable" name="bass" id="0x7f020061" />
+	<public type="drawable" name="clarity" id="0x7f020062" />
+	<public type="drawable" name="compressor" id="0x7f020063" />
+	<public type="drawable" name="convolver" id="0x7f020064" />
+	<public type="drawable" name="diff_surround" id="0x7f020065" />
+	<public type="drawable" name="dynamic_system" id="0x7f020066" />
+	<public type="drawable" name="equalizer" id="0x7f020067" />
+	<public type="drawable" name="extraloud" id="0x7f020068" />
+	<public type="drawable" name="fx_limiter" id="0x7f020069" />
+	<public type="drawable" name="headphone_surround" id="0x7f02006a" />
+	<public type="drawable" name="playback_control" id="0x7f02006b" />
+	<public type="drawable" name="power" id="0x7f02006c" />
+	<public type="drawable" name="protection" id="0x7f02006d" />
+	<public type="drawable" name="reverb" id="0x7f02006e" />
+	<public type="drawable" name="speaker" id="0x7f02006f" />
+	<public type="drawable" name="surround" id="0x7f020070" />
+	<public type="drawable" name="tubeamp" id="0x7f020071" />
+	<public type="drawable" name="viperddc" id="0x7f020072" />
+	<public type="drawable" name="vse" id="0x7f020073" />
     <public type="mipmap" name="icon" id="0x7f030010" />
     <public type="mipmap" name="smalllogo" id="0x7f030034" />
     <public type="mipmap" name="add" id="0x7f030000" />
