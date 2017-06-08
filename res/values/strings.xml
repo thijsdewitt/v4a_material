@@ -150,16 +150,13 @@ However, if you are playing lossless music, we recommend you to disable this fea
     <string name="text_down_state">Downloading: %s</string>
     <string name="text_drv_blank" />
     <string name="text_drv_status">Driver Status</string>
-    <string name="text_drv_status_view">"
- 
-Driver Version: %1$s 
+    <string name="text_drv_status_view">"Driver Version: %1$s 
 NEON Enabled: %2$s 
 Enabled: %3$s 
 Status: %4$s 
 Audio Format: %5$s 
 Processing: %6$s 
-Sampling Rate: %7$d 
-"</string>
+Sampling Rate: %7$d"</string>
     <string name="text_drvinst_acquireroot">"Driver install failed: V4A couldn't acquire root permission. Please confirm your device has been rooted."</string>
     <string name="text_drvinst_busybox_not_installed">Driver install failed: No proper busybox installation found on this device.</string>
     <string name="text_drvinst_cfg_unsup">Driver install failed: Unsupported android system or ROM.</string>
