@@ -13,7 +13,7 @@
     <item type="dimen" name="abc_dialog_min_width_major">65.0%</item>
     <item type="dimen" name="abc_dialog_min_width_minor">95.00001%</item>
     <dimen name="abc_search_view_text_min_width">160.0dip</dimen>
-    <dimen name="abc_action_bar_content_inset_material">16.0dip</dimen>
+    <dimen name="abc_action_bar_content_inset_material">24.0dip</dimen>
     <dimen name="abc_action_bar_default_padding_end_material">0.0dip</dimen>
     <dimen name="abc_action_bar_default_padding_start_material">0.0dip</dimen>
     <dimen name="design_navigation_max_width">280.0dip</dimen>
