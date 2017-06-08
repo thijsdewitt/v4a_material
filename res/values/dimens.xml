@@ -45,7 +45,7 @@
     <dimen name="abc_control_padding_material">4.0dip</dimen>
     <dimen name="abc_dialog_list_padding_vertical_material">8.0dip</dimen>
     <dimen name="abc_dialog_padding_material">24.0dip</dimen>
-    <dimen name="abc_dialog_padding_top_material">18.0dip</dimen>
+    <dimen name="abc_dialog_padding_top_material">24.0dip</dimen>
     <item type="dimen" name="abc_disabled_alpha_material_dark">0.3</item>
     <item type="dimen" name="abc_disabled_alpha_material_light">0.26</item>
     <dimen name="abc_dropdownitem_icon_width">32.0dip</dimen>
