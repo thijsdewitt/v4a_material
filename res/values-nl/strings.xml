@@ -149,16 +149,13 @@ Zet dit uit als je bestanden als flac of wav afspeelt. "</string>
     <string name="text_down_state">Downloaden: %s</string>
     <string name="text_drv_blank" />
     <string name="text_drv_status">Driver status</string>
-    <string name="text_drv_status_view">"
- 
-Driver Versie: %1$s 
+    <string name="text_drv_status_view">"Driver Versie: %1$s 
 NEON Ingeschakeld: %2$s 
 Ingeschakeld: %3$s 
 Status: %4$s 
 Audio Formaat: %5$s 
 Verwerken: %6$s 
-Sampling Rate: %7$d 
-"</string>
+Sampling Rate: %7$d"</string>
     <string name="text_drvinst_acquireroot">Driver installatie mislukt: V4A kon geen root permissie krijgen. Controleer of uw apparaat is geroot</string>
     <string name="text_drvinst_busybox_not_installed">Driver installatie mislukt: Geen goede busybox installatie gevonden op dit apparaat.</string>
     <string name="text_drvinst_cfg_unsup">Driver installatie mislukt: ROM wordt niet ondersteund.</string>
