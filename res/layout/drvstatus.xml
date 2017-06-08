@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/drv_status" android:padding="5.0pt" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</ScrollView>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <TextView
+        android:textSize="@dimen/abc_text_size_title_material"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_drv_status"/>
+
+    <TextView
+        android:id="@id/drv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20pt" />
+</RelativeLayout>
