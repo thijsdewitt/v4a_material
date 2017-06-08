@@ -413,20 +413,10 @@
     <public type="mipmap" name="smalllogo" id="0x7f030034" />
     <public type="mipmap" name="add" id="0x7f030000" />
     <public type="mipmap" name="add1" id="0x7f030001" />
-    <public type="mipmap" name="analogx" id="0x7f030002" />
     <public type="mipmap" name="driver" id="0x7f030003" />
     <public type="mipmap" name="save" id="0x7f030004" />
     <public type="mipmap" name="bgbig" id="0x7f030005" />
     <public type="mipmap" name="bglight" id="0x7f030006" />
-    <public type="mipmap" name="diffsurr" id="0x7f030007" />
-    <public type="mipmap" name="surround" id="0x7f030008" />
-    <public type="mipmap" name="tubeamp" id="0x7f030009" />
-    <public type="mipmap" name="bass" id="0x7f03000a" />
-    <public type="mipmap" name="dynamic_system" id="0x7f03000b" />
-    <public type="mipmap" name="headphonesurr" id="0x7f03000c" />
-    <public type="mipmap" name="extroloud" id="0x7f03000d" />
-    <public type="mipmap" name="equalizer" id="0x7f03000e" />
-    <public type="mipmap" name="playback_control" id="0x7f03000f" />
     <public type="mipmap" name="input" id="0x7f030011" />
     <public type="mipmap" name="load" id="0x7f030012" />
     <public type="mipmap" name="knob_bg_10point" id="0x7f030013" />
@@ -440,7 +430,6 @@
     <public type="mipmap" name="knob_press" id="0x7f03001b" />
     <public type="mipmap" name="knob_style_default" id="0x7f03001c" />
     <public type="mipmap" name="knob_style_press" id="0x7f03001d" />
-    <public type="mipmap" name="convolver" id="0x7f03001e" />
     <public type="mipmap" name="minus" id="0x7f03001f" />
     <public type="mipmap" name="minus1" id="0x7f030020" />
     <public type="mipmap" name="old_btn_bg" id="0x7f030021" />
@@ -452,26 +441,17 @@
     <public type="mipmap" name="old_btn_press" id="0x7f030027" />
     <public type="mipmap" name="old_btn_right_default" id="0x7f030028" />
     <public type="mipmap" name="old_btn_right_press" id="0x7f030029" />
-    <public type="mipmap" name="vse" id="0x7f03002a" />
-    <public type="mipmap" name="clarity" id="0x7f03002b" />
     <public type="mipmap" name="status" id="0x7f03002c" />
     <public type="mipmap" name="radio_noselect" id="0x7f03002d" />
     <public type="mipmap" name="radio_select" id="0x7f03002e" />
     <public type="mipmap" name="seekbar_rule_double" id="0x7f03002f" />
     <public type="mipmap" name="seekbar_thumb" id="0x7f030030" />
     <public type="mipmap" name="set" id="0x7f030031" />
-    <public type="mipmap" name="reverb" id="0x7f030032" />
     <public type="mipmap" name="side_nav_bar" id="0x7f030033" />
     <public type="mipmap" name="start" id="0x7f030035" />
-    <public type="mipmap" name="protection" id="0x7f030036" />
     <public type="mipmap" name="toggle_3d_close" id="0x7f030037" />
     <public type="mipmap" name="toggle_3d_open" id="0x7f030038" />
-    <public type="mipmap" name="viperddc" id="0x7f030039" />
-    <public type="mipmap" name="power" id="0x7f03003a" />
-    <public type="mipmap" name="yangshengqiyouhua" id="0x7f03003b" />
-    <public type="mipmap" name="compressor" id="0x7f03003c" />
     <public type="mipmap" name="yuandian" id="0x7f03003d" />
-    <public type="mipmap" name="fx_limiter" id="0x7f03003e" />
     <public type="layout" name="abc_action_bar_title_item" id="0x7f040000" />
     <public type="layout" name="abc_action_bar_up_container" id="0x7f040001" />
     <public type="layout" name="abc_action_bar_view_list_nav_layout" id="0x7f040002" />
