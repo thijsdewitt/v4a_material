@@ -1074,7 +1074,7 @@
 
     const-string v2, "ICON"
 
-    const v3, 0x7f020069
+    const v3, 0x7f020060
 
     invoke-static {v3}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -1116,7 +1116,7 @@
 
     const-string v2, "ICON"
 
-    const v3, 0x7f020060
+    const v3, 0x7f020069
 
     invoke-static {v3}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
