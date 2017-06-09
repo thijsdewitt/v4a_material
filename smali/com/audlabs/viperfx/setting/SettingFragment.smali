@@ -814,17 +814,13 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v4, "http://play.google.com/store/apps/details?id="
+    const-string v4, "https://forum.xda-developers.com/"
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
-    invoke-virtual {p0}, Lcom/audlabs/viperfx/setting/SettingFragment;->getActivity()Landroid/app/Activity;
-
-    move-result-object v4
-
-    invoke-virtual {v4}, Landroid/app/Activity;->getPackageName()Ljava/lang/String;
+    invoke-virtual {v4}, Landroid/app/Activity;->toString()Ljava/lang/String;
 
     move-result-object v4
 
