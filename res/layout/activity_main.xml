@@ -26,7 +26,6 @@
             android:id="@id/v4a_viewpager"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:paddingTop="8dp"
             app:layout_behavior="@string/appbar_scrolling_view_behavior" />
     </android.support.design.widget.CoordinatorLayout>
     <android.support.design.widget.NavigationView
