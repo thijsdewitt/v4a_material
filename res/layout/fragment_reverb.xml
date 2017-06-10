@@ -7,15 +7,14 @@
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10.0dip"
-        android:layout_marginRight="10.0dip"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
         android:paddingBottom="45.0dip">
 
         <TextView
             android:id="@id/id_tv_reverb_roomsize"
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
-            android:layout_marginLeft="15.0dip"
             android:layout_marginTop="35.0dip"
             android:gravity="center"
             android:text="@string/pref_reverb_roomsize" />
@@ -26,7 +25,6 @@
             android:layout_height="35.0dip"
             android:layout_alignParentRight="true"
             android:layout_alignTop="@id/id_tv_reverb_roomsize"
-            android:layout_marginRight="15.0dip"
             android:background="@mipmap/input"
             android:gravity="center" />
 
@@ -35,7 +33,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/id_tv_reverb_roomsize"
-            android:layout_marginLeft="27.0dip"
+            android:layout_marginLeft="32.0dip"
             android:layout_marginTop="18.5dip"
             android:focusable="true"
             android:max="100"
@@ -48,7 +46,6 @@
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
             android:layout_below="@id/id_sb_reverb_roomsize"
-            android:layout_marginLeft="15.0dip"
             android:layout_marginTop="35.0dip"
             android:gravity="center"
             android:text="@string/pref_reverb_width" />
@@ -59,7 +56,6 @@
             android:layout_height="35.0dip"
             android:layout_alignParentRight="true"
             android:layout_alignTop="@id/id_tv_reverb_width"
-            android:layout_marginRight="15.0dip"
             android:background="@mipmap/input"
             android:gravity="center" />
         -
@@ -69,7 +65,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/id_tv_reverb_width"
-            android:layout_marginLeft="27.0dip"
+            android:layout_marginLeft="32.0dip"
             android:layout_marginTop="18.5dip"
             android:focusable="true"
             android:max="100"
@@ -82,7 +78,6 @@
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
             android:layout_below="@id/id_sb_reverb_width"
-            android:layout_marginLeft="15.0dip"
             android:layout_marginTop="35.0dip"
             android:gravity="center"
             android:text="@string/pref_reverb_damp" />
@@ -93,7 +88,6 @@
             android:layout_height="35.0dip"
             android:layout_alignParentRight="true"
             android:layout_alignTop="@id/id_tv_reverb_damp"
-            android:layout_marginRight="15.0dip"
             android:background="@mipmap/input"
             android:gravity="center" />
         -
@@ -103,7 +97,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/id_tv_reverb_damp"
-            android:layout_marginLeft="27.0dip"
+            android:layout_marginLeft="32.0dip"
             android:layout_marginTop="18.5dip"
             android:focusable="true"
             android:max="100"
@@ -116,7 +110,6 @@
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
             android:layout_below="@id/id_sb_reverb_damp"
-            android:layout_marginLeft="15.0dip"
             android:layout_marginTop="35.0dip"
             android:gravity="center"
             android:text="@string/pref_reverb_wet" />
@@ -127,7 +120,6 @@
             android:layout_height="35.0dip"
             android:layout_alignParentRight="true"
             android:layout_alignTop="@id/id_tv_reverb_wet"
-            android:layout_marginRight="15.0dip"
             android:background="@mipmap/input"
             android:gravity="center" />
         -
@@ -137,7 +129,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/id_tv_reverb_wet"
-            android:layout_marginLeft="27.0dip"
+            android:layout_marginLeft="32.0dip"
             android:layout_marginTop="18.5dip"
             android:focusable="true"
             android:max="100"
@@ -150,7 +142,6 @@
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
             android:layout_below="@id/id_sb_reverb_wet"
-            android:layout_marginLeft="15.0dip"
             android:layout_marginTop="35.0dip"
             android:gravity="center"
             android:text="@string/pref_reverb_dry" />
@@ -161,7 +152,6 @@
             android:layout_height="35.0dip"
             android:layout_alignParentRight="true"
             android:layout_alignTop="@id/id_tv_reverb_dry"
-            android:layout_marginRight="15.0dip"
             android:background="@mipmap/input"
             android:gravity="center" />
 
@@ -170,7 +160,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/id_tv_reverb_dry"
-            android:layout_marginLeft="27.0dip"
+            android:layout_marginLeft="32.0dip"
             android:layout_marginTop="18.5dip"
             android:focusable="true"
             android:max="100"

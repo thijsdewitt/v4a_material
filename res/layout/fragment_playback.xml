@@ -7,15 +7,14 @@
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10.0dip"
-        android:layout_marginRight="10.0dip"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
         android:paddingBottom="45.0dip">
 
         <TextView
             android:id="@id/v4a_tv_playback_effect"
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
-            android:layout_marginLeft="15.0dip"
             android:layout_marginTop="35.0dip"
             android:gravity="center"
             android:text="@string/pref_effect_title" />
@@ -80,7 +79,6 @@
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
             android:layout_below="@id/v4a_trb_playback_effect"
-            android:layout_marginLeft="15.0dip"
             android:layout_marginTop="25.0dip"
             android:gravity="center"
             android:text="@string/pref_playback_maxgain" />
@@ -91,7 +89,6 @@
             android:layout_height="35.0dip"
             android:layout_alignParentRight="true"
             android:layout_alignTop="@id/v4a_tv_playback_maxgain"
-            android:layout_marginRight="15.0dip"
             android:background="@mipmap/input"
             android:gravity="center" />
 
@@ -100,7 +97,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/v4a_tv_playback_maxgain"
-            android:layout_marginLeft="27.0dip"
+            android:layout_marginLeft="32.0dip"
             android:layout_marginTop="18.5dip"
             android:focusable="true"
             android:max="100"
@@ -113,7 +110,6 @@
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
             android:layout_below="@id/v4a_sb_playback_maxgain"
-            android:layout_marginLeft="15.0dip"
             android:layout_marginTop="35.0dip"
             android:gravity="center"
             android:text="@string/pref_playback_output_threshold" />
@@ -124,7 +120,6 @@
             android:layout_height="35.0dip"
             android:layout_alignParentRight="true"
             android:layout_alignTop="@id/v4a_tv_playback_output_threshold"
-            android:layout_marginRight="15.0dip"
             android:background="@mipmap/input"
             android:gravity="center" />
 
@@ -133,7 +128,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/v4a_tv_playback_output_threshold"
-            android:layout_marginLeft="27.0dip"
+            android:layout_marginLeft="32.0dip"
             android:layout_marginTop="18.5dip"
             android:focusable="true"
             android:max="50"

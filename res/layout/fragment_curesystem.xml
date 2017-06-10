@@ -7,8 +7,8 @@
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="25.0dip"
-        android:layout_marginRight="25.0dip"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
         android:paddingBottom="45.0dip">
 
         <TextView

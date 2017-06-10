@@ -7,8 +7,8 @@
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="25.0dip"
-        android:layout_marginRight="25.0dip"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
         android:paddingBottom="45.0dip">
 
         <TextView
@@ -76,8 +76,7 @@
             android:layout_width="100.0dip"
             android:layout_height="35.0dip"
             android:layout_alignTop="@id/v4a_tv_bass_freq"
-            android:layout_centerInParent="true"
-            android:layout_marginRight="15.0dip"
+            android:layout_alignParentRight="true"
             android:background="@mipmap/input"
             android:gravity="center" />
 
@@ -111,8 +110,7 @@
             android:layout_width="100.0dip"
             android:layout_height="35.0dip"
             android:layout_alignTop="@id/v4a_tv_bass_gain"
-            android:layout_centerInParent="true"
-            android:layout_marginRight="15.0dip"
+            android:layout_alignParentRight="true"
             android:background="@mipmap/input"
             android:gravity="center" />
 

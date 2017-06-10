@@ -17,7 +17,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginLeft="15.0dip"
+        android:layout_marginLeft="16.0dip"
         android:layout_marginTop="10.0dip"
         android:gravity="center_vertical"
         android:text="@string/pref_equalizer_preset_title"
