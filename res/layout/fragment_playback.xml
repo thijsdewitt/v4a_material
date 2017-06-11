@@ -103,7 +103,7 @@
             android:max="100"
             android:maxHeight="5.0dip"
             android:minHeight="5.0dip"
-            android:progressDrawable="@drawable/default_seekbar" />
+             />
 
         <TextView
             android:id="@id/v4a_tv_playback_output_threshold"
@@ -134,6 +134,6 @@
             android:max="50"
             android:maxHeight="5.0dip"
             android:minHeight="5.0dip"
-            android:progressDrawable="@drawable/default_seekbar" />
+             />
     </RelativeLayout>
 </ScrollView>

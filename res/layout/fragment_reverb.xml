@@ -39,7 +39,7 @@
             android:max="100"
             android:maxHeight="5.0dip"
             android:minHeight="5.0dip"
-            android:progressDrawable="@drawable/default_seekbar" />
+             />
 
         <TextView
             android:id="@id/id_tv_reverb_width"
@@ -71,7 +71,7 @@
             android:max="100"
             android:maxHeight="5.0dip"
             android:minHeight="5.0dip"
-            android:progressDrawable="@drawable/default_seekbar" />
+             />
 
         <TextView
             android:id="@id/id_tv_reverb_damp"
@@ -103,7 +103,7 @@
             android:max="100"
             android:maxHeight="5.0dip"
             android:minHeight="5.0dip"
-            android:progressDrawable="@drawable/default_seekbar" />
+             />
 
         <TextView
             android:id="@id/id_tv_reverb_wet"
@@ -135,7 +135,7 @@
             android:max="100"
             android:maxHeight="5.0dip"
             android:minHeight="5.0dip"
-            android:progressDrawable="@drawable/default_seekbar" />
+             />
 
         <TextView
             android:id="@id/id_tv_reverb_dry"
@@ -166,6 +166,6 @@
             android:max="100"
             android:maxHeight="5.0dip"
             android:minHeight="5.0dip"
-            android:progressDrawable="@drawable/default_seekbar" />
+             />
     </RelativeLayout>
 </ScrollView>

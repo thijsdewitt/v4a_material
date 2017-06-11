@@ -51,7 +51,7 @@
             android:maxHeight="5.0dip"
             android:minHeight="5.0dip"
             android:progress="100"
-            android:progressDrawable="@drawable/default_seekbar" />
+             />
 
         <TextView
             android:id="@id/id_tv_output_gain"
@@ -94,7 +94,7 @@
             android:maxHeight="5.0dip"
             android:minHeight="5.0dip"
             android:progress="100"
-            android:progressDrawable="@drawable/default_seekbar" />
+             />
         
         <TextView
             android:id="@id/id_tv_limiter_threshold"
@@ -136,6 +136,6 @@
             android:max="50"
             android:maxHeight="5.0dip"
             android:minHeight="5.0dip"
-            android:progressDrawable="@drawable/default_seekbar" />
+             />
     </RelativeLayout>
 </ScrollView>
