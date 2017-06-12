@@ -9,7 +9,7 @@
     <item type="dimen" name="abc_dialog_fixed_height_major">79.99999%</item>
     <item type="dimen" name="abc_dialog_fixed_height_minor">100.0%</item>
     <dimen name="abc_dialog_fixed_width_major">320.0dip</dimen>
-    <dimen name="abc_dialog_fixed_width_minor">320.0dip</dimen>
+    <dimen name="abc_dialog_fixed_width_sminor">320.0dip</dimen>
     <item type="dimen" name="abc_dialog_min_width_major">65.0%</item>
     <item type="dimen" name="abc_dialog_min_width_minor">95.00001%</item>
     <dimen name="abc_search_view_text_min_width">160.0dip</dimen>
@@ -74,7 +74,7 @@
     <dimen name="abc_text_size_medium_material">18.0sp</dimen>
     <dimen name="abc_text_size_menu_material">16.0sp</dimen>
     <dimen name="abc_text_size_small_material">14.0sp</dimen>
-    <dimen name="abc_text_size_subhead_material">16.0sp</dimen>
+    <dimen name="abc_text_size_subhead_material">14.0sp</dimen>
     <dimen name="abc_text_size_title_material">20.0sp</dimen>
     <dimen name="activity_vertical_margin">16.0dip</dimen>
     <dimen name="design_appbar_elevation">4.0dip</dimen>
