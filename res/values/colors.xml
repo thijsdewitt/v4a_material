@@ -82,5 +82,6 @@
     <color name="whiteransparent">#b4ffffff</color>
     <color name="backgroundMain">@color/material_grey_850</color>
 	<color name="colorMainText">#ffffffff</color>
+	<color name="colorSubheaderText">@color/colorAccent</color>
 	<color name="colorMainIcon">@color/colorMainText</color>
 </resources>
