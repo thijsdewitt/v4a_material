@@ -1,78 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:id="@id/v4a_layout_convolver_knl_search"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:animateLayoutChanges="true"
         android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
         android:visibility="invisible">
 
         <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="?actionBarSize">
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
 
             <TextView
+                style="@style/TextAppearance.Design.Tab"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
-                android:layout_marginLeft="30.0dip"
+                android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="@string/pref_convolver_knl" />
+                android:text="@string/pref_convolver_knl"
+                android:textColor="@color/colorMainText" />
 
             <android.support.v7.widget.AppCompatEditText
                 android:id="@id/v4a_et_convolver_knl_search"
-                android:layout_width="fill_parent"
-                android:layout_height="40.0dip"
-                android:layout_marginLeft="15.0dip"
-                android:layout_marginRight="15.0dip"
-                android:background="@mipmap/input"
-                android:paddingLeft="9.0dip"
-                android:paddingRight="9.0dip"
-                android:singleLine="true" />
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:maxLines="1" />
         </LinearLayout>
 
         <android.support.v7.widget.RecyclerView
             android:id="@id/v4a_convolver_knl_recyclerview"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </LinearLayout>
 
     <ScrollView
         android:id="@id/v4a_layout_convolver_knl_main"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:animateLayoutChanges="true"
         android:scrollbars="none">
 
         <RelativeLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16.0dip"
-            android:layout_marginRight="16.0dip"
-            android:paddingBottom="45.0dip">
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip">
 
             <TextView
                 android:id="@id/id_tv_convolver_knl_title"
+                style="@style/TextAppearance.Design.Tab"
                 android:layout_width="wrap_content"
                 android:layout_height="45.0dip"
-                android:layout_marginTop="35.0dip"
                 android:gravity="center"
-                android:text="@string/pref_convolver_knl_title" />
+                android:text="@string/pref_convolver_knl_title"
+                android:textColor="@color/colorMainText" />
 
             <Button
                 android:id="@id/id_btn_convolver_knl"
-                android:layout_width="150.0dip"
-                android:layout_height="45.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="150dp"
                 android:layout_alignParentRight="true"
                 android:layout_alignTop="@id/id_tv_convolver_knl_title"
-                android:background="@drawable/select_btn"
                 android:gravity="center"
-                android:paddingLeft="5.0dip"
-                android:paddingRight="5.0dip"
-                android:singleLine="true"
+                android:maxLines="1"
                 android:text="@string/pref_convolver_knl" />
 
             <TextView
@@ -88,8 +85,8 @@
                 android:id="@id/id_tv_convolver_crosschannel_val"
                 android:layout_width="100.0dip"
                 android:layout_height="35.0dip"
-                android:layout_alignTop="@id/id_tv_convolver_crosschannel"
                 android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/id_tv_convolver_crosschannel"
                 android:background="@mipmap/input"
                 android:gravity="center" />
 
