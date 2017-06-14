@@ -160,7 +160,7 @@ Sampling Rate: %7$d"</string>
     <string name="text_drvinst_ok">Driver geïnstalleerd, herstart je toestel</string>
     <string name="text_drvinst_sdnotmounted">/Installatie mislukt omdat de externe opslag niet is gekoppeld</string>
     <string name="text_drvuninst_confim">Bevestig dat je de driver wilt deïnstalleren</string>
-    <string name="text_drvuninst_ok">Driver gedeïnstalleerd, herstart je toestel</string>
+    <string name="text_drvuninst_ok">Driver gedeïnstalleerd, herstart je toestel om de functies te kunnen gebruiken</string>
     <string name="text_drvvernotmatch">"De driver moet opnieuw geïnstalleerd worden. Wil je dit nu doen?"</string>
     <string name="text_enter_developer">Ontwikkelaarsmodus inschakelen</string>
     <string name="text_enter_developer_msg">"Ontwikkelaarsmodus geeft je toegang tot opties die schade kunnen aanbrengen aan je toestel of systeem. Ga verder op eigen risico"</string>
