@@ -90,7 +90,7 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="pref_fidelity_vc_mode_title">Modus</string>
     <string name="pref_fidelity_vc_title">ViPER Clarity</string>
     <string name="pref_fx_limiter_threshold">Limiteer threshold</string>
-    <string name="pref_fx_limiter_title">Limiter</string>
+    <string name="pref_fx_limiter_title">Master</string>
     <string name="pref_fx_master_title">Hoofdschakelaar</string>
     <string name="pref_output_gain">Output gain</string>
     <string name="pref_output_pan">Balans</string>
@@ -110,7 +110,7 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="pref_select_vhs_qual_title">Effectsterkte</string>
     <string name="pref_spk_opt_title">Luidsprekeroptimalisatie</string>
     <string name="pref_spkfx_limiter_threshold">Limiteer threshold</string>
-    <string name="pref_spkfx_limiter_title">Limiter</string>
+    <string name="pref_spkfx_limiter_title">Master</string>
     <string name="pref_spkfx_master_title">Hoofdschakelaar</string>
     <string name="pref_vhs_title">Hoofdtelefoon surround +</string>
     <string name="pref_viperddc_device">Apparaat</string>
