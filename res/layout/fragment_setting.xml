@@ -176,7 +176,7 @@
             android:layout_height="48.0dp"
             android:gravity="bottom"
             android:paddingLeft="16.0dp"
-            android:text="@string/text_help_title"
+            android:text="@string/about_title"
             android:textColor="@color/colorSubheaderText"
             android:textSize="@dimen/abc_text_size_small_material"
             android:textStyle="bold" />
