@@ -76,7 +76,7 @@
     <dimen name="abc_text_size_small_material">14.0sp</dimen>
     <dimen name="abc_text_size_subhead_material">16.0sp</dimen>
     <dimen name="abc_text_size_title_material">20.0sp</dimen>
-    <dimen name="TextsizeDialogTitle">20.0sp</dimen>
+    <dimen name="textsizeDialogTitle">20.0sp</dimen>
     <dimen name="activity_vertical_margin">16.0dip</dimen>
     <dimen name="design_appbar_elevation">4.0dip</dimen>
     <dimen name="design_bottom_sheet_modal_elevation">16.0dip</dimen>
