@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:orientation="vertical">
 
     <com.audlabs.viperfx.widget.EqualizerViewBar
         android:id="@id/FrequencyResponse"
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="0.0dip"
-        android:paddingTop="16.0dip"
+        android:layout_marginTop="15.0dip"
         android:layout_weight="1.0"
         android:scrollbars="none" />
 
     <TextView
         android:id="@id/eq_preset_label"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:paddingTop="8.0dip"
-        android:gravity="center_vertical"
+		android:gravity="center"
+        android:layout_marginTop="10.0dip"
         android:text="@string/pref_equalizer_preset_title"
         android:textAllCaps="true"
         android:textColor="@color/colorMainText" />
 
     <com.audlabs.viperfx.widget.Gallery
         android:id="@id/eqPresets"
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="48.0dip"
         android:gravity="center_vertical" />
 
