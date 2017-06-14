@@ -136,7 +136,7 @@ Aanbevolen bij MP3, AAC en OOG bestanden"</string>
     <string name="text_close">Uitgeschakeld</string>
     <string name="text_close_developer">Ontwikkelaarsmodus uitzetten</string>
     <string name="text_close_selinux">SELinux uitzetten</string>
-    <string name="text_close_selinux_msg">SELinux wordt uitgezet totdat het apparaat herstart wordt. Probeer dit je de driver niet geïnstalleerd krijgt</string>
+    <string name="text_close_selinux_msg">SELinux wordt uitgezet totdat het toestel herstart wordt. Probeer dit je de driver niet geïnstalleerd krijgt</string>
     <string name="text_commode">FX Compitabiliteitsmodus</string>
     <string name="text_db">dB</string>
     <string name="text_default_storage">Standaard opslag instellen</string>
@@ -155,15 +155,15 @@ Sampling Rate: %7$d"</string>
     <string name="text_drvinst_acquireroot">Installatie mislukt omdat er geen root toegang beschikbaar is</string>
     <string name="text_drvinst_busybox_not_installed">Installatie mislukt omdat er geen juiste busybox is gevonden</string>
     <string name="text_drvinst_cfg_unsup">Installatie mislukt omdat de ROM niet ondersteund wordt</string>
-    <string name="text_drvinst_dataioerr">Installatie mislukt vanwege een schrijffout. Herstart je apparaat en probeer het opnieuw</string>
+    <string name="text_drvinst_dataioerr">Installatie mislukt vanwege een schrijffout. Herstart je toestel en probeer het opnieuw</string>
     <string name="text_drvinst_failed">"Installatie mislukt omdat busybox niet functioneert. Installeer Stericson's busybox of kijk of root beschikbaar is"</string>
-    <string name="text_drvinst_ok">Driver geïnstalleerd, herstart je apparaat</string>
+    <string name="text_drvinst_ok">Driver geïnstalleerd, herstart je toestel</string>
     <string name="text_drvinst_sdnotmounted">/Installatie mislukt omdat de externe opslag niet is gekoppeld</string>
     <string name="text_drvuninst_confim">Bevestig dat je de driver wilt deïnstalleren</string>
-    <string name="text_drvuninst_ok">Driver gedeïnstalleerd, herstart je apparaat</string>
+    <string name="text_drvuninst_ok">Driver gedeïnstalleerd, herstart je toestel</string>
     <string name="text_drvvernotmatch">"De driver moet opnieuw geïnstalleerd worden. Wil je dit nu doen?"</string>
     <string name="text_enter_developer">Ontwikkelaarsmodus inschakelen</string>
-    <string name="text_enter_developer_msg">"Ontwikkelaarsmodus geeft je toegang tot opties die schade kunnen aanbrengen aan je apparaat of systeem. Ga verder op eigen risico"</string>
+    <string name="text_enter_developer_msg">"Ontwikkelaarsmodus geeft je toegang tot opties die schade kunnen aanbrengen aan je toestel of systeem. Ga verder op eigen risico"</string>
     <string name="text_headset">Hoofdtelefoon</string>
     <string name="text_help_content">"***General help*** 
  
