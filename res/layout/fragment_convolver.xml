@@ -9,13 +9,13 @@
         android:layout_height="match_parent"
         android:animateLayoutChanges="true"
         android:orientation="vertical"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
         android:visibility="invisible">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="48dp">
+            android:layout_height="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
 
             <TextView
                 style="@style/TextAppearance.Design.Tab"
@@ -63,11 +63,12 @@
 
             <Button
                 android:id="@id/id_btn_convolver_knl"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:maxWidth="150dp"
                 android:layout_alignParentRight="true"
                 android:layout_alignTop="@id/id_tv_convolver_knl_title"
+                android:layout_marginLeft="16dp"
+                android:layout_toEndOf="@+id/id_tv_convolver_knl_title"
                 android:gravity="center"
                 android:maxLines="1"
                 android:text="@string/pref_convolver_knl" />
