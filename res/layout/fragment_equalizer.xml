@@ -8,7 +8,7 @@
         android:id="@id/FrequencyResponse"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
-        android:layout_paddingTop="16.0dip"
+        android:paddingTop="16.0dip"
         android:layout_weight="1.0"
         android:scrollbars="none" />
 
@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_paddingTop="8.0dip"
+        android:paddingTop="8.0dip"
         android:gravity="center_vertical"
         android:text="@string/pref_equalizer_preset_title"
         android:textAllCaps="true"
