@@ -10,7 +10,7 @@
     <string name="abc_activitychooserview_choose_application">Choose an app</string>
     <string name="abc_capital_off">OFF</string>
     <string name="abc_capital_on">ON</string>
-    <string name="abc_search_hint">Search…</string>
+    <string name="abc_search_hint">Search</string>
     <string name="abc_searchview_description_clear">Clear query</string>
     <string name="abc_searchview_description_query">Search query</string>
     <string name="abc_searchview_description_search">Search</string>
@@ -48,132 +48,121 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="headset_title">Headset</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="pref_analogx_strength_title">Select Strength</string>
+    <string name="pref_analogx_strength_title">Select strength</string>
     <string name="pref_analogx_title">AnalogX</string>
-    <string name="pref_colorfulmusic_title">Field Surround</string>
-    <string name="pref_convolver_crosschannel_title">Select Cross Channel</string>
-    <string name="pref_convolver_knl">Impulse Response</string>
-    <string name="pref_convolver_knl_title">Select Impulse Response</string>
+    <string name="pref_colorfulmusic_title">Field surround</string>
+    <string name="pref_convolver_crosschannel_title">Select cross channel</string>
+    <string name="pref_convolver_knl">Impulse response</string>
+    <string name="pref_convolver_knl_title">Select impulse response</string>
     <string name="pref_convolver_title">Convolver</string>
-    <string name="pref_curesystem_title">Auditory System Protection</string>
+    <string name="pref_curesystem_title">Auditory system protection</string>
     <string name="pref_diffsurr_title">Differential Surround</string>
-    <string name="pref_dynamicsystem_bass">Select Dynamic Bass</string>
-    <string name="pref_dynamicsystem_output">Listening Device</string>
-    <string name="pref_dynamicsystem_output_title">Select Listening Device</string>
-    <string name="pref_dynamicsystem_title">Dynamic System</string>
-    <string name="pref_dynamicsystem_tube_title">Tube Sound Simulator (6N1J)</string>
-    <string name="pref_effect_title">Select Effect Strength</string>
-    <string name="pref_equalizer_preset_title">Select Preset</string>
+    <string name="pref_dynamicsystem_bass">Select dynamic bass</string>
+    <string name="pref_dynamicsystem_output">Listening device</string>
+    <string name="pref_dynamicsystem_output_title">Select listening device</string>
+    <string name="pref_dynamicsystem_title">Dynamic system</string>
+    <string name="pref_dynamicsystem_tube_title">Tube sound simulator (6N1J)</string>
+    <string name="pref_effect_title">Select effect strength</string>
+    <string name="pref_equalizer_preset_title">Select preset</string>
     <string name="pref_equalizer_title">FIREqualizer</string>
     <string name="pref_fetcompressor_adapt">Adapt</string>
     <string name="pref_fetcompressor_attack">Attack</string>
-    <string name="pref_fetcompressor_autoattack">Auto Attack</string>
-    <string name="pref_fetcompressor_autogain">Automatic Gain</string>
-    <string name="pref_fetcompressor_autoknee">Auto Knee</string>
-    <string name="pref_fetcompressor_autorelease">Auto Release</string>
+    <string name="pref_fetcompressor_autoattack">Auto attack</string>
+    <string name="pref_fetcompressor_autogain">Automatic gain</string>
+    <string name="pref_fetcompressor_autoknee">Auto knee</string>
+    <string name="pref_fetcompressor_autorelease">Auto release</string>
     <string name="pref_fetcompressor_crest">Crest</string>
     <string name="pref_fetcompressor_gain">Gain</string>
     <string name="pref_fetcompressor_knee">inflection</string>
     <string name="pref_fetcompressor_kneemulti">inflection point gain</string>
-    <string name="pref_fetcompressor_maxattack">Maximum Attack</string>
-    <string name="pref_fetcompressor_maxrelease">Maximum Release</string>
-    <string name="pref_fetcompressor_noclipenable">prevent clipping</string>
-    <string name="pref_fetcompressor_ratio">compression ratio</string>
+    <string name="pref_fetcompressor_maxattack">Maximum attack</string>
+    <string name="pref_fetcompressor_maxrelease">Maximum release</string>
+    <string name="pref_fetcompressor_noclipenable">Prevent clipping</string>
+    <string name="pref_fetcompressor_ratio">Compression ratio</string>
     <string name="pref_fetcompressor_release">Release</string>
-    <string name="pref_fetcompressor_threshold">work threshold</string>
-    <string name="pref_fetcompressor_title">FET Compressor</string>
-    <string name="pref_fidelity_vb_bassfreq_title">Select Bass Frequency</string>
-    <string name="pref_fidelity_vb_bassgain_title">Select Bass Boost</string>
-    <string name="pref_fidelity_vb_mode_title">Select Bass Mode</string>
-    <string name="pref_fidelity_vb_title">ViPER Bass</string>
-    <string name="pref_fidelity_vc_bassgain_title">Select Clarity</string>
-    <string name="pref_fidelity_vc_mode_title">Select Clarity Mode</string>
-    <string name="pref_fidelity_vc_title">ViPER Clarity</string>
-    <string name="pref_fx_limiter_threshold">Limit Threshold</string>
-    <string name="pref_fx_limiter_title">Master Gate (Limiter)</string>
-    <string name="pref_fx_master_title">Master Power</string>
-    <string name="pref_output_gain">Output Gain</string>
+    <string name="pref_fetcompressor_threshold">Work threshold</string>
+    <string name="pref_fetcompressor_title">FET compressor</string>
+    <string name="pref_fidelity_vb_bassfreq_title">Select bass frequency</string>
+    <string name="pref_fidelity_vb_bassgain_title">Select bass boost</string>
+    <string name="pref_fidelity_vb_mode_title">Select bass mode</string>
+    <string name="pref_fidelity_vb_title">ViPER bass</string>
+    <string name="pref_fidelity_vc_bassgain_title">Select clarity</string>
+    <string name="pref_fidelity_vc_mode_title">Select clarity mode</string>
+    <string name="pref_fidelity_vc_title">ViPER clarity</string>
+    <string name="pref_fx_limiter_threshold">Limit threshold</string>
+    <string name="pref_fx_limiter_title">Master gate</string>
+    <string name="pref_fx_master_title">Master power</string>
+    <string name="pref_output_gain">Output gain</string>
     <string name="pref_output_pan">Channel Pan</string>
-    <string name="pref_playback_maxgain">Max Gain</string>
-    <string name="pref_playback_output_threshold">Max Output</string>
-    <string name="pref_playback_title">Playback Gain Control</string>
-    <string name="pref_reverb_damp">Damping Factor</string>
-    <string name="pref_reverb_dry">Dry Signal</string>
-    <string name="pref_reverb_roomsize">Room Size</string>
+    <string name="pref_playback_maxgain">Max gain</string>
+    <string name="pref_playback_output_threshold">Max output</string>
+    <string name="pref_playback_title">Playback gain control</string>
+    <string name="pref_reverb_damp">Damping factor</string>
+    <string name="pref_reverb_dry">Dry signal</string>
+    <string name="pref_reverb_roomsize">Room size</string>
     <string name="pref_reverb_title">Reverberation</string>
-    <string name="pref_reverb_wet">Wet Signal</string>
-    <string name="pref_reverb_width">Sound Field</string>
-    <string name="pref_select_colorfulmusic_mi_title">Select Mid Image Strength</string>
-    <string name="pref_select_colorfulmusic_title">Select Field Surround Strength</string>
-    <string name="pref_select_cure_cf_title">Select Binaural Level</string>
-    <string name="pref_select_diffsurr_ms_title">Select Delay Time</string>
-    <string name="pref_select_vhs_qual_title">Select Effect Level</string>
-    <string name="pref_spk_opt_title">Speaker Optimization</string>
-    <string name="pref_spkfx_limiter_threshold">Limit Threshold</string>
-    <string name="pref_spkfx_limiter_title">Master Gate (Limiter)</string>
-    <string name="pref_spkfx_master_title">Master Power</string>
-    <string name="pref_vhs_title">Headphone Surround +</string>
-    <string name="pref_viperddc_device">Listening Device</string>
-    <string name="pref_viperddc_device_manufacturer">Select Manufacturer</string>
-    <string name="pref_viperddc_device_model">Select Model</string>
-    <string name="pref_viperddc_tips">"NOTICE: 
-ViPER-DDC is a true Hi-Fi audio processor and is used for headset correction. 
-ViPER-DDC now supports nearly 500 headphones, and will continue to support more as time goes on. 
-If you can't find your headset in the list, please disable this feature until yours is added."</string>
+    <string name="pref_reverb_wet">Wet signal</string>
+    <string name="pref_reverb_width">Sound field</string>
+    <string name="pref_select_colorfulmusic_mi_title">Select mid image strength</string>
+    <string name="pref_select_colorfulmusic_title">Select field surround strength</string>
+    <string name="pref_select_cure_cf_title">Select binaural level</string>
+    <string name="pref_select_diffsurr_ms_title">Select delay time</string>
+    <string name="pref_select_vhs_qual_title">Select effect level</string>
+    <string name="pref_spk_opt_title">Speaker optimization</string>
+    <string name="pref_spkfx_limiter_threshold">Limit threshold</string>
+    <string name="pref_spkfx_limiter_title">Master gate</string>
+    <string name="pref_spkfx_master_title">Master power</string>
+    <string name="pref_vhs_title">Headphone surround +</string>
+    <string name="pref_viperddc_device">Listening device</string>
+    <string name="pref_viperddc_device_manufacturer">Select manufacturer</string>
+    <string name="pref_viperddc_device_model">Select model</string>
+    <string name="pref_viperddc_tips">"ViPER-DDC is used for headset correction. Nearly 500 headphones are supported"</string>
     <string name="pref_viperddc_title">ViPER-DDC</string>
-    <string name="pref_vse_strength_title">Select Strength</string>
-    <string name="pref_vse_tips">"NOTICE: 
-Spectrum extension is a true Hi-Fi audio processor and it is used for extending the lossy compressed spectrum. 
-If you are playing lossy compressed music(such mp3, aac, ogg), this feature may give a lossless feeling. 
-However, if you are playing lossless music, we recommend you to disable this feature."</string>
-    <string name="pref_vse_title">Spectrum Extension</string>
-    <string name="pref_xloud_output_amplifer">Output Gain</string>
-    <string name="pref_xloud_spk_highfreq">High Response</string>
-    <string name="pref_xloud_spk_lowfreq">Low Response</string>
-    <string name="pref_xloud_title">eXtra Loud</string>
-    <string name="speaker_title">Phone Speaker</string>
+    <string name="pref_vse_strength_title">Select strength</string>
+    <string name="pref_vse_tips">"Spectrum extension is used to extend lossy compressed spectrum. Recommended to use when playing MP3, AAC and OOG files"</string>
+    <string name="pref_vse_title">Spectrum extension</string>
+    <string name="pref_xloud_output_amplifer">Output gain</string>
+    <string name="pref_xloud_spk_highfreq">High response</string>
+    <string name="pref_xloud_spk_lowfreq">Low response</string>
+    <string name="pref_xloud_title">eXtra loud</string>
+    <string name="speaker_title">Phone speaker</string>
     <string name="text_abnormal">Abnormal</string>
     <string name="text_about_title">About and credits</string>
     <string name="text_bluetooth">Bluetooth</string>
     <string name="text_cancel">Cancel</string>
     <string name="text_changelog">Changelog</string>
-    <string name="text_checkupdate">Check Update</string>
+    <string name="text_checkupdate">Check update</string>
     <string name="text_close">Off</string>
     <string name="text_close_developer">Turn off developer mode</string>
     <string name="text_close_selinux">Disable SELinux</string>
-    <string name="text_close_selinux_msg">This will temporarily disable SELinux, which will be re-enabled upon device restart. Only proceed if other attempts to enable ViPERFX audio processing have failed and please consider security implications!</string>
-    <string name="text_commode">FX Compatible Mode</string>
+    <string name="text_close_selinux_msg">SELinux will be disabled untill you reboot your device. Try this only if other attempts on enabling the driver have failed</string>
+    <string name="text_commode">FX compatible mode</string>
     <string name="text_db">dB</string>
     <string name="text_default_storage">Set default storage</string>
     <string name="text_disabled">Disabled</string>
     <string name="text_down_ready">Ready for download</string>
-    <string name="text_down_state">Downloading: %s</string>
+    <string name="text_down_state">%s downloaded</string>
     <string name="text_drv_blank" />
-    <string name="text_drv_status">Driver Status</string>
-    <string name="text_drv_status_view">"Driver Version: %1$s 
+    <string name="text_drv_status">Driver status</string>
+    <string name="text_drv_status_view">"Driver version: %1$s
 NEON Enabled: %2$s 
 Enabled: %3$s 
 Status: %4$s 
 Audio Format: %5$s 
 Processing: %6$s 
 Sampling Rate: %7$d"</string>
-    <string name="text_drvinst_acquireroot">"Driver install failed: V4A couldn't acquire root permission. Please confirm your device has been rooted."</string>
-    <string name="text_drvinst_busybox_not_installed">Driver install failed: No proper busybox installation found on this device.</string>
-    <string name="text_drvinst_cfg_unsup">Driver install failed: Unsupported android system or ROM.</string>
-    <string name="text_drvinst_dataioerr">Driver install failed: I/O error, please reboot and try again.</string>
-    <string name="text_drvinst_failed">"Driver install failed: The busybox installation found on your device does not work. 
-This usually means you installed a wrong or broken busybox. V4A needs Stericson's busybox to work. 
-If you are sure you installed the proper busybox, then please confirm your device has been completely rooted."</string>
-    <string name="text_drvinst_ok">Driver installed, please reboot your device.</string>
-    <string name="text_drvinst_sdnotmounted">Driver install failed: External storage not mounted.</string>
-    <string name="text_drvuninst_confim">Do you really want to uninstall V4A driver?</string>
-    <string name="text_drvuninst_ok">Driver uninstalled, please reboot your device.</string>
-    <string name="text_drvvernotmatch">"In order to use ViPER4Android, you need to install/update the V4A driver. 
-The installation procedure will be done automatically. 
-Install/update now?"</string>
+    <string name="text_drvinst_acquireroot">"Installation failed because of lacking root permission"</string>
+    <string name="text_drvinst_busybox_not_installed">Installion failed because there was no busybox installation found</string>
+    <string name="text_drvinst_cfg_unsup">Installion failed because the ROM is not supported</string>
+    <string name="text_drvinst_dataioerr">Installion failed because of an I/O error. Try rebooting your device and try again</string>
+    <string name="text_drvinst_failed">"Installion failed because busybox is not functioning properly. Try using Stericson's busybox or check if root access is available"</string>
+    <string name="text_drvinst_ok">Driver installed. Reboot your device to make use of the effects</string>
+    <string name="text_drvinst_sdnotmounted">Installion failed because the external storage is not mounted</string>
+    <string name="text_drvuninst_confim">Confirm to uninstall the driver</string>
+    <string name="text_drvuninst_ok">Driver uninstalled</string>
+    <string name="text_drvvernotmatch">"The driver needs to be reinstalled. Do you want to do this now?"</string>
     <string name="text_enter_developer">Enter developer mode</string>
-    <string name="text_enter_developer_msg">"Warning:entering developer mode enables operations that may harm your device's operating system. 
-User has to control safety of operations made in developer mode on his own;ViPER Acoustics disclaims all responsibility for damages."</string>
+    <string name="text_enter_developer_msg">"Entering developer mode enables operations that may harm your operating system. Continue on your on risk"</string>
     <string name="text_headset">Headset</string>
     <string name="text_help_content">"***General help*** 
  
@@ -194,13 +183,12 @@ User has to control safety of operations made in developer mode on his own;ViPER
  
 "<b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b></string>
     <string name="text_help_title">Help</string>
-    <string name="text_install">Install Driver</string>
-    <string name="text_ir_dir_isempty">ViPER4Android: The IR sample directory %1$s is empty.</string>
-    <string name="text_loadfxprofile">Load Effect Profile</string>
-    <string name="text_lockeffect">Lock Effect Mode</string>
-    <string name="text_modifybuildprop">"ATTENTION: 
-LPA is enabled on your device, this may cause V4A to malfunction. 
-LPA, or 'Low Power Audio', can be disabled through modifying build.prop, which can be done automatically. 
+    <string name="text_install">Install driver</string>
+    <string name="text_ir_dir_isempty">The IR sample directory %1$s is empty</string>
+    <string name="text_loadfxprofile">Load effect profile</string>
+    <string name="text_lockeffect">Lock effect mode</string>
+    <string name="text_modifybuildprop">"LPA is enabled on your device, this may cause V4A to malfunction.
+LPA, or 'Low Power Audio', can be disabled through modifying build.prop, which can be done automatically.
 We strongly recommend you to make a NANDROID or DATA BACKUP before proceeding! 
 Do you wish to disable LPA now?"</string>
     <string name="text_ms">ms</string>
@@ -247,7 +235,7 @@ Great thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
  
 Version %1$s (FX), Codename “Beautiful”. 
 "</string>
-    <string name="about_title">Help And About</string>
+    <string name="about_title">Help and about</string>
     <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern">%1$d / %2$d</string>
@@ -258,8 +246,8 @@ Version %1$s (FX), Codename “Beautiful”.
 Do you want to continue?"</string>
     <string name="text_enabled">Enabled</string>
     <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>
-    <string name="text_hidetrayicon">Hide Notification</string>
-    <string name="text_uiprefer">UI Setting</string>
+    <string name="text_hidetrayicon">Hide notification</string>
+    <string name="text_uiprefer">UI setting</string>
     <string name="text_uiprefer_dialog">Please choose your preference</string>
     <string name="text_updatelink">http://vipersaudio.com/swupdate/viper4android/download.html</string>
     <string name="text_view_forum">Forum</string>
