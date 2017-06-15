@@ -25,7 +25,7 @@
             android:layout_height="35.0dip"
             android:layout_alignParentRight="true"
             android:layout_alignTop="@id/v4a_tv_vhs"
-            android:background="@mipmap/input"
+            android:background="@drawable/input"
             android:gravity="center"
             android:paddingLeft="5.0dip"
             android:paddingRight="5.0dip"

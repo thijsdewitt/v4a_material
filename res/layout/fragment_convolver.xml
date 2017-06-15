@@ -88,7 +88,7 @@
                 android:layout_height="35.0dip"
                 android:layout_alignParentRight="true"
                 android:layout_alignTop="@id/id_tv_convolver_crosschannel"
-                android:background="@mipmap/input"
+                android:background="@drawable/input"
                 android:gravity="center" />
 
             <com.audlabs.viperfx.widget.TouchRotateButton

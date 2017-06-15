@@ -76,7 +76,7 @@
             android:layout_height="35.0dip"
             android:layout_alignTop="@id/v4a_tv_clarty"
             android:layout_alignParentRight="true"
-            android:background="@mipmap/input"
+            android:background="@drawable/input"
             android:gravity="center" />
 
         <ImageView

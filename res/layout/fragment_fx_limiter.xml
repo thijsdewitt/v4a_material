@@ -36,7 +36,7 @@
             android:layout_height="35.0dip"
             android:layout_alignParentRight="true"
             android:layout_alignTop="@id/id_tv_output_pan"
-            android:background="@mipmap/input"
+            android:background="@drawable/input"
             android:gravity="center" />
 
         <SeekBar
@@ -79,7 +79,7 @@
             android:layout_height="35.0dip"
             android:layout_alignParentRight="true"
             android:layout_alignTop="@id/id_tv_output_gain"
-            android:background="@mipmap/input"
+            android:background="@drawable/input"
             android:gravity="center" />
 
         <SeekBar
@@ -122,7 +122,7 @@
             android:layout_height="35.0dip"
             android:layout_alignParentRight="true"
             android:layout_alignTop="@id/id_tv_limiter_threshold"
-            android:background="@mipmap/input"
+            android:background="@drawable/input"
             android:gravity="center" />
 
         <SeekBar

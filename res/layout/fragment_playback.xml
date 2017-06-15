@@ -89,7 +89,7 @@
             android:layout_height="35.0dip"
             android:layout_alignParentRight="true"
             android:layout_alignTop="@id/v4a_tv_playback_maxgain"
-            android:background="@mipmap/input"
+            android:background="@drawable/input"
             android:gravity="center" />
 
         <SeekBar
@@ -120,7 +120,7 @@
             android:layout_height="35.0dip"
             android:layout_alignParentRight="true"
             android:layout_alignTop="@id/v4a_tv_playback_output_threshold"
-            android:background="@mipmap/input"
+            android:background="@drawable/input"
             android:gravity="center" />
 
         <SeekBar
