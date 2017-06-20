@@ -810,7 +810,7 @@
 
     const-string v2, "android.intent.action.VIEW"
 
-    const-string v3, "https://www.xda-developers.com/"
+    const-string v3, "https://forum.xda-developers.com/android/themes/app-viper4android-materialized-t3624655"
 
     invoke-static {v3}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
