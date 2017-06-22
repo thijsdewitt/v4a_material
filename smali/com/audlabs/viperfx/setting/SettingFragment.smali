@@ -810,7 +810,7 @@
 
     const-string v2, "android.intent.action.VIEW"
 
-    const-string v3, "https://www.xda-developers.com/"
+    const-string v3, "https://labs.xda-developers.com/store/app/com.pittvandewitt.viperfx"
 
     invoke-static {v3}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
