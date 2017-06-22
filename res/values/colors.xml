@@ -22,9 +22,6 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <color name="colorAccent">#ffaa00ff</color>
-    <color name="colorPrimary">#ff212121</color>
-    <color name="colorPrimaryDark">#ff000000</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
     <color name="design_fab_shadow_start_color">#44000000</color>
@@ -48,7 +45,7 @@
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
-    <color name="material_blue_grey_800">#ff37474f</color>
+    <color name="material_blue_grey_800">@color/backgroundDialog</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
     <color name="material_deep_teal_200">#ff80cbc4</color>
@@ -68,7 +65,6 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">@color/colorMainText</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
-    <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
@@ -80,8 +76,33 @@
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="white">#ffffffff</color>
     <color name="whiteransparent">#b4ffffff</color>
+    <!-- custom colors, mainly needed for theming -->
+
+    <!-- accent -->
+    <color name="colorAccent">#ffaa00ff</color>
+
+    <!-- header -->
+    <color name="colorPrimary">#ff212121</color>
+
+    <!-- statusbar -->
+    <color name="colorPrimaryDark">#ff000000</color>
+
+    <!-- ripple color -->
+    <color name="ripple_material_dark">#33ffffff</color>
+
+    <!-- backgroundcolor -->
     <color name="backgroundMain">@color/material_grey_850</color>
-	<color name="colorMainText">#ffffffff</color>
-	<color name="colorSubheaderText">@color/colorAccent</color>
-	<color name="colorMainIcon">@color/colorMainText</color>
+
+    <!-- textcolor -->
+    <color name="colorMainText">#ffffffff</color>
+
+    <!-- subheader textcolor (header in settings fragment) -->
+    <color name="colorSubheaderText">@color/colorAccent</color>
+
+    <!-- Icon colors -->
+    <color name="colorMainIcon">@color/colorMainText</color>
+
+    <!-- dialog color -->
+    <color name="backgroundDialog">@color/material_grey_800</color>
+
 </resources>
