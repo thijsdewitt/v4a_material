@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="abc_action_bar_home_description">Ir a la pantalla de inicio</string>
@@ -20,4 +21,35 @@
     <string name="abc_shareactionprovider_share_with_application">Compartir con %s</string>
     <string name="abc_toolbar_collapse_description">Contraer</string>
     <string name="status_bar_notification_info_overflow">+999</string>
+    <string name="about_company">"
+Copyright © 2006-2016, ViPER ACOUSTIC. Todos los derechos reservados. 
+Su uso comercial no está permitido sin permiso oficial."</string>
+    <string name="about_exit">Salir</string>
+    <string name="about_forum">Foro oficial: forum.vipersaudio.com</string>
+    <string name="about_version">Versión %1$s (FX), Codename Beautiful</string>
+    <string name="app_name">ViPER4Android FX</string>
+    <string name="bluetooth_title">Dispositivo Bluetooth</string>
+    <string name="dsp_settings_bluetooth">Ajustes de efectos - Dispositivo Bluetooth</string>
+    <string name="dsp_settings_headset">Ajustes de efectos - Auriculares</string>
+    <string name="dsp_settings_speaker">Ajustes de efectos - Altavoz del teléfono</string>
+    <string name="dsp_settings_usb">Ajustes de efectos - Dispositivo USB</string>
+    <string name="eq_preset_acoustic">Acústico</string>
+    <string name="eq_preset_bass_booster">Bass Booster</string>
+    <string name="eq_preset_bass_reducer">Bass Reducer</string>
+    <string name="eq_preset_classical">Clásico</string>
+    <string name="eq_preset_custom">Personalizado</string>
+    <string name="eq_preset_deep">Profundo</string>
+    <string name="eq_preset_flat">Plano</string>
+    <string name="eq_preset_r_and_b">R&amp;B</string>
+    <string name="eq_preset_rock">Rock</string>
+    <string name="eq_preset_small_speakers">Altavoces Pequeños</string>
+    <string name="eq_preset_treble_booster">Amplificador de agudos</string>
+    <string name="eq_preset_treble_reducer">Reductor de agudos</string>
+    <string name="eq_preset_vocal_booster">Potenciador vocal</string>
+    <string name="headset_title">Auriculares</string>
+    <string name="navigation_drawer_close">Cerrar el cajón de navegación</string>
+    <string name="navigation_drawer_open">Abrir el cajón de navegación</string>
+    <string name="pref_analogx_strength_title">Seleccione la potencia</string>
+    <string name="pref_analogx_title">AnalogX</string>
+    <string name="pref_colorfulmusic_title">Surround envolvente</string>
 </resources>
