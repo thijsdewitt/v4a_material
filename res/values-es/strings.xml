@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="abc_action_bar_home_description">Ir a la pantalla de inicio</string>
@@ -52,4 +51,51 @@ Su uso comercial no está permitido sin permiso oficial."</string>
     <string name="pref_analogx_strength_title">Seleccione la potencia</string>
     <string name="pref_analogx_title">AnalogX</string>
     <string name="pref_colorfulmusic_title">Surround envolvente</string>
+    <string name="pref_convolver_crosschannel_title">Seleccionar cross channel</string>
+    <string name="pref_convolver_knl">Respuesta de impulso</string>
+    <string name="pref_convolver_knl_title">Selecione la respuesta de impulso</string>
+    <string name="pref_convolver_title">Convolver</string>
+    <string name="pref_curesystem_title">Sistema de protección auditiva</string>
+    <string name="pref_diffsurr_title">Surround Diferencial</string>
+    <string name="pref_dynamicsystem_bass">Seleccione un bajo dinámico</string>
+    <string name="pref_dynamicsystem_output">Dispositivo de escucha</string>
+    <string name="pref_dynamicsystem_output_title">Seleccione dispositivo de escucha</string>
+    <string name="pref_dynamicsystem_title">Sistema dinámico</string>
+    <string name="pref_dynamicsystem_tube_title">Simulador de sonido de tubo (6N1J)</string>
+    <string name="pref_effect_title">Seleccionar potencia del efecto</string>
+    <string name="pref_equalizer_preset_title">Seleccionar preset</string>
+    <string name="pref_equalizer_title">FIREqualizer</string>
+    <string name="pref_fetcompressor_adapt">Adaptar</string>
+    <string name="pref_fetcompressor_attack">Atacar</string>
+    <string name="pref_fetcompressor_autoattack">Auto atacark</string>
+    <string name="pref_fetcompressor_autogain">Ganacia automática</string>
+    <string name="pref_fetcompressor_autoknee">Auto knee</string>
+    <string name="pref_fetcompressor_autorelease">Liberación automática</string>
+    <string name="pref_fetcompressor_crest">Cresta</string>
+    <string name="pref_fetcompressor_gain">Ganancia</string>
+    <string name="pref_fetcompressor_knee">inflexión</string
+    <string name="pref_fetcompressor_kneemulti">Ganacia de punto de inflexión</string>
+    <string name="pref_fetcompressor_maxattack">Ataque máximo</string>
+    <string name="pref_fetcompressor_maxrelease">Liberación máxima</string>
+    <string name="pref_fetcompressor_noclipenable">Evitar recorte</string>
+    <string name="pref_fetcompressor_ratio">Ratio de compresión</string>
+    <string name="pref_fetcompressor_release">Salida</string>
+    <string name="pref_fetcompressor_threshold">Umbral de trabajo</string>
+    <string name="pref_fetcompressor_title">Compresor FET</string>
+    <string name="pref_fidelity_vb_bassfreq_title">Seleccionar frecuencia de graves</string>
+    <string name="pref_fidelity_vb_bassgain_title">Seleccionar potencia de graves</string>
+    <string name="pref_fidelity_vb_mode_title">Seleccionar el modo de bajos</string>
+    <string name="pref_fidelity_vb_title">ViPER bass</string>
+    <string name="pref_fidelity_vc_bassgain_title">Seleccionar claridad</string>
+    <string name="pref_fidelity_vc_mode_title">Seleccionar el modo de claridad</string>
+    <string name="pref_fidelity_vc_title">ViPER clarity</string>
+    <string name="pref_fx_limiter_threshold">Umbral límite</string>
+    <string name="pref_fx_limiter_title">Puerta principal</string>
+    <string name="pref_fx_master_title">Potencia maestra</string>
+    <string name="pref_output_gain">Ganacia de salida</string>
+    <string name="pref_output_pan">Canal PAN</string>
+    <string name="pref_playback_maxgain">Ganacia máxima</string>
+    <string name="pref_playback_output_threshold">Salida máxima</string>
+    <string name="pref_playback_title">Control de ganancia de reproducción</string>
+    <string name="pref_reverb_damp">Factor de amortiguamiento</string>
 </resources>
