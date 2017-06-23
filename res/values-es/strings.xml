@@ -73,7 +73,7 @@ Su uso comercial no está permitido sin permiso oficial."</string>
     <string name="pref_fetcompressor_autorelease">Liberación automática</string>
     <string name="pref_fetcompressor_crest">Cresta</string>
     <string name="pref_fetcompressor_gain">Ganancia</string>
-    <string name="pref_fetcompressor_knee">inflexión</string
+    <string name="pref_fetcompressor_knee">inflexión</string>
     <string name="pref_fetcompressor_kneemulti">Ganacia de punto de inflexión</string>
     <string name="pref_fetcompressor_maxattack">Ataque máximo</string>
     <string name="pref_fetcompressor_maxrelease">Liberación máxima</string>
