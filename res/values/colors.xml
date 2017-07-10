@@ -104,5 +104,8 @@
 
     <!-- dialog color -->
     <color name="backgroundDialog">#ff424242</color>
-
+	
+	<!-- Button colors -->
+	<color name="backgroundButton">@color/backgroundMain</color>
+	<color name="backgroundButtonSelected">@color/colorPrimary</color>
 </resources>
