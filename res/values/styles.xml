@@ -735,8 +735,8 @@
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="windowActionBar">false</item>
         <item name="windowActionModeOverlay">true</item>
-        <item name="listPreferredItemPaddingLeft">24.0dip</item>
-        <item name="listPreferredItemPaddingRight">24.0dip</item>
+        <item name="listPreferredItemPaddingLeft">16.0dip</item>
+        <item name="listPreferredItemPaddingRight">16.0dip</item>
     </style>
     <style name="Base.V7.Theme.AppCompat.Light" parent="@style/Platform.AppCompat.Light">
         <item name="android:panelBackground">@android:color/transparent</item>
@@ -864,8 +864,8 @@
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="windowActionBar">false</item>
         <item name="windowActionModeOverlay">true</item>
-        <item name="listPreferredItemPaddingLeft">24.0dip</item>
-        <item name="listPreferredItemPaddingRight">24.0dip</item>
+        <item name="listPreferredItemPaddingLeft">16.0dip</item>
+        <item name="listPreferredItemPaddingRight">16.0dip</item>
     </style>
     <style name="Base.V7.Widget.AppCompat.AutoCompleteTextView" parent="@android:style/Widget.AutoCompleteTextView">
         <item name="android:textAppearance">?android:textAppearanceMediumInverse</item>
