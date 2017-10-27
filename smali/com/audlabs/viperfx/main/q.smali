@@ -49,15 +49,15 @@
 
     const-string v1, "field \'cbEnable\'"
 
-    const-class v2, Landroid/widget/CheckBox;
+    const-class v2, Landroid/support/v7/widget/SwitchCompat;
 
     invoke-virtual {p2, p3, v0, v1, v2}, Lbutterknife/a/a;->a(Ljava/lang/Object;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Landroid/widget/CheckBox;
+    check-cast v0, Landroid/support/v7/widget/SwitchCompat;
 
-    iput-object v0, p1, Lcom/audlabs/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/widget/CheckBox;
+    iput-object v0, p1, Lcom/audlabs/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/support/v7/widget/SwitchCompat;
 
     return-void
 .end method

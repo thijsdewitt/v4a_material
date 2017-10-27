@@ -43,9 +43,9 @@
 
     iget-object v2, p0, Lcom/audlabs/viperfx/screen/q;->c:Lcom/audlabs/viperfx/screen/DSPScreenActivity;
 
-    iget-object v2, v2, Lcom/audlabs/viperfx/screen/DSPScreenActivity;->mEnable:Landroid/widget/CheckBox;
+    iget-object v2, v2, Lcom/audlabs/viperfx/screen/DSPScreenActivity;->mEnable:Landroid/support/v7/widget/SwitchCompat;
 
-    invoke-virtual {v2}, Landroid/widget/CheckBox;->isChecked()Z
+    invoke-virtual {v2}, Landroid/support/v7/widget/SwitchCompat;->isChecked()Z
 
     move-result v2
 

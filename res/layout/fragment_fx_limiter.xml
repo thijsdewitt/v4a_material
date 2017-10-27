@@ -19,15 +19,15 @@
             android:gravity="center"
             android:text="@string/pref_output_pan" />
 
-        <CheckBox
+        <android.support.v7.widget.SwitchCompat
             android:id="@id/id_output_pan_enable"
-            android:layout_width="55.0dip"
-            android:layout_height="28.0dip"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
             android:layout_alignBaseline="@id/id_tv_output_pan"
             android:layout_alignBottom="@id/id_tv_output_pan"
-            android:layout_marginLeft="15.0dip"
             android:layout_toRightOf="@id/id_tv_output_pan"
-            android:button="@null"
+            android:thumb="@null"
+            android:track="@null"
             android:checked="true" />
 
         <TextView
@@ -62,15 +62,15 @@
             android:gravity="center"
             android:text="@string/pref_output_gain" />
 
-        <CheckBox
+        <android.support.v7.widget.SwitchCompat
             android:id="@id/id_output_gain_enable"
-            android:layout_width="55.0dip"
-            android:layout_height="28.0dip"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
             android:layout_alignBaseline="@id/id_tv_output_gain"
             android:layout_alignBottom="@id/id_tv_output_gain"
-            android:layout_marginLeft="15.0dip"
             android:layout_toRightOf="@id/id_tv_output_gain"
-            android:button="@null"
+            android:thumb="@null"
+            android:track="@null"
             android:checked="true" />
 
         <TextView
@@ -105,15 +105,15 @@
             android:gravity="center"
             android:text="@string/pref_fx_limiter_threshold" />
 
-        <CheckBox
+        <android.support.v7.widget.SwitchCompat
             android:id="@id/id_limiter_threshold_enable"
-            android:layout_width="55.0dip"
-            android:layout_height="28.0dip"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
             android:layout_alignBaseline="@id/id_tv_limiter_threshold"
             android:layout_alignBottom="@id/id_tv_limiter_threshold"
-            android:layout_marginLeft="15.0dip"
             android:layout_toRightOf="@id/id_tv_limiter_threshold"
-            android:button="@null"
+            android:thumb="@null"
+            android:track="@null"
             android:checked="true" />
 
         <TextView

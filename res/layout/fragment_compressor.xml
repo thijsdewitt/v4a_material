@@ -87,7 +87,7 @@
             android:gravity="center"
             android:text="@string/pref_fetcompressor_autoknee" />
 
-        <CheckBox
+        <android.support.v7.widget.SwitchCompat
             android:id="@id/id_fetcompressor_autoknee_enable"
             android:layout_width="55.0dip"
             android:layout_height="28.0dip"
@@ -174,7 +174,7 @@
             android:gravity="center"
             android:text="@string/pref_fetcompressor_autogain" />
 
-        <CheckBox
+        <android.support.v7.widget.SwitchCompat
             android:id="@id/id_fetcompressor_autogain_enable"
             android:layout_width="55.0dip"
             android:layout_height="28.0dip"
@@ -227,7 +227,7 @@
             android:gravity="center"
             android:text="@string/pref_fetcompressor_autoattack" />
 
-        <CheckBox
+        <android.support.v7.widget.SwitchCompat
             android:id="@id/id_fetcompressor_autoattack_enable"
             android:layout_width="55.0dip"
             android:layout_height="28.0dip"
@@ -314,7 +314,7 @@
             android:gravity="center"
             android:text="@string/pref_fetcompressor_autorelease" />
 
-        <CheckBox
+        <android.support.v7.widget.SwitchCompat
             android:id="@id/id_fetcompressor_autorelease_enable"
             android:layout_width="55.0dip"
             android:layout_height="28.0dip"
@@ -469,7 +469,7 @@
             android:gravity="center"
             android:text="@string/pref_fetcompressor_noclipenable" />
 
-        <CheckBox
+        <android.support.v7.widget.SwitchCompat
             android:id="@id/id_fetcompressor_noclipenable_enable"
             android:layout_width="55.0dip"
             android:layout_height="28.0dip"

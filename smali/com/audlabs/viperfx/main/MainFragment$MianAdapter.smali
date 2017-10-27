@@ -141,11 +141,11 @@
 
     if-eqz v1, :cond_1
 
-    iget-object v1, p1, Lcom/audlabs/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/widget/CheckBox;
+    iget-object v1, p1, Lcom/audlabs/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/support/v7/widget/SwitchCompat;
 
-    invoke-virtual {v1, v4}, Landroid/widget/CheckBox;->setVisibility(I)V
+    invoke-virtual {v1, v4}, Landroid/support/v7/widget/SwitchCompat;->setVisibility(I)V
 
-    iget-object v2, p1, Lcom/audlabs/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/widget/CheckBox;
+    iget-object v2, p1, Lcom/audlabs/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/support/v7/widget/SwitchCompat;
 
     iget-object v1, p0, Lcom/audlabs/viperfx/main/MainFragment$MianAdapter;->a:Lcom/audlabs/viperfx/main/MainFragment;
 
@@ -165,16 +165,16 @@
 
     move-result v1
 
-    invoke-virtual {v2, v1}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v2, v1}, Landroid/support/v7/widget/SwitchCompat;->setChecked(Z)V
 
     :goto_1
-    iget-object v1, p1, Lcom/audlabs/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/widget/CheckBox;
+    iget-object v1, p1, Lcom/audlabs/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/support/v7/widget/SwitchCompat;
 
     new-instance v2, Lcom/audlabs/viperfx/main/o;
 
     invoke-direct {v2, p0, v0, p1}, Lcom/audlabs/viperfx/main/o;-><init>(Lcom/audlabs/viperfx/main/MainFragment$MianAdapter;Ljava/util/HashMap;Lcom/audlabs/viperfx/main/MainFragment$MianAdapter$MainViewHolder;)V
 
-    invoke-virtual {v1, v2}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v1, v2}, Landroid/support/v7/widget/SwitchCompat;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     iget-object v1, p1, Lcom/audlabs/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->a:Landroid/view/View;
 
@@ -196,11 +196,11 @@
     goto :goto_0
 
     :cond_1
-    iget-object v1, p1, Lcom/audlabs/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/widget/CheckBox;
+    iget-object v1, p1, Lcom/audlabs/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/support/v7/widget/SwitchCompat;
 
     const/4 v2, 0x4
 
-    invoke-virtual {v1, v2}, Landroid/widget/CheckBox;->setVisibility(I)V
+    invoke-virtual {v1, v2}, Landroid/support/v7/widget/SwitchCompat;->setVisibility(I)V
 
     goto :goto_1
 .end method

@@ -7,17 +7,17 @@
 
 
 # instance fields
-.field mLimiterEnable:Landroid/widget/CheckBox;
+.field mLimiterEnable:Landroid/support/v7/widget/SwitchCompat;
     .annotation build Lbutterknife/BindView;
     .end annotation
 .end field
 
-.field mOutputGainEnable:Landroid/widget/CheckBox;
+.field mOutputGainEnable:Landroid/support/v7/widget/SwitchCompat;
     .annotation build Lbutterknife/BindView;
     .end annotation
 .end field
 
-.field mOutputPanEnable:Landroid/widget/CheckBox;
+.field mOutputPanEnable:Landroid/support/v7/widget/SwitchCompat;
     .annotation build Lbutterknife/BindView;
     .end annotation
 .end field
@@ -85,17 +85,17 @@
 .method private a()V
     .locals 1
 
-    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mOutputPanEnable:Landroid/widget/CheckBox;
+    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mOutputPanEnable:Landroid/support/v7/widget/SwitchCompat;
 
-    invoke-virtual {v0, p0}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, p0}, Landroid/support/v7/widget/SwitchCompat;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mOutputGainEnable:Landroid/widget/CheckBox;
+    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mOutputGainEnable:Landroid/support/v7/widget/SwitchCompat;
 
-    invoke-virtual {v0, p0}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, p0}, Landroid/support/v7/widget/SwitchCompat;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mLimiterEnable:Landroid/widget/CheckBox;
+    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mLimiterEnable:Landroid/support/v7/widget/SwitchCompat;
 
-    invoke-virtual {v0, p0}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, p0}, Landroid/support/v7/widget/SwitchCompat;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     iget-object v0, p0, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mSbOutputPan:Landroid/widget/SeekBar;
 
@@ -243,17 +243,17 @@
 
     move-result v0
 
-    iget-object v1, p0, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mOutputPanEnable:Landroid/widget/CheckBox;
+    iget-object v1, p0, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mOutputPanEnable:Landroid/support/v7/widget/SwitchCompat;
 
-    invoke-virtual {v1}, Landroid/widget/CheckBox;->getId()I
+    invoke-virtual {v1}, Landroid/support/v7/widget/SwitchCompat;->getId()I
 
     move-result v1
 
     if-ne v0, v1, :cond_1
 
-    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mOutputPanEnable:Landroid/widget/CheckBox;
+    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mOutputPanEnable:Landroid/support/v7/widget/SwitchCompat;
 
-    invoke-virtual {v0, v2}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v0, v2}, Landroid/support/v7/widget/SwitchCompat;->setChecked(Z)V
 
     :cond_0
     :goto_0
@@ -276,17 +276,17 @@
 
     move-result v0
 
-    iget-object v1, p0, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mOutputGainEnable:Landroid/widget/CheckBox;
+    iget-object v1, p0, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mOutputGainEnable:Landroid/support/v7/widget/SwitchCompat;
 
-    invoke-virtual {v1}, Landroid/widget/CheckBox;->getId()I
+    invoke-virtual {v1}, Landroid/support/v7/widget/SwitchCompat;->getId()I
 
     move-result v1
 
     if-ne v0, v1, :cond_2
 
-    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mOutputGainEnable:Landroid/widget/CheckBox;
+    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mOutputGainEnable:Landroid/support/v7/widget/SwitchCompat;
 
-    invoke-virtual {v0, v2}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v0, v2}, Landroid/support/v7/widget/SwitchCompat;->setChecked(Z)V
 
     goto :goto_0
 
@@ -295,17 +295,17 @@
 
     move-result v0
 
-    iget-object v1, p0, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mLimiterEnable:Landroid/widget/CheckBox;
+    iget-object v1, p0, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mLimiterEnable:Landroid/support/v7/widget/SwitchCompat;
 
-    invoke-virtual {v1}, Landroid/widget/CheckBox;->getId()I
+    invoke-virtual {v1}, Landroid/support/v7/widget/SwitchCompat;->getId()I
 
     move-result v1
 
     if-ne v0, v1, :cond_0
 
-    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mLimiterEnable:Landroid/widget/CheckBox;
+    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mLimiterEnable:Landroid/support/v7/widget/SwitchCompat;
 
-    invoke-virtual {v0, v2}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v0, v2}, Landroid/support/v7/widget/SwitchCompat;->setChecked(Z)V
 
     goto :goto_0
 .end method
