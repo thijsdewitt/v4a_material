@@ -105,15 +105,15 @@
 
     const-string v1, "field \'mFetCompressorAutokneeEnable\'"
 
-    const-class v2, Landroid/widget/CheckBox;
+    const-class v2, Landroid/support/v7/widget/SwitchCompat;
 
     invoke-virtual {p2, p3, v0, v1, v2}, Lbutterknife/a/a;->a(Ljava/lang/Object;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Landroid/widget/CheckBox;
+    check-cast v0, Landroid/support/v7/widget/SwitchCompat;
 
-    iput-object v0, p1, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutokneeEnable:Landroid/widget/CheckBox;
+    iput-object v0, p1, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutokneeEnable:Landroid/support/v7/widget/SwitchCompat;
 
     const v0, 0x7f0d009c
 
@@ -161,15 +161,15 @@
 
     const-string v1, "field \'mFetCompressorAutogainEnable\'"
 
-    const-class v2, Landroid/widget/CheckBox;
+    const-class v2, Landroid/support/v7/widget/SwitchCompat;
 
     invoke-virtual {p2, p3, v0, v1, v2}, Lbutterknife/a/a;->a(Ljava/lang/Object;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Landroid/widget/CheckBox;
+    check-cast v0, Landroid/support/v7/widget/SwitchCompat;
 
-    iput-object v0, p1, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutogainEnable:Landroid/widget/CheckBox;
+    iput-object v0, p1, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutogainEnable:Landroid/support/v7/widget/SwitchCompat;
 
     const v0, 0x7f0d00a6
 
@@ -217,15 +217,15 @@
 
     const-string v1, "field \'mFetCompressorAutoattackEnable\'"
 
-    const-class v2, Landroid/widget/CheckBox;
+    const-class v2, Landroid/support/v7/widget/SwitchCompat;
 
     invoke-virtual {p2, p3, v0, v1, v2}, Lbutterknife/a/a;->a(Ljava/lang/Object;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Landroid/widget/CheckBox;
+    check-cast v0, Landroid/support/v7/widget/SwitchCompat;
 
-    iput-object v0, p1, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutoattackEnable:Landroid/widget/CheckBox;
+    iput-object v0, p1, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutoattackEnable:Landroid/support/v7/widget/SwitchCompat;
 
     const v0, 0x7f0d00ac
 
@@ -273,15 +273,15 @@
 
     const-string v1, "field \'mFetCompressorAutoreleaseEnable\'"
 
-    const-class v2, Landroid/widget/CheckBox;
+    const-class v2, Landroid/support/v7/widget/SwitchCompat;
 
     invoke-virtual {p2, p3, v0, v1, v2}, Lbutterknife/a/a;->a(Ljava/lang/Object;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Landroid/widget/CheckBox;
+    check-cast v0, Landroid/support/v7/widget/SwitchCompat;
 
-    iput-object v0, p1, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutoreleaseEnable:Landroid/widget/CheckBox;
+    iput-object v0, p1, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutoreleaseEnable:Landroid/support/v7/widget/SwitchCompat;
 
     const v0, 0x7f0d00b6
 
@@ -539,15 +539,15 @@
 
     const-string v1, "field \'mFetCompressorNoclipenableEnable\'"
 
-    const-class v2, Landroid/widget/CheckBox;
+    const-class v2, Landroid/support/v7/widget/SwitchCompat;
 
     invoke-virtual {p2, p3, v0, v1, v2}, Lbutterknife/a/a;->a(Ljava/lang/Object;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Landroid/widget/CheckBox;
+    check-cast v0, Landroid/support/v7/widget/SwitchCompat;
 
-    iput-object v0, p1, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorNoclipenableEnable:Landroid/widget/CheckBox;
+    iput-object v0, p1, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorNoclipenableEnable:Landroid/support/v7/widget/SwitchCompat;
 
     return-void
 .end method

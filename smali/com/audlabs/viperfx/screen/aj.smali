@@ -35,9 +35,9 @@
 
     iget-object v0, p0, Lcom/audlabs/viperfx/screen/aj;->a:Lcom/audlabs/viperfx/screen/FetCompressorFragment;
 
-    iget-object v0, v0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutokneeEnable:Landroid/widget/CheckBox;
+    iget-object v0, v0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutokneeEnable:Landroid/support/v7/widget/SwitchCompat;
 
-    invoke-virtual {v0}, Landroid/widget/CheckBox;->isChecked()Z
+    invoke-virtual {v0}, Landroid/support/v7/widget/SwitchCompat;->isChecked()Z
 
     move-result v0
 
@@ -110,9 +110,9 @@
 
     iget-object v2, p0, Lcom/audlabs/viperfx/screen/aj;->a:Lcom/audlabs/viperfx/screen/FetCompressorFragment;
 
-    iget-object v2, v2, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutokneeEnable:Landroid/widget/CheckBox;
+    iget-object v2, v2, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutokneeEnable:Landroid/support/v7/widget/SwitchCompat;
 
-    invoke-virtual {v2}, Landroid/widget/CheckBox;->isChecked()Z
+    invoke-virtual {v2}, Landroid/support/v7/widget/SwitchCompat;->isChecked()Z
 
     move-result v2
 
@@ -201,9 +201,9 @@
 
     iget-object v2, p0, Lcom/audlabs/viperfx/screen/aj;->a:Lcom/audlabs/viperfx/screen/FetCompressorFragment;
 
-    iget-object v2, v2, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutokneeEnable:Landroid/widget/CheckBox;
+    iget-object v2, v2, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutokneeEnable:Landroid/support/v7/widget/SwitchCompat;
 
-    invoke-virtual {v2}, Landroid/widget/CheckBox;->isChecked()Z
+    invoke-virtual {v2}, Landroid/support/v7/widget/SwitchCompat;->isChecked()Z
 
     move-result v2
 

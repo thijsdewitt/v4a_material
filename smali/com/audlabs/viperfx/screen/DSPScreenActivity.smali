@@ -3,7 +3,7 @@
 
 
 # instance fields
-.field mEnable:Landroid/widget/CheckBox;
+.field mEnable:Landroid/support/v7/widget/SwitchCompat;
     .annotation build Lbutterknife/BindView;
     .end annotation
 .end field
@@ -138,11 +138,11 @@
 
     if-eqz v3, :cond_1
 
-    iget-object v0, p0, Lcom/audlabs/viperfx/screen/DSPScreenActivity;->mEnable:Landroid/widget/CheckBox;
+    iget-object v0, p0, Lcom/audlabs/viperfx/screen/DSPScreenActivity;->mEnable:Landroid/support/v7/widget/SwitchCompat;
 
     const/4 v2, 0x4
 
-    invoke-virtual {v0, v2}, Landroid/widget/CheckBox;->setVisibility(I)V
+    invoke-virtual {v0, v2}, Landroid/support/v7/widget/SwitchCompat;->setVisibility(I)V
 
     :goto_0
     iget-object v0, p0, Lcom/audlabs/viperfx/screen/DSPScreenActivity;->mToolbar:Landroid/support/v7/widget/Toolbar;
@@ -175,25 +175,25 @@
     return-void
 
     :cond_1
-    iget-object v3, p0, Lcom/audlabs/viperfx/screen/DSPScreenActivity;->mEnable:Landroid/widget/CheckBox;
+    iget-object v3, p0, Lcom/audlabs/viperfx/screen/DSPScreenActivity;->mEnable:Landroid/support/v7/widget/SwitchCompat;
 
-    invoke-virtual {v3, v6}, Landroid/widget/CheckBox;->setVisibility(I)V
+    invoke-virtual {v3, v6}, Landroid/support/v7/widget/SwitchCompat;->setVisibility(I)V
 
-    iget-object v3, p0, Lcom/audlabs/viperfx/screen/DSPScreenActivity;->mEnable:Landroid/widget/CheckBox;
+    iget-object v3, p0, Lcom/audlabs/viperfx/screen/DSPScreenActivity;->mEnable:Landroid/support/v7/widget/SwitchCompat;
 
     invoke-interface {v2, v0, v6}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result v4
 
-    invoke-virtual {v3, v4}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v3, v4}, Landroid/support/v7/widget/SwitchCompat;->setChecked(Z)V
 
-    iget-object v3, p0, Lcom/audlabs/viperfx/screen/DSPScreenActivity;->mEnable:Landroid/widget/CheckBox;
+    iget-object v3, p0, Lcom/audlabs/viperfx/screen/DSPScreenActivity;->mEnable:Landroid/support/v7/widget/SwitchCompat;
 
     new-instance v4, Lcom/audlabs/viperfx/screen/q;
 
     invoke-direct {v4, p0, v2, v0}, Lcom/audlabs/viperfx/screen/q;-><init>(Lcom/audlabs/viperfx/screen/DSPScreenActivity;Landroid/content/SharedPreferences;Ljava/lang/String;)V
 
-    invoke-virtual {v3, v4}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v3, v4}, Landroid/support/v7/widget/SwitchCompat;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     goto :goto_0
 .end method
