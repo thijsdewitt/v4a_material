@@ -64,13 +64,13 @@
 
     iget-object v0, p0, Lcom/audlabs/viperfx/screen/DynamicsystemFragment;->mTrbDynamicsystemBass:Lcom/audlabs/viperfx/widget/TouchRotateButton;
 
-    const v1, 0x7f03001c
+    const v1, 0x7f020079
 
     invoke-virtual {v0, v1}, Lcom/audlabs/viperfx/widget/TouchRotateButton;->setBgImageInt(I)V
 
     iget-object v0, p0, Lcom/audlabs/viperfx/screen/DynamicsystemFragment;->mTrbDynamicsystemBass:Lcom/audlabs/viperfx/widget/TouchRotateButton;
 
-    const v1, 0x7f03001d
+    const v1, 0x7f02007a
 
     invoke-virtual {v0, v1}, Lcom/audlabs/viperfx/widget/TouchRotateButton;->setBgPressImageInt(I)V
 

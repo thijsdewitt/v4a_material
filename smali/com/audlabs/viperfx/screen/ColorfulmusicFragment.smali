@@ -74,9 +74,9 @@
 .method private a()V
     .locals 4
 
-    const v3, 0x7f03001b
+    const v3, 0x7f02007a
 
-    const v2, 0x7f030019
+    const v2, 0x7f020079
 
     invoke-virtual {p0}, Lcom/audlabs/viperfx/screen/ColorfulmusicFragment;->getResources()Landroid/content/res/Resources;
 
