@@ -55,7 +55,7 @@
     <dimen name="abc_edit_text_inset_horizontal_material">4.0dip</dimen>
     <dimen name="abc_edit_text_inset_top_material">10.0dip</dimen>
     <dimen name="abc_floating_window_z">16.0dip</dimen>
-    <item type="dimen" name="abc_list_item_padding_horizontal_material">@dimen/abc_action_bar_content_inset_material</item>
+    <item type="dimen" name="abc_list_item_padding_horizontal_material">16dp</item>
     <dimen name="abc_panel_menu_list_width">296.0dip</dimen>
     <dimen name="abc_search_view_preferred_width">320.0dip</dimen>
     <dimen name="abc_seekbar_track_background_height_material">2.0dip</dimen>
