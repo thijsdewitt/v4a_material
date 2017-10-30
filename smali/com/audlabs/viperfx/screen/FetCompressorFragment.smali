@@ -7,27 +7,27 @@
 
 .field private c:Z
 
-.field mFetCompressorAutoattackEnable:Landroid/support/v7/widget/SwitchCompat;
+.field mFetCompressorAutoattackEnable:Landroid/widget/CheckBox;
     .annotation build Lbutterknife/BindView;
     .end annotation
 .end field
 
-.field mFetCompressorAutogainEnable:Landroid/support/v7/widget/SwitchCompat;
+.field mFetCompressorAutogainEnable:Landroid/widget/CheckBox;
     .annotation build Lbutterknife/BindView;
     .end annotation
 .end field
 
-.field mFetCompressorAutokneeEnable:Landroid/support/v7/widget/SwitchCompat;
+.field mFetCompressorAutokneeEnable:Landroid/widget/CheckBox;
     .annotation build Lbutterknife/BindView;
     .end annotation
 .end field
 
-.field mFetCompressorAutoreleaseEnable:Landroid/support/v7/widget/SwitchCompat;
+.field mFetCompressorAutoreleaseEnable:Landroid/widget/CheckBox;
     .annotation build Lbutterknife/BindView;
     .end annotation
 .end field
 
-.field mFetCompressorNoclipenableEnable:Landroid/support/v7/widget/SwitchCompat;
+.field mFetCompressorNoclipenableEnable:Landroid/widget/CheckBox;
     .annotation build Lbutterknife/BindView;
     .end annotation
 .end field
@@ -428,13 +428,13 @@
 
     invoke-virtual {v0, v1}, Lcom/audlabs/viperfx/widget/TouchRotateButton;->setOnChangeDegreeListening(Lcom/audlabs/viperfx/widget/h;)V
 
-    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutokneeEnable:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutokneeEnable:Landroid/widget/CheckBox;
 
     new-instance v1, Lcom/audlabs/viperfx/screen/aj;
 
     invoke-direct {v1, p0}, Lcom/audlabs/viperfx/screen/aj;-><init>(Lcom/audlabs/viperfx/screen/FetCompressorFragment;)V
 
-    invoke-virtual {v0, v1}, Landroid/support/v7/widget/SwitchCompat;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     iget-object v0, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mTrbFetCompressorKnee:Lcom/audlabs/viperfx/widget/TouchRotateButton;
 
@@ -456,13 +456,13 @@
 
     invoke-virtual {v0, v1}, Lcom/audlabs/viperfx/widget/TouchRotateButton;->setOnChangeDegreeListening(Lcom/audlabs/viperfx/widget/h;)V
 
-    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutogainEnable:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutogainEnable:Landroid/widget/CheckBox;
 
     new-instance v1, Lcom/audlabs/viperfx/screen/al;
 
     invoke-direct {v1, p0}, Lcom/audlabs/viperfx/screen/al;-><init>(Lcom/audlabs/viperfx/screen/FetCompressorFragment;)V
 
-    invoke-virtual {v0, v1}, Landroid/support/v7/widget/SwitchCompat;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     iget-object v0, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mTrbFetCompressorGain:Lcom/audlabs/viperfx/widget/TouchRotateButton;
 
@@ -484,13 +484,13 @@
 
     invoke-virtual {v0, v1}, Lcom/audlabs/viperfx/widget/TouchRotateButton;->setOnChangeDegreeListening(Lcom/audlabs/viperfx/widget/h;)V
 
-    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutoattackEnable:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutoattackEnable:Landroid/widget/CheckBox;
 
     new-instance v1, Lcom/audlabs/viperfx/screen/an;
 
     invoke-direct {v1, p0}, Lcom/audlabs/viperfx/screen/an;-><init>(Lcom/audlabs/viperfx/screen/FetCompressorFragment;)V
 
-    invoke-virtual {v0, v1}, Landroid/support/v7/widget/SwitchCompat;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     iget-object v0, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mTrbFetCompressorAttack:Lcom/audlabs/viperfx/widget/TouchRotateButton;
 
@@ -512,13 +512,13 @@
 
     invoke-virtual {v0, v1}, Lcom/audlabs/viperfx/widget/TouchRotateButton;->setOnChangeDegreeListening(Lcom/audlabs/viperfx/widget/h;)V
 
-    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutoreleaseEnable:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutoreleaseEnable:Landroid/widget/CheckBox;
 
     new-instance v1, Lcom/audlabs/viperfx/screen/ap;
 
     invoke-direct {v1, p0}, Lcom/audlabs/viperfx/screen/ap;-><init>(Lcom/audlabs/viperfx/screen/FetCompressorFragment;)V
 
-    invoke-virtual {v0, v1}, Landroid/support/v7/widget/SwitchCompat;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     iget-object v0, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mTrbFetCompressorRelease:Lcom/audlabs/viperfx/widget/TouchRotateButton;
 
@@ -640,13 +640,13 @@
 
     invoke-virtual {v0, v1}, Lcom/audlabs/viperfx/widget/TouchRotateButton;->setOnChangeDegreeListening(Lcom/audlabs/viperfx/widget/h;)V
 
-    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorNoclipenableEnable:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v0, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorNoclipenableEnable:Landroid/widget/CheckBox;
 
     new-instance v1, Lcom/audlabs/viperfx/screen/ah;
 
     invoke-direct {v1, p0}, Lcom/audlabs/viperfx/screen/ah;-><init>(Lcom/audlabs/viperfx/screen/FetCompressorFragment;)V
 
-    invoke-virtual {v0, v1}, Landroid/support/v7/widget/SwitchCompat;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     return-void
 .end method
@@ -1372,9 +1372,9 @@
 
     move-result v0
 
-    iget-object v1, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutokneeEnable:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v1, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutokneeEnable:Landroid/widget/CheckBox;
 
-    invoke-virtual {v1, v0}, Landroid/support/v7/widget/SwitchCompat;->setChecked(Z)V
+    invoke-virtual {v1, v0}, Landroid/widget/CheckBox;->setChecked(Z)V
 
     if-eqz v0, :cond_c
 
@@ -1424,9 +1424,9 @@
 
     move-result v0
 
-    iget-object v1, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutogainEnable:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v1, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutogainEnable:Landroid/widget/CheckBox;
 
-    invoke-virtual {v1, v0}, Landroid/support/v7/widget/SwitchCompat;->setChecked(Z)V
+    invoke-virtual {v1, v0}, Landroid/widget/CheckBox;->setChecked(Z)V
 
     if-eqz v0, :cond_e
 
@@ -1460,9 +1460,9 @@
 
     move-result v0
 
-    iget-object v1, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutoattackEnable:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v1, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutoattackEnable:Landroid/widget/CheckBox;
 
-    invoke-virtual {v1, v0}, Landroid/support/v7/widget/SwitchCompat;->setChecked(Z)V
+    invoke-virtual {v1, v0}, Landroid/widget/CheckBox;->setChecked(Z)V
 
     if-eqz v0, :cond_10
 
@@ -1512,9 +1512,9 @@
 
     move-result v0
 
-    iget-object v1, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutoreleaseEnable:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v1, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorAutoreleaseEnable:Landroid/widget/CheckBox;
 
-    invoke-virtual {v1, v0}, Landroid/support/v7/widget/SwitchCompat;->setChecked(Z)V
+    invoke-virtual {v1, v0}, Landroid/widget/CheckBox;->setChecked(Z)V
 
     if-eqz v0, :cond_12
 
@@ -1564,9 +1564,9 @@
 
     move-result v0
 
-    iget-object v1, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorNoclipenableEnable:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v1, p0, Lcom/audlabs/viperfx/screen/FetCompressorFragment;->mFetCompressorNoclipenableEnable:Landroid/widget/CheckBox;
 
-    invoke-virtual {v1, v0}, Landroid/support/v7/widget/SwitchCompat;->setChecked(Z)V
+    invoke-virtual {v1, v0}, Landroid/widget/CheckBox;->setChecked(Z)V
 
     return-void
 

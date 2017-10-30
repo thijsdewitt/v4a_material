@@ -1,5 +1,5 @@
 .class public Landroid/support/v7/widget/AppCompatCheckBox;
-.super Landroid/support/v7/widget/SwitchCompat;
+.super Landroid/widget/CheckBox;
 
 # interfaces
 .implements Landroid/support/v4/widget/cy;
@@ -29,7 +29,7 @@
 
     move-result-object v0
 
-    invoke-direct {p0, v0, p2, p3}, Landroid/support/v7/widget/SwitchCompat;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, v0, p2, p3}, Landroid/widget/CheckBox;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     invoke-static {}, Landroid/support/v7/widget/ap;->a()Landroid/support/v7/widget/ap;
 
@@ -57,7 +57,7 @@
 .method public getCompoundPaddingLeft()I
     .locals 2
 
-    invoke-super {p0}, Landroid/support/v7/widget/SwitchCompat;->getCompoundPaddingLeft()I
+    invoke-super {p0}, Landroid/widget/CheckBox;->getCompoundPaddingLeft()I
 
     move-result v0
 
@@ -156,7 +156,7 @@
 .method public setButtonDrawable(Landroid/graphics/drawable/Drawable;)V
     .locals 1
 
-    invoke-super {p0, p1}, Landroid/support/v7/widget/SwitchCompat;->setButtonDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-super {p0, p1}, Landroid/widget/CheckBox;->setButtonDrawable(Landroid/graphics/drawable/Drawable;)V
 
     iget-object v0, p0, Landroid/support/v7/widget/AppCompatCheckBox;->b:Landroid/support/v7/widget/ao;
 

@@ -14,7 +14,7 @@
 
 .field private d:Landroid/widget/TextView;
 
-.field private e:Landroid/support/v7/widget/SwitchCompat;
+.field private e:Landroid/widget/CheckBox;
 
 .field private f:Landroid/widget/TextView;
 
@@ -161,11 +161,11 @@
 
     move-result-object v0
 
-    check-cast v0, Landroid/support/v7/widget/SwitchCompat;
+    check-cast v0, Landroid/widget/CheckBox;
 
-    iput-object v0, p0, Landroid/support/v7/view/menu/ListMenuItemView;->e:Landroid/support/v7/widget/SwitchCompat;
+    iput-object v0, p0, Landroid/support/v7/view/menu/ListMenuItemView;->e:Landroid/widget/CheckBox;
 
-    iget-object v0, p0, Landroid/support/v7/view/menu/ListMenuItemView;->e:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v0, p0, Landroid/support/v7/view/menu/ListMenuItemView;->e:Landroid/widget/CheckBox;
 
     invoke-virtual {p0, v0}, Landroid/support/v7/view/menu/ListMenuItemView;->addView(Landroid/view/View;)V
 
@@ -420,7 +420,7 @@
 
     if-nez v0, :cond_1
 
-    iget-object v0, p0, Landroid/support/v7/view/menu/ListMenuItemView;->e:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v0, p0, Landroid/support/v7/view/menu/ListMenuItemView;->e:Landroid/widget/CheckBox;
 
     if-nez v0, :cond_1
 
@@ -446,7 +446,7 @@
     :cond_2
     iget-object v2, p0, Landroid/support/v7/view/menu/ListMenuItemView;->c:Landroid/widget/RadioButton;
 
-    iget-object v0, p0, Landroid/support/v7/view/menu/ListMenuItemView;->e:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v0, p0, Landroid/support/v7/view/menu/ListMenuItemView;->e:Landroid/widget/CheckBox;
 
     move-object v3, v2
 
@@ -490,14 +490,14 @@
     goto :goto_0
 
     :cond_4
-    iget-object v0, p0, Landroid/support/v7/view/menu/ListMenuItemView;->e:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v0, p0, Landroid/support/v7/view/menu/ListMenuItemView;->e:Landroid/widget/CheckBox;
 
     if-nez v0, :cond_5
 
     invoke-direct {p0}, Landroid/support/v7/view/menu/ListMenuItemView;->d()V
 
     :cond_5
-    iget-object v2, p0, Landroid/support/v7/view/menu/ListMenuItemView;->e:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v2, p0, Landroid/support/v7/view/menu/ListMenuItemView;->e:Landroid/widget/CheckBox;
 
     iget-object v0, p0, Landroid/support/v7/view/menu/ListMenuItemView;->c:Landroid/widget/RadioButton;
 
@@ -513,13 +513,13 @@
     goto :goto_2
 
     :cond_7
-    iget-object v0, p0, Landroid/support/v7/view/menu/ListMenuItemView;->e:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v0, p0, Landroid/support/v7/view/menu/ListMenuItemView;->e:Landroid/widget/CheckBox;
 
     if-eqz v0, :cond_8
 
-    iget-object v0, p0, Landroid/support/v7/view/menu/ListMenuItemView;->e:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v0, p0, Landroid/support/v7/view/menu/ListMenuItemView;->e:Landroid/widget/CheckBox;
 
-    invoke-virtual {v0, v1}, Landroid/support/v7/widget/SwitchCompat;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setVisibility(I)V
 
     :cond_8
     iget-object v0, p0, Landroid/support/v7/view/menu/ListMenuItemView;->c:Landroid/widget/RadioButton;
@@ -559,14 +559,14 @@
     return-void
 
     :cond_1
-    iget-object v0, p0, Landroid/support/v7/view/menu/ListMenuItemView;->e:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v0, p0, Landroid/support/v7/view/menu/ListMenuItemView;->e:Landroid/widget/CheckBox;
 
     if-nez v0, :cond_2
 
     invoke-direct {p0}, Landroid/support/v7/view/menu/ListMenuItemView;->d()V
 
     :cond_2
-    iget-object v0, p0, Landroid/support/v7/view/menu/ListMenuItemView;->e:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v0, p0, Landroid/support/v7/view/menu/ListMenuItemView;->e:Landroid/widget/CheckBox;
 
     goto :goto_0
 .end method

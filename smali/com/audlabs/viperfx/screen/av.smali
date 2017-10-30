@@ -21,15 +21,15 @@
 
     const-string v1, "field \'mOutputPanEnable\'"
 
-    const-class v2, Landroid/support/v7/widget/SwitchCompat;
+    const-class v2, Landroid/widget/CheckBox;
 
     invoke-virtual {p2, p3, v0, v1, v2}, Lbutterknife/a/a;->a(Ljava/lang/Object;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Landroid/support/v7/widget/SwitchCompat;
+    check-cast v0, Landroid/widget/CheckBox;
 
-    iput-object v0, p1, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mOutputPanEnable:Landroid/support/v7/widget/SwitchCompat;
+    iput-object v0, p1, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mOutputPanEnable:Landroid/widget/CheckBox;
 
     const v0, 0x7f0d00e4
 
@@ -63,15 +63,15 @@
 
     const-string v1, "field \'mOutputGainEnable\'"
 
-    const-class v2, Landroid/support/v7/widget/SwitchCompat;
+    const-class v2, Landroid/widget/CheckBox;
 
     invoke-virtual {p2, p3, v0, v1, v2}, Lbutterknife/a/a;->a(Ljava/lang/Object;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Landroid/support/v7/widget/SwitchCompat;
+    check-cast v0, Landroid/widget/CheckBox;
 
-    iput-object v0, p1, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mOutputGainEnable:Landroid/support/v7/widget/SwitchCompat;
+    iput-object v0, p1, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mOutputGainEnable:Landroid/widget/CheckBox;
 
     const v0, 0x7f0d00e8
 
@@ -105,15 +105,15 @@
 
     const-string v1, "field \'mLimiterEnable\'"
 
-    const-class v2, Landroid/support/v7/widget/SwitchCompat;
+    const-class v2, Landroid/widget/CheckBox;
 
     invoke-virtual {p2, p3, v0, v1, v2}, Lbutterknife/a/a;->a(Ljava/lang/Object;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Landroid/support/v7/widget/SwitchCompat;
+    check-cast v0, Landroid/widget/CheckBox;
 
-    iput-object v0, p1, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mLimiterEnable:Landroid/support/v7/widget/SwitchCompat;
+    iput-object v0, p1, Lcom/audlabs/viperfx/screen/FxLimiterFragment;->mLimiterEnable:Landroid/widget/CheckBox;
 
     const v0, 0x7f0d00ec
 
