@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@drawable/load" android:id="@id/loadprofile" android:title="@string/text_loadfxprofile" android:textColor="@color/colorMainText" />
-    <item android:icon="@drawable/save" android:id="@id/saveprofile" android:title="@string/text_savefxprofile" android:textColor="@color/colorMainText" />
-    <item android:icon="@drawable/driver" android:id="@id/drvinst" android:title="@string/text_drv_blank" android:textColor="@color/colorMainText" />
-    <item android:icon="@drawable/status" android:id="@id/drvstatus" android:title="@string/text_drv_status" android:textColor="@color/colorMainText" />
-    <item android:icon="@drawable/settings" android:id="@id/setting" android:title="@string/text_setting" android:textColor="@color/colorMainText" />
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/load" 
+    android:id="@id/loadprofile" 
+    android:title="@string/text_loadfxprofile" 
+    android:textColor="@color/colorMainText" />
+    
+    <item android:icon="@drawable/save" 
+    android:id="@id/saveprofile" 
+    android:title="@string/text_savefxprofile" 
+    android:textColor="@color/colorMainText" />
+    
+    <item android:icon="@drawable/driver" 
+    android:id="@id/drvinst" 
+    android:title="@string/text_drv_blank" 
+    android:textColor="@color/colorMainText" />
+    
+    <item android:icon="@drawable/status" 
+    android:id="@id/drvstatus" 
+    android:title="@string/text_drv_status" 
+    android:textColor="@color/colorMainText" />
+    
+    <item android:icon="@drawable/settings" 
+    android:id="@id/setting" 
+    android:title="@string/text_setting" 
+    android:textColor="@color/colorMainText" />
 </menu>
