@@ -388,31 +388,31 @@
     <public type="drawable" name="shadow_bottom" id="0x7f02005b" />
     <public type="drawable" name="shadow_left" id="0x7f02005c" />
 	<public type="drawable" name="shadow_right" id="0x7f02005d" />
-    <public type="drawable" name="analogx" id="0x7f020060" />
-	<public type="drawable" name="bass" id="0x7f020061" />
-	<public type="drawable" name="clarity" id="0x7f020062" />
-	<public type="drawable" name="compressor" id="0x7f020063" />
-	<public type="drawable" name="convolver" id="0x7f020064" />
-	<public type="drawable" name="diff_surround" id="0x7f020065" />
-	<public type="drawable" name="dynamic_system" id="0x7f020066" />
-	<public type="drawable" name="equalizer" id="0x7f020067" />
-	<public type="drawable" name="extraloud" id="0x7f020068" />
-	<public type="drawable" name="fx_limiter" id="0x7f020069" />
-	<public type="drawable" name="headphone_surround" id="0x7f02006a" />
-	<public type="drawable" name="playback_control" id="0x7f02006b" />
-	<public type="drawable" name="power" id="0x7f02006c" />
-	<public type="drawable" name="protection" id="0x7f02006d" />
-	<public type="drawable" name="reverb" id="0x7f02006e" />
-	<public type="drawable" name="speaker" id="0x7f02006f" />
-	<public type="drawable" name="surround" id="0x7f020070" />
-	<public type="drawable" name="tubeamp" id="0x7f020071" />
-	<public type="drawable" name="viperddc" id="0x7f020072" />
-	<public type="drawable" name="vse" id="0x7f020073" />
-	<public type="drawable" name="driver" id="0x7f020074" />
-	<public type="drawable" name="load" id="0x7f020075" />
-	<public type="drawable" name="save" id="0x7f020076" />
-	<public type="drawable" name="settings" id="0x7f020077" />
-	<public type="drawable" name="status" id="0x7f020078" />
+    <public type="drawable" name="ic_analogx" id="0x7f020060" />
+	<public type="drawable" name="ic_bass" id="0x7f020061" />
+	<public type="drawable" name="ic_clarity" id="0x7f020062" />
+	<public type="drawable" name="ic_compressor" id="0x7f020063" />
+	<public type="drawable" name="ic_convolver" id="0x7f020064" />
+	<public type="drawable" name="ic_diff_surround" id="0x7f020065" />
+	<public type="drawable" name="ic_dynamic_system" id="0x7f020066" />
+	<public type="drawable" name="ic_equalizer" id="0x7f020067" />
+	<public type="drawable" name="ic_extraloud" id="0x7f020068" />
+	<public type="drawable" name="ic_fx_limiter" id="0x7f020069" />
+	<public type="drawable" name="ic_headphone_surround" id="0x7f02006a" />
+	<public type="drawable" name="ic_playback_control" id="0x7f02006b" />
+	<public type="drawable" name="ic_power" id="0x7f02006c" />
+	<public type="drawable" name="ic_protection" id="0x7f02006d" />
+	<public type="drawable" name="ic_reverb" id="0x7f02006e" />
+	<public type="drawable" name="ic_speaker" id="0x7f02006f" />
+	<public type="drawable" name="ic_surround" id="0x7f020070" />
+	<public type="drawable" name="ic_tubeamp" id="0x7f020071" />
+	<public type="drawable" name="ic_viperddc" id="0x7f020072" />
+	<public type="drawable" name="ic_vse" id="0x7f020073" />
+	<public type="drawable" name="ic_driver" id="0x7f020074" />
+	<public type="drawable" name="ic_load" id="0x7f020075" />
+	<public type="drawable" name="ic_save" id="0x7f020076" />
+	<public type="drawable" name="ic_settings" id="0x7f020077" />
+	<public type="drawable" name="ic_status" id="0x7f020078" />
     <public type="drawable" name="knob_default" id="0x7f020079" />
     <public type="drawable" name="knob_pressed" id="0x7f02007a" />
     <public type="drawable" name="knob_point" id="0x7f02007b" />
