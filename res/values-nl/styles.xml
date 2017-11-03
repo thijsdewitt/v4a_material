@@ -558,7 +558,7 @@
     <style name="Base.ThemeOverlay.AppCompat" parent="@style/Platform.ThemeOverlay.AppCompat" />
     <style name="Base.ThemeOverlay.AppCompat.ActionBar" parent="@style/Base.ThemeOverlay.AppCompat">
         <item name="searchViewStyle">@style/Widget.AppCompat.SearchView.ActionBar</item>
-        <item name="colorControlNormal">?android:textColorPrimary</item>
+        <item name="colorControlNormal">@color/text_secondary</item>
     </style>
     <style name="Base.ThemeOverlay.AppCompat.Dark" parent="@style/Platform.ThemeOverlay.AppCompat.Dark">
         <item name="android:colorForeground">@color/switch_color_background</item>
@@ -577,14 +577,14 @@
         <item name="android:textColorTertiaryInverse">@color/abc_secondary_text_material_light</item>
         <item name="android:colorBackgroundCacheHint">@color/abc_background_cache_hint_selector_material_dark</item>
         <item name="isLightTheme">false</item>
-        <item name="colorControlNormal">?android:textColorSecondary</item>
+        <item name="colorControlNormal">@color/text_secondary</item>
         <item name="colorControlHighlight">@color/color_ripple</item>
         <item name="colorButtonNormal">@color/button_material_dark</item>
         <item name="colorSwitchThumbNormal">@color/switch_thumb_material_dark</item>
     </style>
     <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar" parent="@style/Base.ThemeOverlay.AppCompat.Dark">
         <item name="searchViewStyle">@style/Widget.AppCompat.SearchView.ActionBar</item>
-        <item name="colorControlNormal">?android:textColorPrimary</item>
+        <item name="colorControlNormal">@color/text_secondary</item>
     </style>
     <style name="Base.ThemeOverlay.AppCompat.Light" parent="@style/Platform.ThemeOverlay.AppCompat.Light">
         <item name="android:colorForeground">@color/foreground_material_light</item>
@@ -604,7 +604,7 @@
         <item name="android:textColorPrimaryInverseDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
         <item name="android:colorBackgroundCacheHint">@color/abc_background_cache_hint_selector_material_light</item>
         <item name="isLightTheme">true</item>
-        <item name="colorControlNormal">?android:textColorSecondary</item>
+        <item name="colorControlNormal">@color/text_secondary</item>
         <item name="colorControlHighlight">@color/ripple_material_light</item>
         <item name="colorButtonNormal">@color/button_material_light</item>
         <item name="colorSwitchThumbNormal">@color/switch_thumb_material_light</item>
@@ -694,7 +694,7 @@
         <item name="colorPrimary">@color/primary_material_dark</item>
         <item name="colorPrimaryDark">@color/color_statusbar</item>
         <item name="colorAccent">@color/accent_material_dark</item>
-        <item name="colorControlNormal">?android:textColorSecondary</item>
+        <item name="colorControlNormal">@color/text_secondary</item>
         <item name="colorControlActivated">?colorAccent</item>
         <item name="colorControlHighlight">@color/color_ripple</item>
         <item name="colorButtonNormal">@color/button_material_dark</item>
@@ -823,7 +823,7 @@
         <item name="colorPrimary">@color/primary_material_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_material_light</item>
         <item name="colorAccent">@color/accent_material_light</item>
-        <item name="colorControlNormal">?android:textColorSecondary</item>
+        <item name="colorControlNormal">@color/text_secondary</item>
         <item name="colorControlActivated">?colorAccent</item>
         <item name="colorControlHighlight">@color/ripple_material_light</item>
         <item name="colorButtonNormal">@color/button_material_light</item>

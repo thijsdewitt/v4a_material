@@ -1,0 +1,30 @@
+<resources>
+    <!--	New Colors-->
+    <color name="knob_color_background">#292929</color>
+    <color name="knob_color_accent">@color/color_accent</color>
+    <color name="knob_color_accent_disabled">#ff777777</color>
+    <color name="knob_color_point">@color/knob_color_accent_disabled</color>
+    
+    <color name="eq_color_accent">@color/color_accent</color>
+    <color name="eq_color_background">#80000000</color>
+
+    <color name="appbar_color_text">#ffffffff</color>
+    
+    <color name="fragment_text_color">@color/text_primary</color>
+    
+    <color name="text_primary">#de000000</color>
+    <color name="text_secondary">#8a000000</color>
+    <color name="appbar_color_background">#ff212121</color>
+    <color name="color_statusbar">#ff000000</color>
+    <color name="color_accent">#ff4285f4</color>
+    <color name="color_ripple">#33000000</color>
+    <color name="switch_color_background">@color/text_secondary</color>
+
+    <color name="tab_text_color">#8affffff</color>
+
+    
+    <color name="main_color_icon">@color/color_accent</color>
+    <color name="main_color_text">@color/text_primary</color>
+    <color name="main_color_background">#fffafafa</color>
+
+</resources>
