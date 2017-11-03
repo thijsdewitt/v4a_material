@@ -6,20 +6,20 @@
     android:viewportHeight="24">
 
     <path
-        android:fillColor="@color/colorMainIcon"
+        android:fillColor="@color/main_icon_color"
         android:pathData="M12.1,12l9.9,7V5L12.1,12z" />
     <path
-        android:strokeColor="@color/colorMainIcon"
+        android:strokeColor="@color/main_icon_color"
         android:strokeWidth="2"
         android:strokeMiterLimit="10"
         android:pathData="M12,17c-2.8,0-5-2.2-5-5s2.2-5,5-5" />
     <path
-        android:strokeColor="@color/colorMainIcon"
+        android:strokeColor="@color/main_icon_color"
         android:strokeWidth="2"
         android:strokeMiterLimit="10"
         android:pathData="M12,3c-5,0-9,4-9,9c0,5,4,9,9,9" />
     <path
-        android:strokeColor="@color/colorMainIcon"
+        android:strokeColor="@color/main_icon_color"
         android:strokeWidth="2"
         android:strokeMiterLimit="10"
         android:pathData="M12,7c-2.8,0-5,2.2-5,5s2.2,5,5,5" />

@@ -108,4 +108,8 @@
 	<!-- Button colors -->
 	<color name="backgroundButtonSelected">@color/backgroundMain</color>
 	<color name="backgroundButton">@color/colorPrimary</color>
+	
+    <!--	New Colors-->
+	<color name="main_icon_color">@color/text_primary</color>
+    <color name="navigation_icon_color">@color/text_secondary</color>
 </resources>
