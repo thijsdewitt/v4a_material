@@ -8,7 +8,7 @@
     <path
         android:pathData="M0,0 L225,0 L225,225 L0,225 L0,0 Z" />
     <path
-        android:fillColor="#a0f"
+        android:fillColor="@color/knob_color_accent"
         android:pathData="M112.5,211 C115.261,211,117.5,213.239,117.5,216
 C117.5,218.761,115.261,221,112.5,221 C109.739,221,107.5,218.761,107.5,216
 C107.5,213.239,109.739,211,112.5,211 Z" />

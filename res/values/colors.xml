@@ -112,4 +112,9 @@
     <!--	New Colors-->
 	<color name="main_icon_color">@color/text_primary</color>
     <color name="navigation_icon_color">@color/text_secondary</color>
+
+    <color name="knob_color_background">#292929</color>
+    <color name="knob_color_accent">@color/color_accent</color>
+    <color name="knob_color_accent_disabled">#ff777777</color>
+    <color name="knob_color_point">@color/knob_color_accent_disabled</color>
 </resources>
