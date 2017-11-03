@@ -3,25 +3,25 @@
     <item android:icon="@drawable/ic_load" 
     android:id="@id/loadprofile" 
     android:title="@string/text_loadfxprofile" 
-    android:textColor="@color/colorMainText" />
+    android:textColor="@color/navigation_text_color" />
     
     <item android:icon="@drawable/ic_save" 
     android:id="@id/saveprofile" 
     android:title="@string/text_savefxprofile" 
-    android:textColor="@color/colorMainText" />
+    android:textColor="@color/navigation_text_color" />
     
     <item android:icon="@drawable/ic_driver" 
     android:id="@id/drvinst" 
     android:title="@string/text_drv_blank" 
-    android:textColor="@color/colorMainText" />
+    android:textColor="@color/navigation_text_color" />
     
     <item android:icon="@drawable/ic_status" 
     android:id="@id/drvstatus" 
     android:title="@string/text_drv_status" 
-    android:textColor="@color/colorMainText" />
+    android:textColor="@color/navigation_text_color" />
     
     <item android:icon="@drawable/ic_settings" 
     android:id="@id/setting" 
     android:title="@string/text_setting" 
-    android:textColor="@color/colorMainText" />
+    android:textColor="@color/navigation_text_color" />
 </menu>
