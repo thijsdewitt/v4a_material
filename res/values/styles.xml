@@ -539,7 +539,7 @@
         <item name="actionBarWidgetTheme">@null</item>
         <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
         <item name="colorPrimary">@color/primary_material_dark</item>
-        <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
+        <item name="colorPrimaryDark">@color/color_statusbar</item>
     </style>
     <style name="Base.Theme.AppCompat.Light.Dialog.Alert" parent="@style/Base.Theme.AppCompat.Light.Dialog">
         <item name="windowMinWidthMajor">@dimen/abc_dialog_min_width_major</item>
@@ -563,9 +563,9 @@
     <style name="Base.ThemeOverlay.AppCompat.Dark" parent="@style/Platform.ThemeOverlay.AppCompat.Dark">
         <item name="android:colorForeground">@color/foreground_material_dark</item>
         <item name="android:colorBackground">@color/background_material_dark</item>
-        <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
+        <item name="android:textColorPrimary">@color/appcompat_text_color</item>
         <item name="android:textColorPrimaryDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
-        <item name="android:textColorSecondary">@color/abc_secondary_text_material_dark</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
         <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_light</item>
         <item name="android:textColorSecondaryInverse">@color/abc_secondary_text_material_light</item>
         <item name="android:textColorHintInverse">@color/hint_foreground_material_light</item>
@@ -578,7 +578,7 @@
         <item name="android:colorBackgroundCacheHint">@color/abc_background_cache_hint_selector_material_dark</item>
         <item name="isLightTheme">false</item>
         <item name="colorControlNormal">?android:textColorSecondary</item>
-        <item name="colorControlHighlight">@color/ripple_material_dark</item>
+        <item name="colorControlHighlight">@color/color_ripple</item>
         <item name="colorButtonNormal">@color/button_material_dark</item>
         <item name="colorSwitchThumbNormal">@color/switch_thumb_material_dark</item>
     </style>
@@ -692,11 +692,11 @@
         <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
         <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
         <item name="colorPrimary">@color/primary_material_dark</item>
-        <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
+        <item name="colorPrimaryDark">@color/color_statusbar</item>
         <item name="colorAccent">@color/accent_material_dark</item>
         <item name="colorControlNormal">?android:textColorSecondary</item>
         <item name="colorControlActivated">?colorAccent</item>
-        <item name="colorControlHighlight">@color/ripple_material_dark</item>
+        <item name="colorControlHighlight">@color/color_ripple</item>
         <item name="colorButtonNormal">@color/button_material_dark</item>
         <item name="colorSwitchThumbNormal">@color/switch_thumb_material_dark</item>
         <item name="controlBackground">?selectableItemBackgroundBorderless</item>
@@ -978,7 +978,7 @@
         <item name="android:paddingLeft">@dimen/abc_action_bar_default_padding_start_material</item>
         <item name="android:paddingRight">@dimen/abc_action_bar_default_padding_end_material</item>
         <item name="android:minHeight">?actionBarSize</item>
-        <item name="contentInsetStart">16.0dip</item>
+        <item name="contentInsetStart">72.0dip</item>
         <item name="titleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Title</item>
         <item name="subtitleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle</item>
         <item name="titleMargins">4.0dip</item>
@@ -997,13 +997,13 @@
         <item name="tabPaddingEnd">12.0dip</item>
     </style>
     <style name="BaseAppTheme" parent="@style/Theme.AppCompat.NoActionBar">
-        <item name="android:windowBackground">@color/backgroundMain</item>
+        <item name="android:windowBackground">@color/main_background</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:textSize">16.0sp</item>
         <item name="android:textColor">@color/colorMainText</item>
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/color_appbar</item>
+        <item name="colorPrimaryDark">@color/color_statusbar</item>
+        <item name="colorAccent">@color/color_accent</item>
     </style>
     <style name="SwipeBackLayout">
         <item name="edge_size">50.0dip</item>

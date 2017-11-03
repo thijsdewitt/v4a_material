@@ -112,8 +112,17 @@
     <!--	New Colors-->
     <color name="text_primary">#ffffffff</color>
     <color name="text_secondary">#b3ffffff</color>
+    <color name="color_background">#ff303030</color>
+    <color name="color_appbar">#ff212121</color>
+    <color name="color_statusbar">#ff000000</color>
+    <color name="color_accent">#ffaa00ff</color>
+    <color name="color_ripple">#33ffffff</color>
+
+    
+    
 	<color name="main_icon_color">@color/text_primary</color>
     <color name="main_text_color">@color/text_primary</color>
+    <color name="main_background">@color/color_background</color>
     
     <color name="navigation_text_color">@color/text_secondary</color>
     <color name="navigation_icon_color">@color/text_secondary</color>
@@ -122,6 +131,11 @@
     <color name="knob_color_accent">@color/color_accent</color>
     <color name="knob_color_accent_disabled">#ff777777</color>
     <color name="knob_color_point">@color/knob_color_accent_disabled</color>
+    
+    <color name="eq_color_accent">@color/color_accent</color>
+    <color name="eq_color_background">#80ffffff</color>
+
+    <color name="appcompat_text_color">@color/text_primary</color>
     
     <color name="fragment_text_color">@color/text_primary</color>
 </resources>
