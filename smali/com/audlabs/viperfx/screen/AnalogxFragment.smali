@@ -140,7 +140,7 @@
 
     iput v1, p0, Lcom/audlabs/viperfx/screen/AnalogxFragment;->c:F
 
-    invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeigth()I
+    invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
 
     move-result v0
 
