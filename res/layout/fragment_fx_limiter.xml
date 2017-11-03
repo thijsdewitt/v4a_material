@@ -17,6 +17,7 @@
             android:layout_height="35.0dip"
             android:layout_marginTop="35.0dip"
             android:gravity="center"
+            android:textColor="@color/fragment_text_color"
             android:text="@string/pref_output_pan" />
 
         <CheckBox
@@ -34,6 +35,7 @@
             android:layout_width="100.0dip"
             android:layout_height="35.0dip"
             android:layout_alignParentRight="true"
+            android:textColor="@color/fragment_text_color"
             android:layout_alignTop="@id/id_tv_output_pan"
             android:background="@drawable/input"
             android:gravity="center" />
@@ -58,6 +60,7 @@
             android:layout_height="35.0dip"
             android:layout_below="@id/id_sb_output_pan"
             android:layout_marginTop="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:gravity="center"
             android:text="@string/pref_output_gain" />
 
@@ -78,6 +81,7 @@
             android:layout_alignParentRight="true"
             android:layout_alignTop="@id/id_tv_output_gain"
             android:background="@drawable/input"
+            android:textColor="@color/fragment_text_color"
             android:gravity="center" />
 
         <SeekBar
@@ -100,6 +104,7 @@
             android:layout_height="35.0dip"
             android:layout_below="@id/id_sb_output_gain"
             android:layout_marginTop="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:gravity="center"
             android:text="@string/pref_fx_limiter_threshold" />
 
@@ -120,6 +125,7 @@
             android:layout_alignParentRight="true"
             android:layout_alignTop="@id/id_tv_limiter_threshold"
             android:background="@drawable/input"
+            android:textColor="@color/fragment_text_color"
             android:gravity="center" />
 
         <SeekBar

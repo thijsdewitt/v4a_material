@@ -23,6 +23,7 @@
                 android:layout_above="@+id/v4a_setting_notify_state"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
+                android:textColor="@color/text_primary"
                 android:text="@string/text_showtrayicon" />
 
             <TextView
@@ -58,6 +59,7 @@
                 android:layout_above="@+id/v4a_setting_lockeffect_state"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
+                android:textColor="@color/text_primary"
                 android:text="@string/text_lockeffect" />
 
             <TextView
@@ -92,6 +94,7 @@
                 android:layout_above="@+id/v4a_setting_compatible_state"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
+                android:textColor="@color/text_primary"
                 android:text="@string/text_commode" />
 
             <TextView
@@ -125,6 +128,7 @@
                 android:layout_height="wrap_content"
                 android:layout_above="@+id/v4a_setting_default_storage_state"
                 android:layout_alignParentLeft="true"
+                android:textColor="@color/text_primary"
                 android:layout_alignParentStart="true"
                 android:text="@string/text_default_storage" />"
 
@@ -149,6 +153,7 @@
             android:id="@id/v4a_setting_developer"
             android:layout_width="match_parent"
             android:layout_height="48.0dip"
+            android:textColor="@color/text_primary"
             android:background="?selectableItemBackground"
             android:gravity="center_vertical"
             android:paddingLeft="16.0dip"
@@ -165,6 +170,7 @@
             android:id="@id/v4a_setting_close_selinux"
             android:layout_width="match_parent"
             android:layout_height="48.0dip"
+            android:textColor="@color/text_primary"
             android:background="?selectableItemBackground"
             android:gravity="center_vertical"
             android:paddingLeft="16.0dip"
@@ -187,6 +193,7 @@
             android:layout_height="48.0dip"
             android:background="?selectableItemBackground"
             android:gravity="center_vertical"
+            android:textColor="@color/text_primary"
             android:paddingLeft="16.0dip"
             android:text="@string/text_help_title" />
 	
@@ -201,6 +208,7 @@
             android:layout_height="48.0dip"
             android:background="?selectableItemBackground"
             android:gravity="center_vertical"
+            android:textColor="@color/text_primary"
             android:paddingLeft="16.0dip"
             android:text="@string/text_rated" />
 
@@ -213,6 +221,7 @@
             android:id="@id/v4a_setting_changelog"
             android:layout_width="match_parent"
             android:layout_height="48.0dip"
+            android:textColor="@color/text_primary"
             android:background="?selectableItemBackground"
             android:gravity="center_vertical"
             android:paddingLeft="16.0dip"
@@ -227,6 +236,7 @@
             android:id="@id/v4a_setting_checkupdate"
             android:layout_width="match_parent"
             android:layout_height="48.0dip"
+            android:textColor="@color/text_primary"
             android:background="?selectableItemBackground"
             android:gravity="center_vertical"
             android:paddingLeft="16.0dip"
@@ -244,6 +254,7 @@
             android:background="?selectableItemBackground"
             android:gravity="center_vertical"
             android:paddingLeft="16.0dip"
+            android:textColor="@color/text_primary"
             android:text="@string/text_about_title" />
     </LinearLayout>
 </ScrollView>

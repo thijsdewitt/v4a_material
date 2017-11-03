@@ -15,6 +15,7 @@
             android:id="@id/v4a_tv_cure_crossfeed"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/fragment_text_color"
             android:layout_marginTop="35.0dip"
             android:text="@string/pref_select_cure_cf_title" />
 
@@ -47,6 +48,7 @@
         <TextView
             android:id="@id/v4a_tv_cure_crossfeed_moderate"
             android:layout_width="wrap_content"
+            android:textColor="@color/fragment_text_color"
             android:layout_height="wrap_content"
             android:layout_below="@id/v4a_tv_cure_crossfeed"
             android:layout_centerHorizontal="true"
@@ -55,6 +57,7 @@
         <TextView
             android:id="@id/v4a_tv_cure_crossfeed_slight"
             android:layout_width="wrap_content"
+            android:textColor="@color/fragment_text_color"
             android:layout_height="wrap_content"
             android:layout_below="@id/v4a_tv_cure_crossfeed"
             android:layout_centerHorizontal="true"
@@ -70,6 +73,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginLeft="47.0dip"
             android:layout_marginTop="55.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_toRightOf="@id/v4a_tv_cure_crossfeed_moderate" />
     </RelativeLayout>
 </ScrollView>

@@ -16,6 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="45.0dip"
             android:layout_marginTop="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:gravity="center"
             android:text="@string/pref_dynamicsystem_output_title" />
 
@@ -38,6 +39,7 @@
             android:layout_height="35.0dip"
             android:layout_below="@id/id_btn_dynamicsystem_output"
             android:layout_marginTop="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:gravity="center"
             android:text="@string/pref_dynamicsystem_bass" />
 
@@ -48,6 +50,7 @@
             android:layout_alignTop="@id/v4a_tv_dynamicsystem_bass"
 			android:layout_alignParentRight="true"
             android:background="@drawable/input"
+            android:textColor="@color/fragment_text_color"
             android:gravity="center" />
 
         <com.audlabs.viperfx.widget.TouchRotateButton

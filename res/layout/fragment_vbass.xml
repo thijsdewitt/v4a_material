@@ -15,6 +15,7 @@
             android:id="@id/v4a_tv_bass_mode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/fragment_text_color"
             android:layout_marginTop="35.0dip"
             android:text="@string/pref_fidelity_vb_mode_title" />
 
@@ -67,6 +68,7 @@
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
             android:layout_below="@id/v4a_rg_bass_mode"
+            android:textColor="@color/fragment_text_color"
             android:layout_marginTop="35.0dip"
             android:gravity="center"
             android:text="@string/pref_fidelity_vb_bassfreq_title" />
@@ -74,6 +76,7 @@
         <TextView
             android:id="@id/v4a_tv_bass_freq_val"
             android:layout_width="100.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_height="35.0dip"
             android:layout_alignTop="@id/v4a_tv_bass_freq"
             android:layout_alignParentRight="true"
@@ -103,6 +106,7 @@
             android:layout_below="@id/v4a_trb_bass_freq"
             android:layout_marginTop="35.0dip"
             android:gravity="center"
+            android:textColor="@color/fragment_text_color"
             android:text="@string/pref_fidelity_vb_bassgain_title" />
 
         <TextView
@@ -110,6 +114,7 @@
             android:layout_width="100.0dip"
             android:layout_height="35.0dip"
             android:layout_alignTop="@id/v4a_tv_bass_gain"
+            android:textColor="@color/fragment_text_color"
             android:layout_alignParentRight="true"
             android:background="@drawable/input"
             android:gravity="center" />

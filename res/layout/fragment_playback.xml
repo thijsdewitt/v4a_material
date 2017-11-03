@@ -16,6 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
             android:layout_marginTop="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:gravity="center"
             android:text="@string/pref_effect_title" />
 
@@ -49,6 +50,7 @@
         <TextView
             android:id="@id/v4a_tv_playback_effect_moderate"
             android:layout_width="wrap_content"
+            android:textColor="@color/fragment_text_color"
             android:layout_height="wrap_content"
             android:layout_below="@id/v4a_tv_playback_effect"
             android:layout_centerHorizontal="true"
@@ -58,6 +60,7 @@
             android:id="@id/v4a_tv_playback_effect_slight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/fragment_text_color"
             android:layout_below="@id/v4a_tv_playback_effect"
             android:layout_centerHorizontal="true"
             android:layout_marginRight="47.0dip"
@@ -70,6 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/v4a_tv_playback_effect"
             android:layout_centerHorizontal="true"
+            android:textColor="@color/fragment_text_color"
             android:layout_marginLeft="47.0dip"
             android:layout_marginTop="35.0dip"
             android:layout_toRightOf="@id/v4a_tv_playback_effect_moderate" />
@@ -78,6 +82,7 @@
             android:id="@id/v4a_tv_playback_maxgain"
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_below="@id/v4a_trb_playback_effect"
             android:layout_marginTop="25.0dip"
             android:gravity="center"
@@ -88,6 +93,7 @@
             android:layout_width="100.0dip"
             android:layout_height="35.0dip"
             android:layout_alignParentRight="true"
+            android:textColor="@color/fragment_text_color"
             android:layout_alignTop="@id/v4a_tv_playback_maxgain"
             android:background="@drawable/input"
             android:gravity="center" />
@@ -111,6 +117,7 @@
             android:layout_height="35.0dip"
             android:layout_below="@id/v4a_sb_playback_maxgain"
             android:layout_marginTop="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:gravity="center"
             android:text="@string/pref_playback_output_threshold" />
 
@@ -118,6 +125,7 @@
             android:id="@id/v4a_tv_playback_output_threshold_val"
             android:layout_width="100.0dip"
             android:layout_height="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_alignParentRight="true"
             android:layout_alignTop="@id/v4a_tv_playback_output_threshold"
             android:background="@drawable/input"

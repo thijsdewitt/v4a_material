@@ -15,6 +15,7 @@
             android:id="@id/v4a_tv_diffsurr"
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_marginTop="35.0dip"
             android:gravity="center"
             android:text="@string/pref_select_diffsurr_ms_title" />
@@ -26,6 +27,7 @@
             android:layout_alignParentRight="true"
             android:layout_alignTop="@id/v4a_tv_diffsurr"
             android:background="@drawable/input"
+            android:textColor="@color/fragment_text_color"
             android:gravity="center"
             android:paddingLeft="5.0dip"
             android:paddingRight="5.0dip"

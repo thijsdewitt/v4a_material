@@ -15,6 +15,7 @@
             android:id="@id/v4a_tv_vse"
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_marginTop="35.0dip"
             android:gravity="center"
             android:text="@string/pref_vse_strength_title" />
@@ -22,6 +23,7 @@
         <TextView
             android:id="@id/v4a_tv_vse_val"
             android:layout_width="50.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_height="35.0dip"
             android:layout_alignTop="@id/v4a_tv_vse"
             android:layout_alignParentRight="true"

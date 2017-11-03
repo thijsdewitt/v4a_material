@@ -19,6 +19,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35.0dip"
         android:text="@string/app_name"
+        android:textColor="@color/text_primary"
         android:textSize="18.0sp" />
 
     <TextView
@@ -28,6 +29,7 @@
         android:layout_below="@id/v4a_about_icon"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="65.0dip"
+        android:textColor="@color/text_primary"
         android:text="@string/app_name" />
 
     <TextView
@@ -48,5 +50,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="15.0dip"
         android:text="@string/about_forum"
+        android:textColor="@color/text_primary"
         android:textSize="12.0sp" />
 </RelativeLayout>

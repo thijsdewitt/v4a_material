@@ -12,7 +12,7 @@
 
         <TextView
             style="@style/TextAppearance.Design.Tab"
-            android:textColor="@color/colorMainText"
+            android:textColor="@color/fragment_text_color"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginRight="16dp"

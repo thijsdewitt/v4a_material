@@ -16,6 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
             android:layout_marginTop="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:gravity="center"
             android:text="@string/pref_fetcompressor_threshold" />
 
@@ -23,6 +24,7 @@
             android:id="@id/v4a_tv_fetcompressor_threshold_val"
             android:layout_width="100.0dip"
             android:layout_height="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_alignTop="@id/v4a_tv_fetcompressor_threshold"
             android:layout_alignParentRight="true"
             android:background="@drawable/input"
@@ -50,12 +52,14 @@
             android:layout_height="35.0dip"
             android:layout_below="@id/v4a_pbv_fetcompressor_threshold"
             android:layout_marginTop="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:gravity="center"
             android:text="@string/pref_fetcompressor_ratio" />
 
         <TextView
             android:id="@id/v4a_tv_fetcompressor_ratio_val"
             android:layout_width="100.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_height="35.0dip"
             android:layout_alignTop="@id/v4a_tv_fetcompressor_ratio"
             android:layout_alignParentRight="true"
@@ -82,6 +86,7 @@
             android:id="@id/v4a_tv_fetcompressor_autoknee"
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_below="@id/v4a_pbv_fetcompressor_ratio"
             android:layout_marginTop="35.0dip"
             android:gravity="center"
@@ -101,6 +106,7 @@
             android:id="@id/v4a_tv_fetcompressor_knee"
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_below="@id/v4a_tv_fetcompressor_autoknee"
             android:layout_marginTop="15.0dip"
             android:gravity="center"
@@ -110,6 +116,7 @@
             android:id="@id/v4a_tv_fetcompressor_knee_val"
             android:layout_width="100.0dip"
             android:layout_height="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_alignTop="@id/v4a_tv_fetcompressor_knee"
             android:layout_alignParentRight="true"
             android:background="@drawable/input"
@@ -135,6 +142,7 @@
             android:id="@id/v4a_tv_fetcompressor_kneemulti"
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_below="@id/v4a_pbv_fetcompressor_knee"
             android:layout_marginTop="35.0dip"
             android:gravity="center"
@@ -143,6 +151,7 @@
         <TextView
             android:id="@id/v4a_tv_fetcompressor_kneemulti_val"
             android:layout_width="100.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_height="35.0dip"
             android:layout_alignTop="@id/v4a_tv_fetcompressor_kneemulti"
             android:layout_alignParentRight="true"
@@ -169,6 +178,7 @@
             android:id="@id/v4a_tv_fetcompressor_autogain"
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_below="@id/v4a_pbv_fetcompressor_kneemulti"
             android:layout_marginTop="35.0dip"
             android:gravity="center"
@@ -188,6 +198,7 @@
             android:id="@id/v4a_tv_fetcompressor_gain"
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_below="@id/v4a_tv_fetcompressor_autogain"
             android:layout_marginTop="15.0dip"
             android:gravity="center"
@@ -196,6 +207,7 @@
         <TextView
             android:id="@id/v4a_tv_fetcompressor_gain_val"
             android:layout_width="100.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_height="35.0dip"
             android:layout_alignTop="@id/v4a_tv_fetcompressor_gain"
             android:layout_alignParentRight="true"
@@ -221,6 +233,7 @@
         <TextView
             android:id="@id/v4a_tv_fetcompressor_autoattack"
             android:layout_width="wrap_content"
+            android:textColor="@color/fragment_text_color"
             android:layout_height="35.0dip"
             android:layout_below="@id/v4a_pbv_fetcompressor_gain"
             android:layout_marginTop="35.0dip"
@@ -241,6 +254,7 @@
             android:id="@id/v4a_tv_fetcompressor_attack"
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_below="@id/v4a_tv_fetcompressor_autoattack"
             android:layout_marginTop="15.0dip"
             android:gravity="center"
@@ -249,6 +263,7 @@
         <TextView
             android:id="@id/v4a_tv_fetcompressor_attack_val"
             android:layout_width="100.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_height="35.0dip"
             android:layout_alignTop="@id/v4a_tv_fetcompressor_attack"
             android:layout_alignParentRight="true"
@@ -274,6 +289,7 @@
         <TextView
             android:id="@id/v4a_tv_fetcompressor_maxattack"
             android:layout_width="wrap_content"
+            android:textColor="@color/fragment_text_color"
             android:layout_height="35.0dip"
             android:layout_below="@id/v4a_pbv_fetcompressor_attack"
             android:layout_marginTop="35.0dip"
@@ -283,6 +299,7 @@
         <TextView
             android:id="@id/v4a_tv_fetcompressor_maxattack_val"
             android:layout_width="100.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_height="35.0dip"
             android:layout_alignTop="@id/v4a_tv_fetcompressor_maxattack"
             android:layout_alignParentRight="true"
@@ -308,6 +325,7 @@
         <TextView
             android:id="@id/v4a_tv_fetcompressor_autorelease"
             android:layout_width="wrap_content"
+            android:textColor="@color/fragment_text_color"
             android:layout_height="35.0dip"
             android:layout_below="@id/v4a_pbv_fetcompressor_maxattack"
             android:layout_marginTop="35.0dip"
@@ -327,6 +345,7 @@
         <TextView
             android:id="@id/v4a_tv_fetcompressor_release"
             android:layout_width="wrap_content"
+            android:textColor="@color/fragment_text_color"
             android:layout_height="35.0dip"
             android:layout_below="@id/v4a_tv_fetcompressor_autorelease"
             android:layout_marginTop="15.0dip"
@@ -336,6 +355,7 @@
         <TextView
             android:id="@id/v4a_tv_fetcompressor_release_val"
             android:layout_width="100.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_height="35.0dip"
             android:layout_alignTop="@id/v4a_tv_fetcompressor_release"
             android:layout_alignParentRight="true"
@@ -361,6 +381,7 @@
         <TextView
             android:id="@id/v4a_tv_fetcompressor_maxrelease"
             android:layout_width="wrap_content"
+            android:textColor="@color/fragment_text_color"
             android:layout_height="35.0dip"
             android:layout_below="@id/v4a_pbv_fetcompressor_release"
             android:layout_marginTop="35.0dip"
@@ -370,6 +391,7 @@
         <TextView
             android:id="@id/v4a_tv_fetcompressor_maxrelease_val"
             android:layout_width="100.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_height="35.0dip"
             android:layout_alignTop="@id/v4a_tv_fetcompressor_maxrelease"
             android:layout_alignParentRight="true"
@@ -396,6 +418,7 @@
             android:id="@id/v4a_tv_fetcompressor_crest"
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_below="@id/v4a_pbv_fetcompressor_maxrelease"
             android:layout_marginTop="35.0dip"
             android:gravity="center"
@@ -405,6 +428,7 @@
             android:id="@id/v4a_tv_fetcompressor_crest_val"
             android:layout_width="100.0dip"
             android:layout_height="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_alignTop="@id/v4a_tv_fetcompressor_crest"
             android:layout_alignParentRight="true"
             android:background="@drawable/input"
@@ -429,6 +453,7 @@
         <TextView
             android:id="@id/v4a_tv_fetcompressor_adapt"
             android:layout_width="wrap_content"
+            android:textColor="@color/fragment_text_color"
             android:layout_height="35.0dip"
             android:layout_below="@id/v4a_pbv_fetcompressor_crest"
             android:layout_marginTop="35.0dip"
@@ -439,6 +464,7 @@
             android:id="@id/v4a_tv_fetcompressor_adapt_val"
             android:layout_width="100.0dip"
             android:layout_height="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_alignTop="@id/v4a_tv_fetcompressor_adapt"
             android:layout_alignParentRight="true"
             android:background="@drawable/input"
@@ -464,6 +490,7 @@
             android:id="@id/v4a_tv_fetcompressor_noclipenable"
             android:layout_width="wrap_content"
             android:layout_height="35.0dip"
+            android:textColor="@color/fragment_text_color"
             android:layout_below="@id/v4a_pbv_fetcompressor_adapt"
             android:layout_marginTop="35.0dip"
             android:gravity="center"

@@ -22,8 +22,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="@string/pref_convolver_knl"
-                android:textColor="@color/colorMainText" />
+                android:textColor="@color/fragment_text_color"
+                android:text="@string/pref_convolver_knl" />
 
             <android.support.v7.widget.AppCompatEditText
                 android:id="@id/v4a_et_convolver_knl_search"
@@ -59,7 +59,7 @@
                 android:layout_height="45.0dip"
                 android:gravity="center"
                 android:text="@string/pref_convolver_knl_title"
-                android:textColor="@color/colorMainText" />
+                android:textColor="@color/fragment_text_color" />
 
             <Button
                 android:id="@id/id_btn_convolver_knl"
@@ -79,6 +79,7 @@
                 android:layout_height="35.0dip"
                 android:layout_below="@id/id_btn_convolver_knl"
                 android:layout_marginTop="35.0dip"
+                android:textColor="@color/fragment_text_color"
                 android:gravity="center"
                 android:text="@string/pref_convolver_crosschannel_title" />
 
@@ -86,6 +87,7 @@
                 android:id="@id/id_tv_convolver_crosschannel_val"
                 android:layout_width="100.0dip"
                 android:layout_height="35.0dip"
+                android:textColor="@color/fragment_text_color"
                 android:layout_alignParentRight="true"
                 android:layout_alignTop="@id/id_tv_convolver_crosschannel"
                 android:background="@drawable/input"

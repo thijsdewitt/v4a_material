@@ -21,7 +21,7 @@
         android:gravity="center_vertical"
         android:text="@string/pref_equalizer_preset_title"
         android:textAllCaps="true"
-        android:textColor="@color/colorMainText" />
+        android:textColor="@color/fragment_text_color" />
 
     <com.audlabs.viperfx.widget.Gallery
         android:id="@id/eqPresets"
