@@ -13,7 +13,7 @@
             <shape android:shape="line">
 			   <stroke
 				android:width="2dp"
-				android:color="@color/colorAccent" />
+				android:color="@color/eq_color_accent" />
 		    </shape>
 		</clip>
     </item>
@@ -22,7 +22,7 @@
             <shape android:shape="line">
 			   <stroke
 				android:width="2dp"
-				android:color="@color/colorAccent" />
+				android:color="@color/eq_color_accent" />
 		    </shape>
 		</clip>
     </item>

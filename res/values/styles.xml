@@ -923,7 +923,7 @@
     </style>
     <style name="Base.Widget.AppCompat.Button.ButtonBar.AlertDialog" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
         <item name="android:minWidth">64.0dip</item>
-        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColor">@color/color_accent</item>
         <item name="android:minHeight">@dimen/abc_alert_dialog_button_bar_height</item>
         <item name="android:maxLines">2</item>
     </style>
