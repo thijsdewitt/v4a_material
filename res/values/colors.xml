@@ -113,6 +113,7 @@
     <color name="text_primary">#ffffffff</color>
     <color name="text_secondary">#b3ffffff</color>
 	<color name="main_icon_color">@color/text_primary</color>
+    <color name="main_text_color">@color/text_primary</color>
     <color name="navigation_icon_color">@color/text_secondary</color>
 
     <color name="knob_color_background">#292929</color>
