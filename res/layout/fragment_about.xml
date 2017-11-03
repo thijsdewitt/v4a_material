@@ -38,7 +38,7 @@
         android:layout_marginBottom="45.0dip"
         android:gravity="center"
         android:text="@string/about_company"
-        android:textColor="@color/grey"
+        android:textColor="@color/text_secondary"
         android:textSize="12.0sp" />
 
     <TextView

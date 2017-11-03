@@ -34,7 +34,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginBottom="17dp"
                 android:text="@string/text_open"
-                android:textColor="@color/grey"
+                android:textColor="@color/text_secondary"
                 android:textSize="@dimen/abc_text_size_small_material" />
         </RelativeLayout>
 	    
@@ -69,7 +69,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginBottom="17dp"
                 android:text="@string/text_open"
-                android:textColor="@color/grey"
+                android:textColor="@color/text_secondary"
                 android:textSize="@dimen/abc_text_size_small_material" />
         </RelativeLayout>
 
@@ -103,7 +103,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginBottom="17dp"
                 android:text="@string/text_open"
-                android:textColor="@color/grey"
+                android:textColor="@color/text_secondary"
                 android:textSize="@dimen/abc_text_size_small_material" />
         </RelativeLayout>
 
@@ -136,7 +136,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_marginBottom="16dp"
-                android:textColor="@color/grey"
+                android:textColor="@color/text_secondary"
                 android:textSize="@dimen/abc_text_size_small_material" />
         </RelativeLayout>
 
@@ -174,7 +174,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="48.0dp"
-            android:gravity="bottom"
+            android:gravity="center_vertical"
             android:paddingLeft="16.0dp"
             android:text="@string/about_title"
             android:textColor="@color/color_accent"

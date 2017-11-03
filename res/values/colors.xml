@@ -110,6 +110,7 @@
 	<color name="backgroundButton">@color/colorPrimary</color>
 	
     <!--	New Colors-->
+    <color name="text_secondary">#b3ffffff</color>
 	<color name="main_icon_color">@color/text_primary</color>
     <color name="navigation_icon_color">@color/text_secondary</color>
 
