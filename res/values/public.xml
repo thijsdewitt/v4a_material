@@ -413,6 +413,8 @@
 	<public type="drawable" name="save" id="0x7f020076" />
 	<public type="drawable" name="settings" id="0x7f020077" />
 	<public type="drawable" name="status" id="0x7f020078" />
+    <public type="drawable" name="radio_select" id="0x7f02007c" />
+    <public type="drawable" name="radio_noselect" id="0x7f02007d" />
     <public type="mipmap" name="icon" id="0x7f030010" />
     <public type="mipmap" name="smalllogo" id="0x7f030034" />
     <public type="mipmap" name="add" id="0x7f030000" />
@@ -442,8 +444,6 @@
     <public type="mipmap" name="old_btn_press" id="0x7f030027" />
     <public type="mipmap" name="old_btn_right_default" id="0x7f030028" />
     <public type="mipmap" name="old_btn_right_press" id="0x7f030029" />
-    <public type="mipmap" name="radio_noselect" id="0x7f03002d" />
-    <public type="mipmap" name="radio_select" id="0x7f03002e" />
     <public type="mipmap" name="seekbar_rule_double" id="0x7f03002f" />
     <public type="mipmap" name="seekbar_thumb" id="0x7f030030" />
     <public type="mipmap" name="side_nav_bar" id="0x7f030033" />

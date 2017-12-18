@@ -97,7 +97,7 @@
 
     iget-object v0, p1, Lcom/audlabs/viperfx/screen/VDdcFragment$VDdcAdapter$VDdcViewHolder;->ivSelect:Landroid/widget/ImageView;
 
-    const v1, 0x7f03002e
+    const v1, 0x7f02007c
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -140,7 +140,7 @@
     :cond_1
     iget-object v0, p1, Lcom/audlabs/viperfx/screen/VDdcFragment$VDdcAdapter$VDdcViewHolder;->ivSelect:Landroid/widget/ImageView;
 
-    const v1, 0x7f03002d
+    const v1, 0x7f02007d
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

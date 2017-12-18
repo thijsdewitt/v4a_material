@@ -6,12 +6,12 @@
 
     <ImageView
         android:id="@id/v4a_item_ddc_select"
-        android:layout_width="35.0dip"
-        android:layout_height="35.0dip"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:layout_marginRight="13.0dip"
-        android:src="@mipmap/radio_noselect" />
+        android:layout_marginRight="16.0dip"
+        android:src="@drawable/radio_noselect" />
 
     <TextView
         android:id="@id/v4a_item_ddc_name"
