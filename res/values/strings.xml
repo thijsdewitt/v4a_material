@@ -135,7 +135,7 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="text_close">Off</string>
     <string name="text_close_developer">Turn off developer mode</string>
     <string name="text_close_selinux">Disable SELinux</string>
-    <string name="text_close_selinux_msg">SELinux will be disabled untill you reboot your device. Try this only if other attempts on enabling the driver have failed</string>
+    <string name="text_close_selinux_msg">SELinux will be disabled until you reboot your device. Try this only if other attempts on enabling the driver have failed</string>
     <string name="text_commode">FX compatible mode</string>
     <string name="text_db">dB</string>
     <string name="text_default_storage">Set default storage</string>
