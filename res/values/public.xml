@@ -413,6 +413,9 @@
 	<public type="drawable" name="save" id="0x7f020076" />
 	<public type="drawable" name="settings" id="0x7f020077" />
 	<public type="drawable" name="status" id="0x7f020078" />
+    <public type="drawable" name="knob_point" id="0x7f020079" />
+    <public type="drawable" name="knob_default" id="0x7f02007a" />
+    <public type="drawable" name="knob_pressed" id="0x7f02007b" />
     <public type="drawable" name="radio_select" id="0x7f02007c" />
     <public type="drawable" name="radio_noselect" id="0x7f02007d" />
     <public type="mipmap" name="icon" id="0x7f030010" />
@@ -422,17 +425,6 @@
     <public type="mipmap" name="bgbig" id="0x7f030005" />
     <public type="mipmap" name="bglight" id="0x7f030006" />
     <public type="mipmap" name="input" id="0x7f030011" />
-    <public type="mipmap" name="knob_bg_10point" id="0x7f030013" />
-    <public type="mipmap" name="knob_bg_11point" id="0x7f030014" />
-    <public type="mipmap" name="knob_bg_12point" id="0x7f030015" />
-    <public type="mipmap" name="knob_bg_3point" id="0x7f030016" />
-    <public type="mipmap" name="knob_bg_5point" id="0x7f030017" />
-    <public type="mipmap" name="knob_bg_9point" id="0x7f030018" />
-    <public type="mipmap" name="knob_default" id="0x7f030019" />
-    <public type="mipmap" name="knob_point" id="0x7f03001a" />
-    <public type="mipmap" name="knob_press" id="0x7f03001b" />
-    <public type="mipmap" name="knob_style_default" id="0x7f03001c" />
-    <public type="mipmap" name="knob_style_press" id="0x7f03001d" />
     <public type="mipmap" name="minus" id="0x7f03001f" />
     <public type="mipmap" name="minus1" id="0x7f030020" />
     <public type="mipmap" name="old_btn_bg" id="0x7f030021" />

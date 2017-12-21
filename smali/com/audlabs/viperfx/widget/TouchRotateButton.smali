@@ -649,13 +649,7 @@
 
     move-result-object v0
 
-    check-cast v0, Landroid/graphics/drawable/BitmapDrawable;
-
-    invoke-virtual {v0}, Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Landroid/graphics/Bitmap;->getWidth()I
+    invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
 
     move-result v1
 
@@ -665,7 +659,7 @@
 
     iput v1, p0, Lcom/audlabs/viperfx/widget/TouchRotateButton;->k:F
 
-    invoke-virtual {v0}, Landroid/graphics/Bitmap;->getHeight()I
+    invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
 
     move-result v1
 
@@ -675,7 +669,7 @@
 
     iput v1, p0, Lcom/audlabs/viperfx/widget/TouchRotateButton;->l:F
 
-    invoke-virtual {p0, v0}, Lcom/audlabs/viperfx/widget/TouchRotateButton;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {p0, v0}, Lcom/audlabs/viperfx/widget/TouchRotateButton;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     return-void
 .end method

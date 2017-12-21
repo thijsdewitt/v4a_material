@@ -24,7 +24,7 @@
             android:layout_below="@id/v4a_tv_cure_crossfeed"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="55.0dip"
-            android:src="@mipmap/knob_bg_3point" />
+            android:src="@drawable/knob_bg_3point" />
 
         <ImageView
             android:id="@id/v4a_iv_knob_point"
@@ -34,7 +34,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="55.0dip"
             android:scaleType="matrix"
-            android:src="@mipmap/knob_point" />
+            android:src="@drawable/knob_point" />
 
         <com.audlabs.viperfx.widget.TouchRotateButton
             android:id="@id/v4a_trb_cure_crossfeed"

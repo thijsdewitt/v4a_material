@@ -382,9 +382,9 @@
 .method private a()V
     .locals 5
 
-    const v4, 0x7f03001d
+    const v4, 0x7f02007b
 
-    const v3, 0x7f03001c
+    const v3, 0x7f02007a
 
     const/16 v2, 0x12c
 

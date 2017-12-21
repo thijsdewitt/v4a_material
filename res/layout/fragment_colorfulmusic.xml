@@ -37,7 +37,7 @@
             android:layout_below="@id/id_tv_colorfulmusic"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="45.0dip"
-            android:src="@mipmap/knob_bg_9point" />
+            android:src="@drawable/knob_bg_9point" />
 
         <ImageView
             android:id="@id/id_iv_knob_point"
@@ -47,7 +47,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="45.0dip"
             android:scaleType="matrix"
-            android:src="@mipmap/knob_point" />
+            android:src="@drawable/knob_point" />
 
         <com.audlabs.viperfx.widget.TouchRotateButton
             android:id="@id/id_trb_colorfulmusic"
@@ -84,7 +84,7 @@
             android:layout_below="@id/id_tv_colorfulmusic_mi"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="45.0dip"
-            android:src="@mipmap/knob_bg_11point" />
+            android:src="@drawable/knob_bg_11point" />
 
         <ImageView
             android:id="@id/id_iv_knob_point_mi"
@@ -94,7 +94,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="45.0dip"
             android:scaleType="matrix"
-            android:src="@mipmap/knob_point" />
+            android:src="@drawable/knob_point" />
 
         <com.audlabs.viperfx.widget.TouchRotateButton
             android:id="@id/id_trb_colorfulmusic_mi"

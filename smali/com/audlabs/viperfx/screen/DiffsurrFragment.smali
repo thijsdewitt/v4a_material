@@ -57,13 +57,13 @@
 
     iget-object v0, p0, Lcom/audlabs/viperfx/screen/DiffsurrFragment;->mTrbDiffsurr:Lcom/audlabs/viperfx/widget/TouchRotateButton;
 
-    const v1, 0x7f030019
+    const v1, 0x7f02007a
 
     invoke-virtual {v0, v1}, Lcom/audlabs/viperfx/widget/TouchRotateButton;->setBgImageInt(I)V
 
     iget-object v0, p0, Lcom/audlabs/viperfx/screen/DiffsurrFragment;->mTrbDiffsurr:Lcom/audlabs/viperfx/widget/TouchRotateButton;
 
-    const v1, 0x7f03001b
+    const v1, 0x7f02007b
 
     invoke-virtual {v0, v1}, Lcom/audlabs/viperfx/widget/TouchRotateButton;->setBgPressImageInt(I)V
 
@@ -89,19 +89,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f03001a
+    const v1, 0x7f020079
 
     invoke-static {v0, v1}, Landroid/support/v4/content/a;->a(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
-    check-cast v0, Landroid/graphics/drawable/BitmapDrawable;
-
-    invoke-virtual {v0}, Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Landroid/graphics/Bitmap;->getWidth()I
+    invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
 
     move-result v1
 
@@ -111,7 +105,7 @@
 
     iput v1, p0, Lcom/audlabs/viperfx/screen/DiffsurrFragment;->c:F
 
-    invoke-virtual {v0}, Landroid/graphics/Bitmap;->getHeight()I
+    invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
 
     move-result v0
 
