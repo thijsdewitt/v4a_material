@@ -136,7 +136,7 @@
     return-void
 
     :cond_1
-    const-string v0, "%+.1fdb"
+    const-string v0, "%.1fdb"
 
     goto :goto_0
 .end method
