@@ -78,17 +78,6 @@
 
     const/4 v4, 0x0
 
-    rem-int/lit8 v0, p2, 0x2
-
-    if-nez v0, :cond_0
-
-    iget-object v0, p1, Lcom/audlabs/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->a:Landroid/view/View;
-
-    const v1, 0x7f020059
-
-    invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
-
-    :goto_0
     iget-object v0, p0, Lcom/audlabs/viperfx/main/MainFragment$MianAdapter;->a:Lcom/audlabs/viperfx/main/MainFragment;
 
     invoke-static {v0}, Lcom/audlabs/viperfx/main/MainFragment;->a(Lcom/audlabs/viperfx/main/MainFragment;)Ljava/util/List;
@@ -185,15 +174,6 @@
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     return-void
-
-    :cond_0
-    iget-object v0, p1, Lcom/audlabs/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->a:Landroid/view/View;
-
-    const v1, 0x7f020058
-
-    invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
-
-    goto :goto_0
 
     :cond_1
     iget-object v1, p1, Lcom/audlabs/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/widget/CheckBox;

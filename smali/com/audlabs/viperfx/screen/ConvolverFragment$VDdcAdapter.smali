@@ -76,17 +76,6 @@
 .method public a(Lcom/audlabs/viperfx/screen/ConvolverFragment$VDdcAdapter$VDdcViewHolder;I)V
     .locals 2
 
-    rem-int/lit8 v0, p2, 0x2
-
-    if-nez v0, :cond_0
-
-    iget-object v0, p1, Lcom/audlabs/viperfx/screen/ConvolverFragment$VDdcAdapter$VDdcViewHolder;->a:Landroid/view/View;
-
-    const v1, 0x7f020059
-
-    invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
-
-    :goto_0
     iget-object v0, p0, Lcom/audlabs/viperfx/screen/ConvolverFragment$VDdcAdapter;->a:Lcom/audlabs/viperfx/screen/ConvolverFragment;
 
     invoke-static {v0}, Lcom/audlabs/viperfx/screen/ConvolverFragment;->b(Lcom/audlabs/viperfx/screen/ConvolverFragment;)I
@@ -127,15 +116,6 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     return-void
-
-    :cond_0
-    iget-object v0, p1, Lcom/audlabs/viperfx/screen/ConvolverFragment$VDdcAdapter$VDdcViewHolder;->a:Landroid/view/View;
-
-    const v1, 0x7f020058
-
-    invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
-
-    goto :goto_0
 
     :cond_1
     iget-object v0, p1, Lcom/audlabs/viperfx/screen/ConvolverFragment$VDdcAdapter$VDdcViewHolder;->ivSelect:Landroid/widget/ImageView;
