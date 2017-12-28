@@ -581,6 +581,7 @@
     <public type="string" name="eq_preset_treble_reducer" id="0x7f060029" />
     <public type="string" name="eq_preset_vocal_booster" id="0x7f06002a" />
     <public type="string" name="headset_title" id="0x7f06002b" />
+    <public type="string" name="more_context" id="0x7f0600d1" />
     <public type="string" name="navigation_drawer_close" id="0x7f06002c" />
     <public type="string" name="navigation_drawer_open" id="0x7f06002d" />
     <public type="string" name="pref_analogx_strength_title" id="0x7f06002e" />

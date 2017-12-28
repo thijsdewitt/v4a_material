@@ -286,26 +286,6 @@
     return-void
 
     :cond_1
-    invoke-virtual {p0}, Lcom/audlabs/viperfx/service/ViPER4AndroidService;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v0
-
-    const-string v1, "smalllogo"
-
-    const-string v2, "mipmap"
-
-    invoke-virtual {p0}, Lcom/audlabs/viperfx/service/ViPER4AndroidService;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
-
-    move-result-object v3
-
-    iget-object v3, v3, Landroid/content/pm/ApplicationInfo;->packageName:Ljava/lang/String;
-
-    invoke-virtual {v0, v1, v2, v3}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
-
-    move-result v0
-
-    const-string v2, "Tap for more options."
-
     new-instance v3, Landroid/content/Intent;
 
     const-class v4, Lcom/audlabs/viperfx/main/MainActivity;
@@ -317,6 +297,18 @@
     move-result-object v3
 
     if-eqz v3, :cond_0
+
+    const v0, 0x7f030034
+
+    invoke-virtual {p0}, Lcom/audlabs/viperfx/service/ViPER4AndroidService;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v1
+
+    const v2, 0x7f0600d1
+
+    invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+
+    move-result-object v2
 
     new-instance v4, Landroid/app/Notification$Builder;
 
@@ -344,11 +336,15 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Landroid/app/Notification$Builder;->setTicker(Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
+    invoke-virtual {v0, p1}, Landroid/app/Notification$Builder;->setTicker(Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
 
     move-result-object v0
 
-    const v6, 0xff3f51b5
+    const v6, 0x7f0c0016
+
+    invoke-virtual {v1, v6}, Landroid/content/res/Resources;->getColor(I)I
+
+    move-result v6
 
     invoke-virtual {v4, v6}, Landroid/app/Notification$Builder;->setColor(I)Landroid/app/Notification$Builder;
 

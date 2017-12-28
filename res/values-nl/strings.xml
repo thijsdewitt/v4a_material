@@ -21,7 +21,7 @@
     <string name="abc_toolbar_collapse_description">Samenvouwen</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="about_company">"
-Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved. 
+Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved.
 Without the official permission, commercial use is disallowed."</string>
     <string name="about_exit">Sluiten</string>
     <string name="about_forum">Officieel forum: forum.vipersaudio.com</string>
@@ -48,6 +48,7 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="headset_title">Hoofdtelefoon</string>
     <string name="navigation_drawer_close">Navigatiemenu sluiten</string>
     <string name="navigation_drawer_open">Navigatiemenu openen</string>
+    <string name="more_context">Tik voor meer opties.</string>
     <string name="pref_analogx_strength_title">Sterkte</string>
     <string name="pref_analogx_title">AnalogX</string>
     <string name="pref_colorfulmusic_title">Field surround</string>
@@ -145,12 +146,12 @@ Aanbevolen bij MP3, AAC en OOG bestanden"</string>
     <string name="text_down_state">%s gedownload</string>
     <string name="text_drv_blank" />
     <string name="text_drv_status">Driver status</string>
-    <string name="text_drv_status_view">"Driver Versie: %1$s 
-NEON Ingeschakeld: %2$s 
-Ingeschakeld: %3$s 
-Status: %4$s 
-Audio Formaat: %5$s 
-Verwerken: %6$s 
+    <string name="text_drv_status_view">"Driver Versie: %1$s
+NEON Ingeschakeld: %2$s
+Ingeschakeld: %3$s
+Status: %4$s
+Audio Formaat: %5$s
+Verwerken: %6$s
 Sampling Rate: %7$d"</string>
     <string name="text_drvinst_acquireroot">Installatie mislukt omdat er geen root toegang beschikbaar is</string>
     <string name="text_drvinst_busybox_not_installed">Installatie mislukt omdat er geen juiste busybox is gevonden</string>
@@ -165,33 +166,33 @@ Sampling Rate: %7$d"</string>
     <string name="text_enter_developer">Ontwikkelaarsmodus inschakelen</string>
     <string name="text_enter_developer_msg">"Ontwikkelaarsmodus geeft je toegang tot opties die schade kunnen aanbrengen aan je toestel of systeem. Ga verder op eigen risico"</string>
     <string name="text_headset">Hoofdtelefoon</string>
-    <string name="text_help_content">"***General help*** 
- 
-'Install Driver' - Install/Update ViPER4Android effect driver. 
-'Uninstall Driver' - Uninstall ViPER4Android effect driver. 
-'FX Compatible Mode' - Set effect compatibility mode. 
+    <string name="text_help_content">"***General help***
+
+'Install Driver' - Install/Update ViPER4Android effect driver.
+'Uninstall Driver' - Uninstall ViPER4Android effect driver.
+'FX Compatible Mode' - Set effect compatibility mode.
  'Normaal' - Make ViPER4Android a global effect.
- 'Compitabel' - Make ViPER4Android a local effect. 
- 
+ 'Compitabel' - Make ViPER4Android a local effect.
+
 "<b>No V4A effect on all/most mediaplayers?</b>"
- You can switch the FX mode to compatible then restart your device and try again. 
- 
+ You can switch the FX mode to compatible then restart your device and try again.
+
 "<b>How to change driver audio quality?</b>"
- Uninstall driver in menu then restart your device and choose the quality you want. 
- 
+ Uninstall driver in menu then restart your device and choose the quality you want.
+
 "<b>How to reduce battery consumption?</b>"
- When V4A is running in Normal Mode, switch off system sound settings including touch sounds and lock/unlock sounds to save up to 1.2~4 times battery life. 
- 
+ When V4A is running in Normal Mode, switch off system sound settings including touch sounds and lock/unlock sounds to save up to 1.2~4 times battery life.
+
 "<b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b></string>
     <string name="text_help_title">Help</string>
     <string name="text_install">Driver installeren</string>
     <string name="text_ir_dir_isempty">ViPER4Android: The IR sample directory %1$s is empty.</string>
     <string name="text_loadfxprofile">Profiel laden</string>
     <string name="text_lockeffect">Effectmodus vergrendelen</string>
-    <string name="text_modifybuildprop">"ATTENTION: 
-LPA is enabled on your device, this may cause V4A to malfunction. 
-LPA, or 'Low Power Audio', can be disabled through modifying build.prop, which can be done automatically. 
-We strongly recommend you to make a NANDROID or DATA BACKUP before proceeding! 
+    <string name="text_modifybuildprop">"ATTENTION:
+LPA is enabled on your device, this may cause V4A to malfunction.
+LPA, or 'Low Power Audio', can be disabled through modifying build.prop, which can be done automatically.
+We strongly recommend you to make a NANDROID or DATA BACKUP before proceeding!
 Do you wish to disable LPA now?"</string>
     <string name="text_ms">ms</string>
     <string name="text_newfxprofile">Nieuw effectprofiel</string>
@@ -223,25 +224,25 @@ Do you wish to disable LPA now?"</string>
     <string name="text_usb">USB/Dock</string>
     <string name="text_yes">Ja</string>
     <string name="usb_title">USB/Dock</string>
-    <string name="about_text">"***About ViPER4Android*** 
- 
-'libv4a_xx_xx.so' is the kernel of ViPER4Android. 
-Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved. 
-Without the official permission, commercial use is disallowed. 
-Official Forum: http://vipersaudio.com/blog/ 
- 
-'ViPER4Android.apk' is the visual control panel of ViPER4Android. 
-Based on Cyanogenmod's DSPManager. 
-Great thanks to Zhuhang@XDA 
-Great thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github 
- 
-Version %1$s (FX), Codename “Beautiful”. 
+    <string name="about_text">"***About ViPER4Android***
+
+'libv4a_xx_xx.so' is the kernel of ViPER4Android.
+Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved.
+Without the official permission, commercial use is disallowed.
+Official Forum: http://vipersaudio.com/blog/
+
+'ViPER4Android.apk' is the visual control panel of ViPER4Android.
+Based on Cyanogenmod's DSPManager.
+Great thanks to Zhuhang@XDA
+Great thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
+
+Version %1$s (FX), Codename “Beautiful”.
 "</string>
     <string name="about_title">Help en overige</string>
     <string name="navigation_toggle_drawer">Drawer view inschakelen</string>
     <string name="navigation_toggle_tabbed">Tab view inschakelen</string>
     <string name="text_drvinst_prefer">Voorkeur kiezen</string>
-    <string name="text_drvinst_sqdrv">"Super audio quality driver benodigt ten minste een dual-core cpu en kan batterij verbruik verhogen. 
+    <string name="text_drvinst_sqdrv">"Super audio quality driver benodigt ten minste een dual-core cpu en kan batterij verbruik verhogen.
 Wilt u doorgaan?"</string>
     <string name="text_enabled">Ingeschakeld</string>
     <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>

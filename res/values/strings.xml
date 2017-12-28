@@ -21,7 +21,7 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="about_company">"
-Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved. 
+Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved.
 Without the official permission, commercial use is disallowed."</string>
     <string name="about_exit">Exit</string>
     <string name="about_forum">Official forum: forum.vipersaudio.com</string>
@@ -46,6 +46,7 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="eq_preset_treble_reducer">Treble Reducer</string>
     <string name="eq_preset_vocal_booster">Vocal Booster</string>
     <string name="headset_title">Headset</string>
+    <string name="more_context">Tap for more options.</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="pref_analogx_strength_title">Select strength</string>
@@ -145,11 +146,11 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="text_drv_blank" />
     <string name="text_drv_status">Driver status</string>
     <string name="text_drv_status_view">"Driver version: %1$s
-NEON Enabled: %2$s 
-Enabled: %3$s 
-Status: %4$s 
-Audio Format: %5$s 
-Processing: %6$s 
+NEON Enabled: %2$s
+Enabled: %3$s
+Status: %4$s
+Audio Format: %5$s
+Processing: %6$s
 Sampling Rate: %7$d"</string>
     <string name="text_drvinst_acquireroot">"Installation failed because of lacking root permission"</string>
     <string name="text_drvinst_busybox_not_installed">Installion failed because there was no busybox installation found</string>
@@ -164,23 +165,23 @@ Sampling Rate: %7$d"</string>
     <string name="text_enter_developer">Enter developer mode</string>
     <string name="text_enter_developer_msg">"Entering developer mode enables operations that may harm your operating system. Continue on your on risk"</string>
     <string name="text_headset">Headset</string>
-    <string name="text_help_content">"***General help*** 
- 
-'Install Driver' - Install/Update ViPER4Android effect driver. 
-'Uninstall Driver' - Uninstall ViPER4Android effect driver. 
-'FX Compatible Mode' - Set effect compatibility mode. 
- 'Normal' - Make ViPER4Android a global effect. 
- 'Compatible' - Make ViPER4Android a local effect. 
- 
+    <string name="text_help_content">"***General help***
+
+'Install Driver' - Install/Update ViPER4Android effect driver.
+'Uninstall Driver' - Uninstall ViPER4Android effect driver.
+'FX Compatible Mode' - Set effect compatibility mode.
+ 'Normal' - Make ViPER4Android a global effect.
+ 'Compatible' - Make ViPER4Android a local effect.
+
 "<b>No V4A effect on all/most mediaplayers?</b>"
- You can switch the FX mode to compatible then restart your device and try again. 
- 
+ You can switch the FX mode to compatible then restart your device and try again.
+
 "<b>How to change driver audio quality?</b>"
- Uninstall driver in menu then restart your device and choose the quality you want. 
- 
+ Uninstall driver in menu then restart your device and choose the quality you want.
+
 "<b>How to reduce battery consumption?</b>"
- When V4A is running in Normal Mode, switch off system sound settings including touch sounds and lock/unlock sounds to save up to 1.2~4 times battery life. 
- 
+ When V4A is running in Normal Mode, switch off system sound settings including touch sounds and lock/unlock sounds to save up to 1.2~4 times battery life.
+
 "<b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b></string>
     <string name="text_help_title">Help</string>
     <string name="text_install">Install driver</string>
@@ -189,7 +190,7 @@ Sampling Rate: %7$d"</string>
     <string name="text_lockeffect">Lock effect mode</string>
     <string name="text_modifybuildprop">"LPA is enabled on your device, this may cause V4A to malfunction.
 LPA, or 'Low Power Audio', can be disabled through modifying build.prop, which can be done automatically.
-We strongly recommend you to make a NANDROID or DATA BACKUP before proceeding! 
+We strongly recommend you to make a NANDROID or DATA BACKUP before proceeding!
 Do you wish to disable LPA now?"</string>
     <string name="text_ms">ms</string>
     <string name="text_newfxprofile">New Effect Profile…</string>
@@ -221,19 +222,19 @@ Do you wish to disable LPA now?"</string>
     <string name="text_usb">USB/Dock</string>
     <string name="text_yes">Yes</string>
     <string name="usb_title">USB/Dock</string>
-    <string name="about_text">"***About ViPER4Android*** 
- 
-'libv4a_xx_xx.so' is the kernel of ViPER4Android. 
-Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved. 
-Without the official permission, commercial use is disallowed. 
-Official Forum: http://vipersaudio.com/blog/ 
- 
-'ViPER4Android.apk' is the visual control panel of ViPER4Android. 
-Based on Cyanogenmod's DSPManager. 
-Great thanks to Zhuhang@XDA 
-Great thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github 
- 
-Version %1$s (FX), Codename “Beautiful”. 
+    <string name="about_text">"***About ViPER4Android***
+
+'libv4a_xx_xx.so' is the kernel of ViPER4Android.
+Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved.
+Without the official permission, commercial use is disallowed.
+Official Forum: http://vipersaudio.com/blog/
+
+'ViPER4Android.apk' is the visual control panel of ViPER4Android.
+Based on Cyanogenmod's DSPManager.
+Great thanks to Zhuhang@XDA
+Great thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
+
+Version %1$s (FX), Codename “Beautiful”.
 "</string>
     <string name="about_title">Help and about</string>
     <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
@@ -242,7 +243,7 @@ Version %1$s (FX), Codename “Beautiful”.
     <string name="navigation_toggle_drawer">Switch to Drawer view</string>
     <string name="navigation_toggle_tabbed">Switch to Tab view</string>
     <string name="text_drvinst_prefer">Please choose your preference</string>
-    <string name="text_drvinst_sqdrv">"Super audio quality driver requires at least a dual-core cpu and may speed up battery drain. 
+    <string name="text_drvinst_sqdrv">"Super audio quality driver requires at least a dual-core cpu and may speed up battery drain.
 Do you want to continue?"</string>
     <string name="text_enabled">Enabled</string>
     <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>
