@@ -413,27 +413,7 @@
     <public type="drawable" name="radio_noselect" id="0x7f02007d"/>
     <public type="mipmap" name="icon" id="0x7f030010"/>
     <public type="mipmap" name="smalllogo" id="0x7f030034"/>
-    <public type="mipmap" name="add" id="0x7f030000"/>
-    <public type="mipmap" name="add1" id="0x7f030001"/>
-    <public type="mipmap" name="bgbig" id="0x7f030005"/>
-    <public type="mipmap" name="bglight" id="0x7f030006"/>
-    <public type="mipmap" name="input" id="0x7f030011"/>
-    <public type="mipmap" name="minus" id="0x7f03001f"/>
-    <public type="mipmap" name="minus1" id="0x7f030020"/>
-    <public type="mipmap" name="old_btn_bg" id="0x7f030021"/>
-    <public type="mipmap" name="old_btn_center_default" id="0x7f030022"/>
-    <public type="mipmap" name="old_btn_center_press" id="0x7f030023"/>
-    <public type="mipmap" name="old_btn_default" id="0x7f030024"/>
-    <public type="mipmap" name="old_btn_left_default" id="0x7f030025"/>
-    <public type="mipmap" name="old_btn_left_press" id="0x7f030026"/>
-    <public type="mipmap" name="old_btn_press" id="0x7f030027"/>
-    <public type="mipmap" name="old_btn_right_default" id="0x7f030028"/>
-    <public type="mipmap" name="old_btn_right_press" id="0x7f030029"/>
-    <public type="mipmap" name="seekbar_rule_double" id="0x7f03002f"/>
-    <public type="mipmap" name="seekbar_thumb" id="0x7f030030"/>
     <public type="mipmap" name="side_nav_bar" id="0x7f030033"/>
-    <public type="mipmap" name="start" id="0x7f030035"/>
-    <public type="mipmap" name="yuandian" id="0x7f03003d"/>
     <public type="layout" name="abc_action_bar_title_item" id="0x7f040000"/>
     <public type="layout" name="abc_action_bar_up_container" id="0x7f040001"/>
     <public type="layout" name="abc_action_bar_view_list_nav_layout" id="0x7f040002"/>
