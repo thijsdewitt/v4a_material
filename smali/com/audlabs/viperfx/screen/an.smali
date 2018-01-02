@@ -25,9 +25,9 @@
 .method public onClick(Landroid/view/View;)V
     .locals 6
 
-    const v5, 0x7f0c002a
+    const v5, 0x7f0c0005
 
-    const v4, 0x7f0c000d
+    const v4, 0x7f0c0003
 
     const/4 v3, 0x1
 

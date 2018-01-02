@@ -151,7 +151,7 @@
 
 .field public static final color:I = 0x7f0100b5
 
-.field public static final colorAccent:I = 0x7f01007c
+.field public static final colorAccent:I = 0x7f0c0003
 
 .field public static final colorButtonNormal:I = 0x7f010080
 

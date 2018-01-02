@@ -12,7 +12,7 @@
 
         <TextView
             style="@style/TextAppearance.Design.Tab"
-            android:textColor="@color/colorMainText"
+            android:textColor="@color/primaryTextColor"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginRight="16dp"
@@ -25,12 +25,12 @@
             android:layout_height="wrap_content"
             android:maxLines="1" />
     </LinearLayout>
-    
+
     <android.support.v7.widget.RecyclerView
         android:id="@id/v4a_ddc_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingTop="8dp"
         android:clipToPadding="false"/>
-            
+
 </LinearLayout>

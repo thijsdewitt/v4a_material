@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:drawable="@color/colorPrimary"/>
+    <item android:drawable="@color/primaryColor"/>
 
     <item android:gravity="center">
         <vector xmlns:android="http://schemas.android.com/apk/res/android"
@@ -10,7 +10,7 @@
             android:viewportHeight="48"
             android:viewportWidth="48">
             <path
-                android:fillColor="@color/colorAccent"
+                android:fillColor="@color/secondaryColor"
                 android:pathData="M7 43C5.89543 43 5 42.10457 5 41L5 7C5 5.89543 5.89543 5 7 5l34 0c1.10457 0 2 0.89543 2 2l0 34c0 1.10457 -0.89543 2 -2 2z"
                 android:strokeLineCap="butt"
                 android:strokeLineJoin="miter"

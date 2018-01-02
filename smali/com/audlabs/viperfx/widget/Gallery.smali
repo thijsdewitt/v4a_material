@@ -64,7 +64,7 @@
 
     iput v1, p0, Lcom/audlabs/viperfx/widget/Gallery;->b:I
 
-    const v1, 0x7f0c002a
+    const v1, 0x7f0c0005
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -72,7 +72,7 @@
 
     iput v1, p0, Lcom/audlabs/viperfx/widget/Gallery;->c:I
 
-    const v1, 0x7f0c0027
+    const v1, 0x7f0c0005 #color disabled_gallery
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -139,7 +139,7 @@
 
 .field public static final primary_text_disabled_material_light:I = 0x7f0c0043
 
-.field public static final ripple_material_dark:I = 0x7f0c0044
+.field public static final rippleColor:I = 0x7f0c0006
 
 .field public static final ripple_material_light:I = 0x7f0c0045
 

@@ -23,7 +23,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:text="@string/pref_convolver_knl"
-                android:textColor="@color/colorMainText" />
+                android:textColor="@color/primaryTextColor" />
 
             <android.support.v7.widget.AppCompatEditText
                 android:id="@id/v4a_et_convolver_knl_search"
@@ -59,7 +59,7 @@
                 android:layout_height="45.0dip"
                 android:gravity="center"
                 android:text="@string/pref_convolver_knl_title"
-                android:textColor="@color/colorMainText" />
+                android:textColor="@color/primaryTextColor" />
 
             <Button
                 android:id="@id/id_btn_convolver_knl"

@@ -744,9 +744,9 @@
 .method private b()V
     .locals 10
 
-    const v9, 0x7f0c002a
+    const v9, 0x7f0c0005
 
-    const v8, 0x7f0c000d
+    const v8, 0x7f0c0003
 
     const/4 v5, 0x0
 
