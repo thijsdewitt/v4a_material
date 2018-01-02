@@ -5,14 +5,14 @@
     <color name="primaryDarkColor">#000000</color>
     <color name="dialogBackgroundColor">#424242</color>
     <color name="mainIconColor">@color/primaryTextColor</color>
-    <color name="iconColor">#8affffff</color>
+    <color name="iconColor">@color/secondaryTextColor</color>
     <color name="secondaryColor">#aa00ff</color>
     <color name="primaryTextColor">#ffffff</color>
     <color name="secondaryTextColor">#b3ffffff</color>
     <color name="rippleColor">#33ffffff</color>
     <color name="primaryKnobColor">@color/primaryColor</color>
     <color name="secondaryKnobColor">@color/secondaryColor</color>
-    <color name="primaryKnobPointColor">#777777</color>
+    <color name="primaryKnobPointColor">#61ffffff</color>
     <color name="secondaryKnobPointColor">@color/secondaryColor</color>
     <color name="buttonColor">@color/dialogBackgroundColor</color>
 </resources>
