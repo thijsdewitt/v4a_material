@@ -95,7 +95,6 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/v4a_tv_bass_freq"
             android:layout_centerHorizontal="true"
-            android:elevation="8dp"
             android:layout_marginTop="25.0dip" />
 
         <com.audlabs.viperfx.widget.ProgressBarView
