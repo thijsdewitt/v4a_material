@@ -479,6 +479,7 @@
         <item name="colorControlNormal">?android:textColorSecondary</item>
         <item name="colorControlHighlight">@color/rippleColor</item>
         <item name="colorButtonNormal">@color/buttonColor</item>
+        <item name="colorSwitchThumbNormal">@color/switch_thumb_material_light</item>
     </style>
     <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar" parent="@style/Base.ThemeOverlay.AppCompat.Dark">
         <item name="searchViewStyle">@style/Widget.AppCompat.SearchView.ActionBar</item>
@@ -572,6 +573,7 @@
         <item name="colorControlActivated">?colorAccent</item>
         <item name="colorControlHighlight">@color/rippleColor</item>
         <item name="colorButtonNormal">@color/buttonColor</item>
+        <item name="colorSwitchThumbNormal">@color/switch_thumb_material_light</item>
         <item name="controlBackground">?selectableItemBackgroundBorderless</item>
         <item name="alertDialogStyle">@style/AlertDialog.AppCompat</item>
         <item name="alertDialogCenterButtons">false</item>

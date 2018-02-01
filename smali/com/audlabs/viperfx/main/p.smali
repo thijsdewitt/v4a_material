@@ -47,7 +47,7 @@
 
     iget-object v0, p0, Lcom/audlabs/viperfx/main/p;->b:Lcom/audlabs/viperfx/main/MainFragment$MianAdapter$MainViewHolder;
 
-    iget-object v2, v0, Lcom/audlabs/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/widget/CheckBox;
+    iget-object v2, v0, Lcom/audlabs/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/support/v7/widget/SwitchCompat;
 
     iget-object v0, p0, Lcom/audlabs/viperfx/main/p;->c:Lcom/audlabs/viperfx/main/MainFragment$MianAdapter;
 
@@ -76,7 +76,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    invoke-virtual {v2, v0}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v2, v0}, Landroid/support/v7/widget/SwitchCompat;->setChecked(Z)V
 
     iget-object v0, p0, Lcom/audlabs/viperfx/main/p;->c:Lcom/audlabs/viperfx/main/MainFragment$MianAdapter;
 
@@ -102,9 +102,9 @@
 
     iget-object v2, p0, Lcom/audlabs/viperfx/main/p;->b:Lcom/audlabs/viperfx/main/MainFragment$MianAdapter$MainViewHolder;
 
-    iget-object v2, v2, Lcom/audlabs/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/widget/CheckBox;
+    iget-object v2, v2, Lcom/audlabs/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/support/v7/widget/SwitchCompat;
 
-    invoke-virtual {v2}, Landroid/widget/CheckBox;->isChecked()Z
+    invoke-virtual {v2}, Landroid/support/v7/widget/SwitchCompat;->isChecked()Z
 
     move-result v2
 

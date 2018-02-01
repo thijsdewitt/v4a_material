@@ -15,4 +15,6 @@
     <color name="primaryKnobPointColor">#61ffffff</color>
     <color name="secondaryKnobPointColor">@color/secondaryColor</color>
     <color name="buttonColor">@color/dialogBackgroundColor</color>
+    <color name="switchThumbDisabled">#ffbdbdbd</color>
+    <color name="switchThumbNormal">#fff1f1f1</color>
 </resources>

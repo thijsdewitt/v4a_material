@@ -3,7 +3,7 @@
 
 
 # instance fields
-.field cbEnable:Landroid/widget/CheckBox;
+.field cbEnable:Landroid/support/v7/widget/SwitchCompat;
     .annotation build Lbutterknife/BindView;
     .end annotation
 .end field
